@@ -1,12 +1,6 @@
+/* This file will automatically pull colour variables from your default gtk theme. You MUST have the .themes/phosh/* files installed for it to work! */
 
 
-/* @define-color fg #00ffff;
-@define-color bg #000000;
-@define-color fg-sel @bg;
-@define-color bg-sel @fg; */
-
-@define-color aa #ff0000;
-@define-color bb #0000ff; 
 
 
 @define-color phosh_fg_color @fg;
