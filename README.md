@@ -8,6 +8,8 @@ Please note that this theme has only been tested on the Raspberry Pi 4b architec
 
 You must install both gtk.css theme files to ~/.config/gtk-3.0/ and ~/.themes/ for the themes to work correctly. Any changes to ~/.config/gtk-3.0/gtk.css will not be noticed until the user logs out and back into gnome.
 
+This theme uses the UbuntuTouch Tron icon theme, so please give all the icon credit to the creator: https://www.gnome-look.org/p/1463203/
+
 
 ![Main dashboard](/screenshots/overview-clean.png)
 
@@ -39,11 +41,12 @@ Example with firefox:
 ![totem](/screenshots/white-blue-firefox.png)
 
 
-Bugs:
+## Bugs:
 
-- The lockscreen is not completely edited and finished. I've edited the lockscreen to make the pin entry fit as well as I can on Raspberry Pi devices when in landscape mode. You will be able to enter your pin, but you'll need to press the keyboard button and then <ENTER> to submit the password.
+- The lockscreen is not completely edited and finished. I've edited the lockscreen to make the pin entry fit as well as I can on my official Raspberry Pi touchscreen. You will be able to enter your pin, but you'll need to press the keyboard button and then <ENTER> to submit the password, as the submit button won't fit on the screen in landscape mode.
 - The main overview search bar appears to use white text. I've not yet figured out how to change this. The workaround is to use a text shadow to wash it out a little and make it more closer to the foreground colour.
 - The program gnome-disks for some reason uses a strange configuration of colours which results in the program looking washed out at times. I'm going to look into this.
+- Highlighted buttons will sometimes not unhighlight. I'm not sure if this is due to my gtk.css configuration, gnome's gtk, wayland, or phosh.
   
 
 
