@@ -1,0 +1,8 @@
+/* Edit and replace [user] with your user directory */
+
+@import url("/home/user/.themes/phosh/gtk-3.0/gtk.css");
+
+@define-color fg #ff0000; /* Foreground colour */
+@define-color bg #000000; /* Background colour */
+
+
