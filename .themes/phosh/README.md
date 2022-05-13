@@ -1,5 +1,5 @@
-Default white and black phosh theme.
+This is the default white and black phosh theme which all other themes will be created.
 
 # Attention!
 
-This is the main gtk.css file. It is required to make the other coloured themes work.
+This is the main gtk.css file and is required to make the other coloured themes work.
