@@ -13,8 +13,6 @@ GTK theme for the mobile window manger Phosh
 
 ![settings](screenshots/settings.png)
 
-![gedit (currently running a session)](/screenshots/gedit.png)
-
 ![totem](/screenshots/totem.png)
 
 Themes may be any colour (simpy add and edit the 'phosh-red' theme:
