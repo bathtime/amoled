@@ -1,6 +1,6 @@
 # Phosh theme
 
-This gtk-3.0 theme was made for the phosh/gnome mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens.
+This gtk-3.0 theme was made for the [phosh](https://wiki.postmarketos.org/wiki/Phosh) mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens.
 
 There are only 2 main colours which are generally adjusted: foreground and background. Shades of the foreground colour have been incorperated to indicate hovering, pressing, and selecting. Colours may (or should be able to, at least) be reversed, allowing for a complete inverse effect of colours; a white/black theme should be the exact inverse of a black/white them.
 
