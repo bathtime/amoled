@@ -11,8 +11,9 @@ Included is the UbuntuTouch Tron icon theme, so please give this credit to its c
 ## Installation
 
 ```
-$ git clone https://github.com/bathtime/PhoshTheme.git
-$ cp -r PhoshTheme/.* ~
+git clone https://github.com/bathtime/PhoshTheme.git
+cp -rv PhoshTheme/.* ~
+cd ~/.icons && ls UbuntuTouch-Tron-*.tar.xz | xargs -n 1 tar -xvf
 ```
 
 Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome.
