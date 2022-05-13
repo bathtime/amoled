@@ -6,9 +6,16 @@ There are only 2 main colours which are generally adjusted: foreground and backg
 
 Please note that this theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
 
-You must install both gtk.css theme files to ~/.config/gtk-3.0/ and ~/.themes/ for the themes to work correctly. Any changes to ~/.config/gtk-3.0/gtk.css will not be noticed until the user logs out and back into gnome.
-
 Included is the UbuntuTouch Tron icon theme, so please give all the icon credit to the creator: https://www.gnome-look.org/p/1463203/
+
+## Installation
+
+`$ git clone https://github.com/bathtime/PhoshTheme.git`
+
+`$ cp -r PhoshTheme/.* ~`
+
+Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome.
+
 
 
 ![Main dashboard](/screenshots/overview-clean.png)
