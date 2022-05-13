@@ -1,6 +1,6 @@
+/* Edit and replace [user] with your user directory */
 
-
-@import url("/home/user/.themes/Trinity/gtk-3.0/gtk.css");
+@import url("/home/user/.themes/phosh/gtk-3.0/gtk.css");
 
 @define-color fg #ff0000;
 @define-color bg #000000;
