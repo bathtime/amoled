@@ -1,7 +1,7 @@
 # PhoshTheme
 GTK theme for the mobile window manger Phosh
 
-
+![Main dashboard](/screenshots/overview-clean.png)
 
 ![Main dashboard](/screenshots/overview2.png)
 
