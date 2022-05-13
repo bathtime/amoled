@@ -38,6 +38,8 @@ Themes may be set to any colour by simply editing a [gtk.css](.themes/phosh-red/
 
 ![totem](/screenshots/phosh-red.png)
 
+A cyan theme was created by editing [~/.themes/phosh-cyan/gtk-3.0/gtk.css](.themes/phosh-cyan/gtk-3.0/gtk.css):
+
 ![totem](/screenshots/cyan.png)
 
 
