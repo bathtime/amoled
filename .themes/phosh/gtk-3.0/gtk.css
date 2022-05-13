@@ -1,6 +1,12 @@
+/* Below are the two main colours which will affect the entire theme. */
 
-@define-color fg #ffffff;
+@define-color fg #00ff00;
 @define-color bg #000000;
+
+
+
+
+
 @define-color aa #ff0000;
 @define-color bb #0000ff;
 @define-color cc #ff00ff;
