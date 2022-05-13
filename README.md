@@ -1,26 +1,19 @@
 # PhoshTheme
 GTK theme for the mobile window manger Phosh
 
-Main dashboard
-![This is an image](overview.png)
 
-gedit (currently running a session)
-![This is an image](gedit.png)
+![Main dashboard](overview.png)
 
-gnome files
-![This is an image](files.png)
+![gedit (currently running a session)](gedit.png)
 
-foliate (ebook reader)
-![This is an image](foliate.png)
+![gnome files](files.png)
 
-settings
-![This is an image](power.png)
+![foliate (ebook reader)](foliate.png)
 
-quick menu
-![This is an image](quickmenu.png)
+![settings](power.png)
 
-more settings
-![This is an image](settings.png)
+![quick menu](quickmenu.png)
 
-totem
-![This is an image](totem.png)
+![settings](settings.png)
+
+![totem](totem.png)
