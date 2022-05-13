@@ -2,7 +2,7 @@
 
 @import url("/home/user/.themes/phosh/gtk-3.0/gtk.css");
 
-@define-color fg #ff0000; /* Foreground colour */
+@define-color fg #00ff00; /* Foreground colour */
 @define-color bg #000000; /* Background colour */
 
 
