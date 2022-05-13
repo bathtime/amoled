@@ -16,3 +16,11 @@ GTK theme for the mobile window manger Phosh
 ![settings](screenshots/settings.png)
 
 ![totem](/screenshots/totem.png)
+
+Themes may be any colour:
+![totem](/screenshots/red.png)
+
+![totem](/screenshots/blue.png)
+
+Themes may be reverse-colours:
+![totem](/screenshots/blue-white-firefox.png)
