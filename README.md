@@ -3,16 +3,16 @@ GTK theme for the mobile window manger Phosh
 
 
 
-![Main dashboard](overview2.png)
+![Main dashboard](/screenshots/overview2.png)
 
-![gedit (currently running a session)](gedit.png)
+![gedit (currently running a session)](/screenshots/gedit.png)
 
-![gnome files](files.png)
+![gnome files](/screenshots/files.png)
 
-![foliate (ebook reader)](foliate.png)
+![foliate (ebook reader)](/screenshots/foliate.png)
 
-![quick menu](quickmenu.png)
+![quick menu](/screenshots/quickmenu.png)
 
-![settings](settings.png)
+![settings](screenshots/settings.png)
 
-![totem](totem.png)
+![totem](/screenshots/totem.png)
