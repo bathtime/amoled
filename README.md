@@ -2,13 +2,13 @@
 
 This gtk-3.0 theme was made for the phosh/gnome mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens.
 
-There are only 2 main colours which are generally adjusted: foreground and background. Shades of the foreground colour have been incorperated to indicate hovering, pressing, and selecting and such. Colours may (or should be able to, at least) be reversed, allowing for a complete inverse effect of colours; a white/black theme should be the exact inverse of a black/white them.
+There are only 2 main colours which are generally adjusted: foreground and background. Shades of the foreground colour have been incorperated to indicate hovering, pressing, and selecting. Colours may (or should be able to, at least) be reversed, allowing for a complete inverse effect of colours; a white/black theme should be the exact inverse of a black/white them.
 
 Please note that this theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
 
 You must install both gtk.css theme files to ~/.config/gtk-3.0/ and ~/.themes/ for the themes to work correctly. Any changes to ~/.config/gtk-3.0/gtk.css will not be noticed until the user logs out and back into gnome.
 
-This theme uses the UbuntuTouch Tron icon theme, so please give all the icon credit to the creator: https://www.gnome-look.org/p/1463203/
+Included is the UbuntuTouch Tron icon theme, so please give all the icon credit to the creator: https://www.gnome-look.org/p/1463203/
 
 
 ![Main dashboard](/screenshots/overview-clean.png)
