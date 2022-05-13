@@ -6,7 +6,6 @@ There are only 2 main colours which are generally adjusted: foreground and backg
 
 This theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
 
-Included is the UbuntuTouch Tron icon theme, so please give this credit to its creator: https://www.gnome-look.org/p/1463203/
 
 ## Installation
 
@@ -46,6 +45,13 @@ A cyan theme was created by editing [~/.themes/phosh-cyan/gtk-3.0/gtk.css](.them
 Themes may be reverse-colours:
 
 ![totem](/screenshots/blue.png)
+
+
+## Credits
+
+Larabie font came from: https://www.1001freefonts.com/larabie-font.font
+
+UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 
 
 ## Bugs:
