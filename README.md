@@ -34,7 +34,7 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 
 ![totem](/screenshots/totem.png)
 
-Themes may be any colour (simpy edit any of the phosh-[color] themes or add your own):
+Themes may be set to any colour by simply editing a [gtk.css](.themes/phosh-red/gtk-3.0/gtk.css) file:
 
 ![totem](/screenshots/phosh-red.png)
 
