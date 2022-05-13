@@ -21,7 +21,11 @@ Themes may be any colour:
 
 ![totem](/screenshots/red.png)
 
-![totem](/screenshots/blue.png)
+![totem](/screenshots/cyan.png)
+
 
 Themes may be reverse-colours:
-![totem](/screenshots/blue-white-firefox.png)
+
+![totem](/screenshots/blue.png)
+
+![totem](/screenshots/white-blue-firefox.png)
