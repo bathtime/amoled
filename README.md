@@ -19,7 +19,7 @@ GTK theme for the mobile window manger Phosh
 
 Themes may be any colour (simpy add and edit the 'phosh-red' theme:
 
-![totem](/screenshots/red.png)
+![totem](/screenshots/phosh-red.png)
 
 ![totem](/screenshots/cyan.png)
 
