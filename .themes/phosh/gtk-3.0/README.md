@@ -1,2 +1,3 @@
 # Attention!
-This is the main gtk.css file. You must install it to make the 'phosh-red' theme work.
+
+This is the main gtk.css file. It is required to make the other coloured themes work.
