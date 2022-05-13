@@ -4,7 +4,7 @@ This gtk-3.0 theme was made for the [phosh](https://wiki.postmarketos.org/wiki/P
 
 There are only 2 main colours which are generally adjusted: foreground and background. Shades of the foreground colour have been incorperated to indicate hovering, pressing, and selecting. Colours may (or should be able to, at least) be reversed, allowing for a complete inverse effect of colours; a white/black theme should be the exact inverse of a black/white them.
 
-Please note that this theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
+This theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
 
 Included is the UbuntuTouch Tron icon theme, so please give this credit to its creator: https://www.gnome-look.org/p/1463203/
 
