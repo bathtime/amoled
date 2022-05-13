@@ -25,7 +25,7 @@ Included is the UbuntuTouch Tron icon theme, so please give all the icon credit 
 
 ![totem](/screenshots/totem.png)
 
-Themes may be any colour (simpy add and edit the 'phosh-red' theme:
+Themes may be any colour (simpy add and edit the 'phosh-red' theme):
 
 ![totem](/screenshots/phosh-red.png)
 
