@@ -1,4 +1,4 @@
-# PhoshTheme
+# Phosh theme
 
 This gtk-3.0 theme was made for the phosh/gnome mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens.
 
@@ -10,13 +10,14 @@ Included is the UbuntuTouch Tron icon theme, so please give all the icon credit 
 
 ## Installation
 
-`$ git clone https://github.com/bathtime/PhoshTheme.git`
-
-`$ cp -r PhoshTheme/.* ~`
+```
+$ git clone https://github.com/bathtime/PhoshTheme.git
+$ cp -r PhoshTheme/.* ~
+```
 
 Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome.
 
-
+## Screenshots
 
 ![Main dashboard](/screenshots/overview-clean.png)
 
