@@ -44,10 +44,6 @@ Themes may be reverse-colours:
 
 ![totem](/screenshots/blue.png)
 
-Example with firefox:
-
-![totem](/screenshots/white-blue-firefox.png)
-
 
 ## Bugs:
 
