@@ -1,8 +1,5 @@
 /* This file will automatically pull colour variables from your default gtk theme. You MUST have the .themes/phosh/* files installed for it to work! */
 
-
-
-
 @define-color phosh_fg_color @fg;
 @define-color phosh_bg_color @bg;
 
@@ -33,30 +30,36 @@
   transition-property: foreground, backdrop, background, border, box-shadow;
 }
 
-button.titlebutton {
-  min-height: 38px;
-  min-width: 38px;
+/* button.titlebutton {
+  min-height: 22px;
+  min-width: 22px;
   padding: 0px;
-}
+} */
 
 entry {
+  margin: 0px;
+  font-size: 21px;
+  min-height: 15px;
+  padding: 4px;
   color: @fg;
 }
 
 entry:focus {
-  box-shadow: 0px 0px 6px @fg; }
+  box-shadow: 0px 0px 0px @fg; }
 
 phosh-top-panel {
-  margin: 0px;
-  padding: 0px;
   color: currentColor;
   color: @fg;
   background-color: @bg;
   border: 1px solid @fg;
 }
 
+
+/* Adjusts space around the wifi/bluetooth and date/date text */
 .phosh-top-bar {
-  margin: 0px;
+  margin-top: -5px;
+  margin-bottom: 2px;
+  margin-left: 10px;
   padding: 0px;
 }
 
@@ -65,10 +68,6 @@ phosh-top-panel .indicators {
   font-weight: 400;
   font-feature-settings: "tnum";
 }
-
-/* .phosh-wwan-indicator:hover,
-phosh-top-panel .indicators:hover {
-} */
 
 .phosh-topbar-clock {
   padding: 0px;
@@ -88,8 +87,9 @@ phosh-top-panel .phosh-topbar-date {
 
 .phosh-topbar-button {
   padding: 12px;
+  padding: 8px 8px 10px 8px;
   margin: 2px;
-  border: none;
+  border: 0px solid @fg;
   -gtk-icon-shadow: 0px 0px 1px @fg; }
 .phosh-topbar-button:hover {
   color: @fg-hov;
@@ -112,13 +112,11 @@ phosh-top-panel .phosh-topbar-date {
 
 .phosh-osk-button {
   margin: 0px;
-  padding: 12px 11px 13px 12px;
-  border: none; }
+  padding: 12px 12px 13px 13px;
+  border: none;
+  color: @fg;
+  background-color: @bg; }
 .phosh-osk-button:focus {
-  outline-width: 1px;
-  outline-style: dotted;
-  outline-color: @fg-foc;
-  outline-offset: -1px;
   color: @fg-foc;
   background-color: @bg-foc; }
 .phosh-osk-button:active {
@@ -127,14 +125,14 @@ phosh-top-panel .phosh-topbar-date {
 .phosh-osk-button:selected {
   color: @fg-sel;
   background-color: @bg-sel; }
-.phosh-osk-button:hover {
+/* .phosh-osk-button:hover {
   color: @fg-hov;
   background-color: @bg-hov; }
 .phosh-osk-button:selected:hover,
 .phosh-osk-button:active:hover {
   color: @fg-all;
   background-color: @bg-all; }
-
+*/
 
 
 /*
@@ -144,8 +142,7 @@ phosh-top-panel .phosh-topbar-date {
 .phosh-settings-menu {
   color: @fg;
   background-color: @bg;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  background-color: alpha(@bg, .5); 
   border: none;
 }
 
@@ -213,7 +210,7 @@ phosh-activity {
 
 phosh-home {
   color: @fg;
-  background-color: alpha(@bg, .875); }
+  background-color: alpha(@bg, .95); }
 
 
 .phosh-activity-close-button {
@@ -251,9 +248,11 @@ phosh-home {
 
 /* Search Bar */
 .phosh-search-bar-box {
-  margin-top: 10px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  margin-left: 0px;
+  margin-right: 0px;
+
   padding: 0px;
   border-style: none;
   color: @fg;
@@ -266,9 +265,17 @@ phosh-home {
   color: @fg;
   background-color: @bg; }
 
-.phosh-search-bar {
+/* .phosh-search-bar {
+  font-size: 21px;
+  min-height: 10px;
   margin: 0px;
   padding: 12px;
+  padding: 4px;
+  border: 1px solid @fg;
+  color: @fg;
+  background-color: @bg; } */
+
+.phosh-search-bar {
   border: 1px solid @fg;
   color: @fg;
   background-color: @bg; }
@@ -943,7 +950,8 @@ phosh-splash {
 /* TWEAKS-END phosh-panel-btn-space */
 sq_view {
     color: @bg; /*rgba(0, 0, 0, 255);*/
-    background-color: @bg; /*rgba(0, 0, 0, 255);*/
+    background-color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
+    color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
     font-size: 25px;
 }
 
@@ -952,6 +960,7 @@ sq_view, sq_button {
     box-shadow: 0px 0px 2px @fg;
     color: @fg; /*#deddda;*/
     background-color: @bg; /* #464448; */
+    background-color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
     border-style: solid;
     border-width: 1px;
     border-color: @fg; /* #5e5c64;*/
