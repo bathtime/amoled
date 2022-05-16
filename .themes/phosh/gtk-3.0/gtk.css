@@ -2,11 +2,6 @@
 
 @define-color fg #ffffff;
 @define-color bg #000000;
-
-
-
-
-
 @define-color aa #ff0000;
 @define-color bb #0000ff;
 @define-color cc #ff00ff;
@@ -25,8 +20,6 @@
 @define-color fg-all alpha(@fg, 1.0); 
 @define-color bg-all alpha(@fg, 0.7); /* AA0000 */
 
-
-
 @define-color fg1 @fg; /* 55AF66 */
 @define-color fg2 @fg; /* 55AF66 */
 @define-color fg-white alpha(@fg, .6); /* white */
@@ -39,7 +32,6 @@
 @define-color destructive-bg @fg; /* CC0000 */
 @define-color suggested-fg @fg; /* CC0000 */
 @define-color suggested-bg @fg; /* CC0000 */
-
 
 * {
   -GtkScrollbar-has-backward-stepper: false;
@@ -56,17 +48,19 @@
   -GtkDialog-button-spacing: 4;
   -GtkDialog-action-area-border: 0;
   -GtkTreeview-expander-size: 8;
-  -gtk-outline-radius: 0%;
+  -gtk-outline-radius: 0;
+  -gtk-secondary-caret-color: @aa;
+  -gtk-icon-palette: @aa;
+  -gtk-icon-shadow: 0px 0px 3px @fg;
   background-clip: padding-box;
   outline-width: 1px;
   outline-offset: -1px; 
   outline-style: dashed;
   outline-color: @fg; 
   border-radius: 0px;
-  /* -gtk-icon-palette: @aa; */
   transition: 500ms ease; 
   transition-property: foreground, outline, backdrop, background, border, box-shadow;
-  text-shadow: 0px 0px 0px @fg; 
+  text-shadow: 0px 0px 1px @fg; 
 }
 
 .background {
@@ -104,6 +98,8 @@ headerbar button.titlebutton.minimize,
 .titlebar button.titlebutton.close,
 .titlebar button.titlebutton.maximize,
 .titlebar button.titlebutton.minimize {
+  min-height: 30px;
+  min-width: 30px;
   color: @fg;
   background-color: @bg; }
 headerbar button.titlebutton.close:hover,
@@ -134,9 +130,6 @@ label selection {
 label.dim-label, label.separator, popover label.separator, popover.background label.separator, label:disabled {
   opacity: 0.55; }
 
-entry:focus {
-  box-shadow: 0px 0px 2px @fg; }
-
 
 decoration {
   color: @aa;
@@ -160,9 +153,9 @@ assistant .sidebar {
   background-color: @bg; }
 
 button {
-  min-height: 24px;
-  min-width: 24px;
-  padding: 4px 8px;
+  min-height: 22px; /* EDIT */
+  min-width: 22px;
+  padding: 4px;
   border: 1px solid @fg;
   color: @fg;
   border-color: @fg;
@@ -197,7 +190,8 @@ button:active:disabled, button:checked:disabled {
   border-color: @fg-dis;
   background-color: @bg-dis; } */
  
- button.flat {
+button.flat {
+  min-height:22px;
   color: @fg;
   border-color: @bg;
   background-color: alpha(@fg, .08); }
@@ -215,10 +209,17 @@ button.flat:disabled {
   background-color: @bg-dis; }
 
 
+.text-button { /* EDIT */
+  min-height: 22px;
+  min-width: 22px; } 
+
 checkbutton.text-button, radiobutton.text-button {
+  margin: 0px;
   background-color: @bg;
   background-color: alpha(@fg, .055);
-  padding: 8px 10px 8px 0px; }
+  background-color: @bg;
+  padding: 8px 10px 8px 0px; 
+  border: 1px solid alpha(@fg, .0); }
 checkbutton.text-button:disabled, radiobutton.text-button:disabled {
   color: @fg-dis; }
 
@@ -237,16 +238,16 @@ view.content-view check:hover, view.content-view check:active, view.content-view
 .check, .radio {
   padding: 4px;
   background-color: alpha(@bg-sel, .2);
-  border-radius: 5px;
   border: 1px solid alpha(@fg, .7); }
 check, radio {
-  border-radius: 5px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 0px;
-  min-height: 30px;
+  min-height: 30px; /* EDIT */
   min-width: 30px;
   background-color: alpha(@bg-sel, .2);
+  background-color: @bg;
+  border: 1px solid alpha(@fg, .7);
   border: 1px solid alpha(@fg, .7);
   background-color: @bg; } 
 check:disabled, radio:disabled {
@@ -271,7 +272,8 @@ check:active:hover, radio:active:hover {
   background-color: shade(@bg, 0.9); }
 
 entry {
-  padding: 5px;
+  min-height: 20px;
+  padding: 4px;
   border-width: 1px;
   border-style: solid;
   border-color: @fg1;
@@ -279,7 +281,6 @@ entry {
   color: @fg1;
   caret-color: currentColor;
   background-color: @bg; }
-
 entry:selected, entry:selected:focus, entry selection, entry selection:focus {
   color: @fg-sel;
   background-color: @bg-sel; }
@@ -294,9 +295,11 @@ entry:backdrop {
   color: @fg1;
   background-color: @bg; }
 entry > image.left {
-  padding-right: 5px; }
+  padding: 0 8px 0 8px; /* EDIT */ 
+  padding: 8px; /* EDIT */ }
 entry > image.right {
-  padding-left: 5px; }
+  padding: 0 8px 0 8px;
+  padding: 8px; /* EDIT */ }
 entry progress {
   margin: -4px -4px;
   border-width: 0 0 2px;
@@ -305,13 +308,16 @@ entry progress {
   border-color: @bg-sel;
   background-color: transparent; }
 entry.flat, entry.flat:focus {
-  min-height: 0;
-  padding: 3px;
+  min-height: 20px;
+  padding: 4px;
   border-radius: 0px;
   background-image: none;
   border-color: transparent; }
 entry.search {
-  border-radius: 40px; }
+  border-radius: 0px; }
+entry:focus {
+   }
+
 
 expander arrow {
   min-width: 16px;
@@ -328,7 +334,8 @@ list {
   color: @fg1;
   background-color: alpha(@fg, .05); }
 list row {
-  padding: 2px; } 
+  min-height: 22px; /* EDIT */
+  padding: 4px; } 
 list row:backdrop {
   color: @fg1; }
 list row:selected, list row:selected:hover, list row:selected:focus {
@@ -351,7 +358,6 @@ list row:hover { /* EDIT */
   border-width: 1px;
   border-style: solid;
   border-color: @fg1;
-  border-radius: 0;
   background: none; }
 
 frame.flat > border, frame > border.flat, .frame.flat {
@@ -459,7 +465,7 @@ infobar {
 .question button:active {
   border-color: shade(#2C2C2C, 0.6);
   background-color: shade(#2C2C2C, 0.95); }
-question button:active:hover {
+.question button:active:hover {
         border-color: shade(#2C2C2C, 0.85); }
 .question button.close {
   color: @warning-fg; }
@@ -498,7 +504,7 @@ question button:active:hover {
   background-color: alpha(black, 0.1); }
 
 image {
-  color: currentColor; }
+ color: currentColor; }
 image:hover {
   color: currentColor; }
 image:selected, image:selected:hover {
@@ -566,15 +572,15 @@ popover.background.touch-selection, .csd popover.background.touch-selection {
 
 button.circular, button.circular-button {
   padding: 0;
-  min-width: 16px;
-  min-height: 24px;
-  padding: 2px 6px;
+  min-width: 22px;
+  min-height: 22px;
+  padding: 4px;
   border-radius: 50%;
-  -gtk-outline-radius: 50%; }
+  -gtk-outline-radius: 0; }
 
 stackswitcher button.circular, stackswitcher button.text-button.circular {
-  min-width: 32px;
-  min-height: 32px;
+  min-width: 22px;
+  min-height: 22px;
   padding: 0; }
 
 printdialog paper {
@@ -591,6 +597,7 @@ filechooserbutton:drop(active) {
   caret-color: @bg-sel; }
 
 menu, .menu {
+padding: 10px;
   margin: 4px;
   border-radius: 0px;
   border-style: none;
@@ -641,8 +648,8 @@ menubar > menuitem:backdrop, .menubar > menuitem:backdrop {
   background-color: transparent; }
 
 menu menuitem, .menu menuitem {
-  min-height: 24px; /* EDIT */
-  min-width: 40px;
+  min-height: 30px; /* EDIT */
+  min-width: 30px;
   padding: 4px;
   border: none;
   border-radius: 0;
@@ -1038,7 +1045,7 @@ scale.fine-tune.vertical {
 scale.fine-tune slider {
   margin: -6px; }
 scale.fine-tune fill, scale.fine-tune trough, scale.fine-tune highlight {
-  border-radius: 4px;
+  border-radius: 0px;
   -gtk-outline-radius: 0; }
 scale.fine-tune marks.top {
   margin-bottom: 8px;
@@ -1135,8 +1142,8 @@ button separator {
   margin: 4px 1px; }
 headerbar separator {
   -GtkWidget-window-dragging: true;
-  margin-top: 4px;
-  margin-bottom: 4px; }
+  margin-top: 14px;
+  margin-bottom: 14px; }
 .titlebar separator, .titlebar:not(headerbar) > separator, .titlebar separator.titlebutton, .titlebar:not(headerbar) > separator.titlebutton {
   -GtkWidget-window-dragging: true; }
 menuitem separator {
@@ -1239,14 +1246,16 @@ switch:backdrop {
   border-color: @fg1; }
 switch slider {
   min-height: 30px;
+  min-width: 30px;
   margin: -1px;
   border: 1px solid @fg1;
   border-radius: 0;
   color: @fg;
   background-color: shade(@fg, .8); }
 switch slider:hover {
-  box-shadow: 0px 0px 6px @fg;
-  background-color: @fg; }
+  box-shadow: 0px 0px 3px @fg;
+  color: @fg-hov;
+  background-color: @fg-hov; }
 
 
 switch slider:not(checked) {
@@ -1342,6 +1351,7 @@ colorchooser #add-color-button:hover {
 
 headerbar, headerbar:not(.titlebar) {
   padding: 4px 8px;
+  padding: 3px; /* EDIT */
   border: none;
   color: @fg1;
   background-color: @bg-alt; } 
@@ -1374,9 +1384,6 @@ headerbar button, headerbar:not(.titlebar) button {
   color: @fg1;
   border-color: @fg1;
   background-color: @bg;
-  /* outline-offset: -1px;
-  outline-width: 1px;
-  outline-style: dotted; */
   -gtk-outline-radius: 0px; }
 headerbar button:active, headerbar button:checked, headerbar:not(.titlebar) button:active, headerbar:not(.titlebar) button:checked {
   color: @fg-sel;
@@ -1451,7 +1458,7 @@ toolbar menubar {
   outline-offset: -3px;
   outline-width: 3px;
   outline-style: solid;
-  -gtk-outline-radius: 3px; }
+  -gtk-outline-radius: 0px; }
 .primary-toolbar button:active, .primary-toolbar button:checked, .primary-toolbar .raised button:active, .primary-toolbar .raised button:checked {
   color: @fg-sel;
   border-color: transparent;
@@ -1488,7 +1495,7 @@ toolbar menubar {
   outline-offset: -3px;
   outline-width: 3px;
   outline-style: solid;
-  -gtk-outline-radius: 3px; }
+  -gtk-outline-radius: 0px; }
 .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
   color: @fg-sel;
   border-color: @fg1;
@@ -1503,7 +1510,7 @@ toolbar menubar {
   color: @fg-dis;
   border-color: @fg-dis; } 
 
-/* .linked button, .linked .raised button, .primary-toolbar .linked button, .primary-toolbar .linked .raised button {
+ .linked button, .linked .raised button, .primary-toolbar .linked button, .primary-toolbar .linked .raised button {
   border-radius: 0;
   border-left-width: 0; }
   .linked button:first-child, .linked .raised button:first-child, .primary-toolbar .linked button:first-child, .primary-toolbar .linked .raised button:first-child {
@@ -1644,7 +1651,7 @@ toolbar menubar {
     border-width: 1px;
     border-radius: 0px; }
   .linked.vertical spinbutton button:first-child, .linked.vertical spinbutton button:last-child, .primary-toolbar .linked.vertical spinbutton button:first-child, .primary-toolbar .linked.vertical spinbutton button:last-child {
-    border-radius: 0; } */
+    border-radius: 0; }
 
 toolbar.inline-toolbar toolbutton > button.flat, toolbar.inline-toolbar toolbutton:backdrop > button.flat {
   border-radius: 0;
@@ -1800,9 +1807,9 @@ button.sidebar-button, button.sidebar-button:backdrop {
   margin-top: 2px;
   margin-bottom: 2px;
   padding: 0;
-  border-radius: 100%;
+  border-radius: 0%;
   color: @fg1;
-  -gtk-outline-radius: 100%; }
+  -gtk-outline-radius: 0%; }
 button.sidebar-button:hover, button.sidebar-button:active {
   color: @fg1; }
 button.sidebar-button:not(:hover):not(:active) > image {
@@ -1951,7 +1958,7 @@ searchbar {
   background-color: transparent; }
 .osd scrollbar slider, scrollbar.osd slider {
   border-width: 0px;
-  border-radius: 6px;
+  border-radius: 0px;
   background-color: mix(@bg, @fg1, 0.21); }
 .osd scrollbar slider:hover, scrollbar.osd slider:hover {
   border-color: mix(@bg, @fg1, 0.31);
@@ -2089,7 +2096,7 @@ headerbar.selection-mode .selection-menu button .dim-label, toolbar.selection-mo
 decoration {
   border-radius: 0px 0px 0 0;
   border-width: 0px;
-  margin: 10px;
+  margin: 0px;
   box-shadow: 0 0 0 1px @fg1; }
 .maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
   border-radius: 0; }
@@ -2113,7 +2120,7 @@ tooltip.csd decoration {
   box-shadow: none; }
 
 window.background.csd.popup {
-  border-radius: 0; }
+  border-radius: 0px; }
 
 .titlebar {
   font-weight: bold;
@@ -2148,12 +2155,13 @@ window.background.csd.popup {
   border-radius: 0; }
 
 .titlebar, .titlebar:not(headerbar), headerbar.default-decoration, .csd headerbar.default-decoration, .default-decoration.titlebar:not(headerbar), .csd .default-decoration.titlebar:not(headerbar) {
-  min-height: 30px;
+  min-height: 20px; /* EDIT */
   color: @fg1;
   background-color: @bg;
-  border-bottom: 1px solid @fg1; /* EDIT */ } 
+  border-bottom: 1px solid @fg1; 
+  border: none; /* EDIT */ }
 .titlebar headerbar, .titlebar:not(headerbar) headerbar, headerbar.default-decoration headerbar, .csd headerbar.default-decoration headerbar, .default-decoration.titlebar:not(headerbar) headerbar, .csd .default-decoration.titlebar:not(headerbar) headerbar {
-    /* border-bottom: none; */ }
+     border-bottom: none;  }
 .titlebar:backdrop, .titlebar:not(headerbar):backdrop, headerbar.default-decoration:backdrop, .csd headerbar.default-decoration:backdrop, .default-decoration.titlebar:not(headerbar):backdrop, .csd .default-decoration.titlebar:not(headerbar):backdrop {
   border-color: @fg1;
   color: @fg1;
@@ -2229,11 +2237,21 @@ panel-toplevel.background na-tray-applet {
   animation: playbackmenuitem_spinner 1s infinite linear;
   color: @bg-sel; }
 
-/* GTK NAMED COLORS - use responsibly! */
+
+
+
+
+
+
+
+
+/* GTK NAMED COLORS
+   ----------------
+   use responsibly! */
+
 /* widget text/foreground color */
-@define-color theme_fg_color @fg1;
-/* text color for entries, views and content in general */
-@define-color theme_text_color @fg1;
+@define-color theme_fg_color @fg;
+@define-color theme_text_color @fg;
 /* widget base background color */
 @define-color theme_bg_color @bg;
 /* text widgets and the like base background color */
@@ -2245,44 +2263,51 @@ panel-toplevel.background na-tray-applet {
 /* base background color of insensitive widgets */
 @define-color insensitive_bg_color @bg;
 /* text foreground color of insensitive widgets */
-@define-color insensitive_fg_color @fg-dis;
+@define-color insensitive_fg_color @fg;
 /* insensitive text widgets and the like base background color */
-@define-color insensitive_base_color @bg;
+@define-color insensitive_base_color @aa;
 /* widget text/foreground color on backdrop windows */
-@define-color theme_unfocused_fg_color @fg1;
+@define-color theme_unfocused_fg_color @fg;
 /* text color for entries, views and content in general on backdrop windows */
-@define-color theme_unfocused_text_color @fg1;
+@define-color theme_unfocused_text_color @fg;
 /* widget base background color on backdrop windows */
-
+@define-color theme_unfocused_bg_color @bg;
 /* text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color @bg;
+@define-color theme_unfocused_base_color @aa;
 /* base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color @bg-sel;
 /* text/foreground color of selections on backdrop windows */
 @define-color theme_unfocused_selected_fg_color @fg-sel;
 /* insensitive color on backdrop windows*/
-@define-color unfocused_insensitive_color @fg-dis;
+@define-color unfocused_insensitive_color @aa;
 /* widgets main borders color */
-@define-color borders @fg1;
+@define-color borders @fg;
 /* widgets main borders color on backdrop windows */
-@define-color unfocused_borders @fg1;
+@define-color unfocused_borders @fg;
 /* these are pretty self explicative */
-@define-color warning_color #FF9900;
-@define-color error_color #CC0000;
-@define-color success_color #4ED464;
-/* these colors are exported for the window manager and shouldn't be used in applications,
-read if you used those and something break with a version upgrade you're on your own... */
-@define-color wm_title shade(@fg1, 1.8);
-@define-color wm_unfocused_title @fg1;
-@define-color wm_highlight @fg1;
-@define-color wm_borders_edge @fg1;
-@define-color wm_bg_a shade(@bg, 1.2);
-@define-color wm_bg_b @bg;
-@define-color wm_shadow alpha(@fg1, 0.35);
-@define-color wm_border alpha(@fg1, 0.18);
-@define-color wm_button_hover_color_a shade(@bg, 1.3);
-@define-color wm_button_hover_color_b @bg;
-@define-color wm_button_active_color_a shade(@bg, 0.85);
-@define-color wm_button_active_color_b shade(@bg, 0.89);
-@define-color wm_button_active_color_c shade(@bg, 0.9);
+@define-color warning_color @fg; 
+@define-color error_color @fg;
+@define-color success_color @fg;
+/* these colors are exported for the window manager and shouldn't be used in applications, read if you used those and something break with a version upgrade you're on your own... */
+@define-color wm_title @fg;
+@define-color wm_unfocused_title @fg;
+@define-color wm_highlight @aa;
+@define-color wm_borders_edge @fg;
+@define-color wm_bg_a @aa;
+@define-color wm_bg_b @bb;
+@define-color wm_shadow @fg;
+@define-color wm_border @fg;
+@define-color wm_button_hover_color_a @fg;
+@define-color wm_button_hover_color_b @fg;
+@define-color wm_button_active_color_a @fg;
+@define-color wm_button_active_color_b @fg;
+@define-color wm_button_active_color_c @fg;
+/* content view background such as thumbnails view in Photos or Boxes */
 @define-color content_view_bg @bg;
+/* Very contrasty background for text views (@theme_text_color foreground) */
+@define-color text_view_bg @bg;
+
+
+
+
+
