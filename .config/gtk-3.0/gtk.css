@@ -26,8 +26,8 @@
   font-family: "Larabiefont Free";
   -gtk-icon-shadow: 0px 0px 3px @fg;
   /* -gtk-icon-palette: @fg; */
-  transition: 200ms ease; 
-  transition-property: foreground, backdrop, background, border, box-shadow;
+  /* transition: 200ms ease;  */
+/*  transition-property: foreground, backdrop, background, border, box-shadow;*/
 }
 
 /* button.titlebutton {
@@ -54,12 +54,11 @@ phosh-top-panel {
   border: 1px solid @fg;
 }
 
-
 /* Adjusts space around the wifi/bluetooth and date/date text */
 .phosh-top-bar {
   margin-top: -5px;
-  margin-bottom: 2px;
-  margin-left: 10px;
+  margin-bottom: 1px;
+  margin-left: 8px;
   padding: 0px;
 }
 
@@ -88,7 +87,7 @@ phosh-top-panel .phosh-topbar-date {
 .phosh-topbar-button {
   padding: 12px;
   padding: 8px 8px 10px 8px;
-  margin: 2px;
+  margin: 1px;
   border: 0px solid @fg;
   -gtk-icon-shadow: 0px 0px 1px @fg; }
 .phosh-topbar-button:hover {
@@ -112,7 +111,7 @@ phosh-top-panel .phosh-topbar-date {
 
 .phosh-osk-button {
   margin: 0px;
-  padding: 12px 12px 13px 13px;
+  padding: 8px 8px 13px 8px;
   border: none;
   color: @fg;
   background-color: @bg; }
@@ -180,7 +179,7 @@ phosh-activity {
   background-color: transparent; }
 
 phosh-activity > widget > button {
-  padding: 10px;
+  padding: 0px; /* EDIT */
   margin: 0px;
   color: @fg;
   background-color: @bg;
@@ -214,8 +213,8 @@ phosh-home {
 
 
 .phosh-activity-close-button {
-  min-width: 36px;
-  min-height: 36px;
+  min-width: 30px;
+  min-height: 30px;
   padding: 0;
   color: @fg;
   background-color: @bg;
@@ -250,8 +249,8 @@ phosh-home {
 .phosh-search-bar-box {
   margin-top: 12px;
   margin-bottom: 4px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
 
   padding: 0px;
   border-style: none;
@@ -292,7 +291,7 @@ phosh-home {
 
 
 phosh-app-grid {
-padding: 10px;
+  padding: 8px;
   transition: 100ms ease; 
   /* background-image: url('file:///home/user/Pictures/hal3.jpg'); */
   color: @fg;
@@ -312,6 +311,7 @@ phosh-app-grid-button button {
   font-size: 0.9rem;
   margin: 0px;
   padding: 14px 8px;
+  padding: 0px;
   border: none;
   color: @fg;
   background-color: transparent; }
@@ -371,8 +371,8 @@ phosh-lockscreen,
 .phosh-lockshield {
   padding: 0px;
   margin: 0px;
-  background-color: @phosh_bg_color;
-  color: @phosh_fg_color;
+  background-color: alpha(@bg, .l);
+  color: alpha(@fg, .1);
   border: none;
 }
 
@@ -411,78 +411,55 @@ phosh-lockscreen,
 .phosh-lockscreen-arrow {
   transition: 750ms linear;
   animation: pulsate 1.8s ease-out;
-  animation-iteration-count: 15;
-}
+  animation-iteration-count: 15; }
 
 .phosh-lockscreen-status-icons {
-  padding: 6px;
-}
+  padding: 6px; }
 
 .phosh-lockscreen-pin {
-  font-size: 0px;
+  font-size: 10px;
   padding: 0px;
-  margin: 0px;
-  box-shadow: none;
-  color: inherit;
-  border: none;
-  outline: none;
-  color: @bg;
-  background-color: @bg;
-}
-
+  color: @fg;
+  background-color: alpha(@bg. 2);
+  background: none;
+  background-color: transparent; }
 
 
 @keyframes pulsate {
   0% {-gtk-icon-transform: translateY(0); opacity: 0.7}
   35% {-gtk-icon-transform: translateY(-14px); opacity: 1}
-  100% {-gtk-icon-transform: translateY(0); opacity: 0.7}
-}
+  100% {-gtk-icon-transform: translateY(0); opacity: 0.7} }
 
 phosh-keypad {
-  padding: 0px;
-  margin: 0px;
-}
+  background-color: @bg;
+  padding: 0px; }
 
-/* Lockscreen keypad */
 phosh-keypad label.digit {
   font-size: 200%;
   font-weight: bold;
-  padding: 0px;
-  margin: 0px;
-}
+  padding: 0px; }
 
 phosh-keypad button {
-  /* background-origin: padding-box, border-box;
-  background-clip: padding-box, border-box; */
-  font-size: 8px;
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
+  font-size: 12px;
   font-weight: bold;
-  margin: 0px;
   padding: 0px;
   border: 1px solid alpha(@fg, .3);
-  color: inherit;
-  background: none;
-}
-
+  color: inherit; }
 phosh-keypad button:disabled {
-  opacity: 0.5;
-}
-
+  opacity: 0.5; }
+phosh-keypad button:focus {
+  background: alpha(@phosh_fg_color, .8); }
 phosh-keypad button:hover,
 phosh-keypad button:focus:hover {
   box-shadow: 0px 0px 6px @fg;
-  background: alpha(@phosh_fg_color,.7);
-}
-
+  background: alpha(@phosh_fg_color, .7); }
 phosh-keypad button:active,
 phosh-keypad button:focus:active {
   box-shadow: 0px 0px 6px @fg;
-  background: alpha(@phosh_fg_color,.8);
-}
+  background: alpha(@phosh_fg_color, .8); }
 
-phosh-keypad button:focus {
-  background: alpha(@phosh_fg_color,.8);
-  outline-style: none;
-}
 
 .text-only-button {
   font-size: 12px;
@@ -490,41 +467,27 @@ phosh-keypad button:focus {
   padding: 10px;
   border: 1px solid @fg;
   color: inherit;
-  background: @bg;
-  box-shadow: 0px 0px 2px @fg;
-}
-
+  background: @bg; }
 .text-only-button:hover,
 .text-only-button:hover:focus {
   box-shadow: 0px 0px 6px @fg;
-  background: alpha(@phosh_fg_color,.25);
-}
-
+  background: alpha(@phosh_fg_color,.25); }
 .text-only-button:focus {
   background: alpha(@phosh_fg_color,.3);
-  outline-style: none;
-  /* border: 1px solid @theme_selected_bg_color; */
-}
-
+  outline-style: none; }
 .text-only-button:active,
 .text-only-button:focus:active {
-  background: alpha(@phosh_fg_color,.2);
-}
+  background: alpha(@phosh_fg_color,.2); }
+
 
 phosh-lockscreen cui-call-display actionbar {
-  background-color: @phosh_bg_color;
+  background-color: @aa;
 }
 
 phosh-lockscreen .phosh-notification-tray {
   margin: 0 6px;
   transition: 750ms ease;
 }
-
-
-
-
-
-
 
 
 
@@ -949,40 +912,36 @@ phosh-splash {
 
 /* TWEAKS-END phosh-panel-btn-space */
 sq_view {
-    color: @bg; /*rgba(0, 0, 0, 255);*/
-    background-color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
-    color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
+    color: @bg;
+    background-color: alpha(@bg, .5);
+    color: alpha(@bg, .5);
     font-size: 25px;
 }
 
 sq_view, sq_button {
-    font-size: 1.25em;
-    box-shadow: 0px 0px 2px @fg;
-    color: @fg; /*#deddda;*/
-    background-color: @bg; /* #464448; */
-    background-color: alpha(@bg, .5); /*rgba(0, 0, 0, 255);*/
-    border-style: solid;
-    border-width: 1px;
-    border-color: @fg; /* #5e5c64;*/
-    border-radius: 0px;
-    margin: 1px;
-padding: 1px;
+  font-size: 1.25em;
+  box-shadow: 0px 0px 2px @fg;
+  color: @fg;
+  background-color: alpha(@bg, .5);
+  border: 1px solid @fg;
+  margin: 0px;
+  padding: 0px;
 }
 
 sq_view.wide, sq_button {
   padding: 1px;
 }
 
-sq_button:active, sq_button.altline.active, sq_button.wide:hover {
+sq_button:active, sq_button.altline:active, sq_button.wide:active, sq_button.special:active {
+  box-shadow: 0px 0px 6px @fg;
+  background: alpha(@fg, 0.6);
+  border-color: @fg;
+}
+
+sq_button:hover, sq_button.altline:hover, sq_button.wide:hover, sq_button.special:hover {
     background-color: alpha(@fg, 0.3);
-
 }
 
-sq_button:active, sq_button.altline.active, sq_button.wide:active {
-    box-shadow: 0px 0px 6px @fg;
-    background: alpha(@fg, 0.6);
-    border-color: @fg;
-}
 
 sq_button.wide {
     background-color: alpha(@fg, 0.15); 
@@ -997,29 +956,31 @@ sq_button.altline {
 }
 
 sq_button.latched {
-    background: alpha(@fg, .5);
+    background: @bg-act;
     color: @bg; 
 }
 
 sq_button.locked {
-    background: @fg; /*#ffffff;*/
-    color: @bg; /*#2b292f;*/
+    background: @bg-sel;
+    color: @bg;
 }
 
-sq_button.action {
+/* sq_button.action {
     font-size: 1.25em;
-}
+} */
 
 sq_button.small {
     font-size: 0.8em;
 }
 
 #Return {
-    background: alpha(@fg, .3); /* #1c71d8; */
-    border-color: @borders; /*#1a5fb4;*/
+    background: alpha(@fg, .3);
+    border-color: @borders;
 }
 
 #Return:active {
-    background: alpha(@fg, 0.6); /*#1c71d8;*/
-    border-color: @borders; /*#3584e4;*/
+    background: alpha(@fg, 0.6);
+    border-color: @borders;
 }
+
+
