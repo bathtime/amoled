@@ -54,6 +54,7 @@ phosh-top-panel {
   border: 1px solid @fg;
 }
 
+
 /* Adjusts space around the wifi/bluetooth and date/date text */
 .phosh-top-bar {
   margin-top: -5px;
@@ -291,7 +292,7 @@ phosh-home {
 
 
 phosh-app-grid {
-  padding: 8px;
+  padding: 0px;
   transition: 100ms ease; 
   /* background-image: url('file:///home/user/Pictures/hal3.jpg'); */
   color: @fg;
