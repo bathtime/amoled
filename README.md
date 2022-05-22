@@ -56,6 +56,7 @@ UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 
 ## Bugs:
 
+- GTK4 Libadwaita theme not currently working as it should (.config/gtk-4.0/gtk.css)
 - The lockscreen is not completely edited and finished. I've edited the lockscreen to make the pin entry fit as well as I can on my official Raspberry Pi touchscreen. You will be able to enter your pin, but you'll need to press the keyboard button and then <ENTER> to submit the password, as the submit button won't fit on the screen in landscape mode.
 - The main overview search bar appears to use white text. I've not yet figured out how to change this. The workaround is to use a text shadow to wash it out a little and make it more closer to the foreground colour.
 - The program gnome-disks for some reason uses a strange configuration of colours which results in the program looking washed out at times. I'm going to look into this.
