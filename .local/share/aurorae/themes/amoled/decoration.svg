@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  version="1.1"
+  width="270"
+  height="130"
+  
+  stroke-linecap="square"
+  stroke-width="2"
+  fill="#000000"
+  >
+  <g transform="translate(10,10)"
+    stroke="#00ffff"
+    >
+    <polyline id="decoration-topleft"  transform="translate(0,0)"   points="0,0 1,0" />
+    <polyline id="decoration-top"      transform="translate(5,0)"   points="0,0 100,0" />
+    <polyline id="decoration-topright" transform="translate(110,0)" points="0,0 1,0" />
+
+    <polyline id="decoration-left"   transform="translate(0,5)"   points="0,0 0,100" />
+    <rect     id="decoration-center" transform="translate(5,5)"   width="100" height="100" stroke="none" />
+    <polyline id="decoration-right"  transform="translate(110,5)" points="0,0 0,100" />
+
+    <polyline id="decoration-bottomleft"  transform="translate(0,110)"   points="0,0 1,0" />
+    <polyline id="decoration-bottom"      transform="translate(5,110)"   points="0,0 100,0" />
+    <polyline id="decoration-bottomright" transform="translate(110,110)" points="0,0 1,0" />
+  </g>
+  <g transform="translate(140,10)"
+    stroke="#00ffff"
+    >
+    <polyline id="decoration-inactive-topleft"  transform="translate(0,0)"   points="0,0 1,0" />
+    <polyline id="decoration-inactive-top"      transform="translate(5,0)"   points="0,0 100,0" />
+    <polyline id="decoration-inactive-topright" transform="translate(110,0)" points="0,0 1,0" />
+
+    <polyline id="decoration-inactive-left"   transform="translate(0,5)"   points="0,0 0,100" />
+    <rect     id="decoration-inactive-center" transform="translate(5,5)"   width="100" height="100" stroke="none" />
+    <polyline id="decoration-inactive-right"  transform="translate(110,5)" points="0,0 0,100" />
+
+    <polyline id="decoration-inactive-bottomleft"  transform="translate(0,110)"   points="0,0 1,0" />
+    <polyline id="decoration-inactive-bottom"      transform="translate(5,110)"   points="0,0 100,0" />
+    <polyline id="decoration-inactive-bottomright" transform="translate(110,110)" points="0,0 1,0" />
+  </g>
+</svg>

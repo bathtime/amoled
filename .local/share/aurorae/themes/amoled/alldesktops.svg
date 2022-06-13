@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="96"
+   height="48"
+   stroke="none"
+   id="svg50"
+   sodipodi:docname="alldesktops.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs54" />
+  <sodipodi:namedview
+     id="namedview52"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="6.3663344"
+     inkscape:cx="19.555994"
+     inkscape:cy="25.132202"
+     inkscape:window-width="1318"
+     inkscape:window-height="738"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="active-center" />
+  <g
+     id="g12">
+    <!--standard-->
+    <g
+       id="active-center">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         opacity="0"
+         id="circle2"
+         style="opacity:1;fill:#00ffff;stroke:none;stroke-opacity:1;fill-opacity:1" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#bbbbbb"
+         id="circle4"
+         style="fill:#00ffff" />
+    </g>
+    <g
+       id="inactive-center"
+       transform="translate(0,24)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         opacity="0"
+         id="circle7"
+         style="opacity:1;fill:#00ffff" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#888888"
+         id="circle9"
+         style="fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="g24">
+    <!--hover-->
+    <g
+       id="hover-center"
+       transform="translate(24)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="#bbbbbb"
+         id="circle14"
+         style="fill:#00ffff" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#000000"
+         id="circle16" />
+    </g>
+    <g
+       id="hover-inactive-center"
+       transform="translate(24,24)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="#666666"
+         id="circle19"
+         style="fill:#00ffff" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#000000"
+         id="circle21" />
+    </g>
+  </g>
+  <g
+     id="g36">
+    <!--pressed-->
+    <g
+       id="pressed-center"
+       transform="translate(48)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="#3daee9"
+         id="circle26"
+         style="fill:#00ffff" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#ffffff"
+         id="circle28"
+         style="fill:#000000" />
+    </g>
+    <g
+       id="pressed-inactive-center"
+       transform="translate(48,24)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         fill="#1e57a8"
+         id="circle31"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#bbbbbb"
+         id="circle33"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     id="g48">
+    <!--disabled-->
+    <g
+       id="deactivated-center"
+       transform="translate(72)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         opacity="0"
+         id="circle38"
+         style="opacity:1;fill:#001919" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#666666"
+         id="circle40"
+         style="fill:#000000" />
+    </g>
+    <g
+       id="deactivated-inactive-center"
+       transform="translate(72,24)">
+      <circle
+         cx="12"
+         cy="12"
+         r="12"
+         opacity="0"
+         id="circle43"
+         style="opacity:1;fill:#001919;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <circle
+         cx="12"
+         cy="12"
+         r="5"
+         fill="#666666"
+         id="circle45"
+         style="opacity:1;fill:#000000" />
+    </g>
+  </g>
+</svg>

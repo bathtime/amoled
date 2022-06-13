@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="96"
+   height="48"
+   fill="none"
+   stroke-width="2.5"
+   id="svg50"
+   sodipodi:docname="restore.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs54" />
+  <sodipodi:namedview
+     id="namedview52"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="11.875"
+     inkscape:cx="23.452632"
+     inkscape:cy="25.515789"
+     inkscape:window-width="1318"
+     inkscape:window-height="738"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="hover-inactive-center" />
+  <g
+     id="g12">
+    <!--standard-->
+    <g
+       id="active-center"
+       transform="translate(0,0)"
+       stroke="#00ffff">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:0"
+         id="rect2" />
+      <polyline
+         points="18,15 12,9 6,15"
+         opacity="1.0"
+         id="polyline4" />
+    </g>
+    <g
+       id="inactive-center"
+       transform="translate(0,24)"
+       stroke="#00ffff">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:0"
+         id="rect7" />
+      <polyline
+         points="18,15 12,9 6,15"
+         opacity="1.0"
+         id="polyline9" />
+    </g>
+  </g>
+  <g
+     id="g24">
+    <!--hover-->
+    <g
+       id="hover-center"
+       transform="translate(24)"
+       stroke="#000000">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="opacity:1;fill:#007d7d;stroke-width:0"
+         id="rect14" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline16"
+         style="stroke:#00ffff;stroke-opacity:1" />
+    </g>
+    <g
+       id="hover-inactive-center"
+       transform="translate(24,24)"
+       stroke="#000000">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="opacity:1;fill:#007d7d;stroke-width:0"
+         id="rect19" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline21"
+         style="fill:none;fill-opacity:1;stroke:#00ffff;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     id="g36">
+    <!--pressed-->
+    <g
+       id="pressed-center"
+       transform="translate(48,0)"
+       stroke="#000000">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:1.0"
+         id="rect26" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline28" />
+    </g>
+    <g
+       id="pressed-inactive-center"
+       transform="translate(48,24)"
+       stroke="#000000">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:1.0"
+         id="rect31" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline33" />
+    </g>
+  </g>
+  <g
+     id="g48">
+    <!--disabled-->
+    <g
+       id="deactivated-center"
+       transform="translate(72,0)"
+       stroke="#00ffff"
+       opacity="0.2">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:0"
+         id="rect38" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline40" />
+    </g>
+    <g
+       id="deactivated-inactive-center"
+       transform="translate(72,24)"
+       stroke="#00ffff"
+       opacity="0.2">
+      <rect
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill:#00ffff;stroke-width:0;opacity:0"
+         id="rect43" />
+      <polyline
+         points="18,15 12,9 6,15"
+         id="polyline45" />
+    </g>
+  </g>
+</svg>
