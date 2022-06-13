@@ -1,4 +1,4 @@
-# Phosh theme
+# Amoled theme
 
 This gtk-3.0 theme was made for the [phosh](https://wiki.postmarketos.org/wiki/Phosh) mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
 
@@ -10,8 +10,8 @@ This theme has only been tested on the Raspberry Pi 4b architecture using the 7"
 ## Installation
 
 ```
-git clone https://github.com/bathtime/PhoshTheme.git
-cp -rv PhoshTheme/.* ~
+git clone https://github.com/bathtime/amoled.git
+cp -rv amoled/.* ~
 cd ~/.icons && ls UbuntuTouch-Tron-*.tar.xz | xargs -n 1 tar -xvf
 ```
 
