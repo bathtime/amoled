@@ -1,10 +1,10 @@
-# Amoled theme
+# Amoled theme for mobile devices
 
-This gtk-3.0 theme was made for the [phosh](https://wiki.postmarketos.org/wiki/Phosh) mobile environment. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
+This Gnome (gtk-3.0) and KDE theme was made for the mobile Linux environments. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
 
-There are only 2 main colours which are generally adjusted: foreground and background. Shades of the foreground colour have been incorperated to indicate hovering, pressing, and selecting. Colours may (or should be able to) be reversed, allowing for a complete inverse effect of colours; a white/black theme should be the exact inverse of a black/white them.
+The KDE theme requires Kvantum to be installed.
 
-This theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the phosh OS window manager.
+This theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the Phosh and KDE mobile OS window manager. It has also be tested on Manjaro x86-64 KDE, and Gnome.
 
 
 ## Installation
@@ -12,12 +12,13 @@ This theme has only been tested on the Raspberry Pi 4b architecture using the 7"
 ```
 git clone https://github.com/bathtime/amoled.git
 cp -rv amoled/.* ~
-cd ~/.icons && ls UbuntuTouch-Tron-*.tar.xz | xargs -n 1 tar -xvf
+cd ~/.icons && ls cyan.tar.xz | xargs -n 1 tar -xvf
 ```
 
-Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome.
+Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome, and that this installation will overwrite your previus gtk.ss config file.
 
-## Screenshots
+## Gnome Screenshots
+(KDE will be displayed in its own section below this one)
 
 ![Main dashboard](/screenshots/overview-clean.png)
 
@@ -65,3 +66,15 @@ UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 - This theme was created mainly using a touch device. It should work with a keyboard, but some items may not draw a dotted outline when using the <TAB> button to focus. I'm fixing this, but it's taking time.
 
 
+## KDE Screenshots
+![Main dashboard](/screenshots/overview-clean.png)
+
+![Main dashboard](/screenshots/overview2.png)
+
+![gnome files](/screenshots/files.png)
+
+![foliate (ebook reader)](/screenshots/foliate.png)
+
+![quick menu](/screenshots/quickmenu.png)
+  
+  
