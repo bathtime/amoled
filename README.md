@@ -59,7 +59,8 @@ menu:
 
 
 ## Gnome Screenshots
-(KDE will be displayed in its own section below this one)
+
+These shots have been taken from Manjaro's ARM Phosh image for Raspberry Pi:
 
 ![Main dashboard](/screenshots/overview-clean.png)
 
