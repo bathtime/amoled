@@ -1,6 +1,6 @@
 # Amoled theme for mobile devices
 
-This Gnome (gtk-3.0) and KDE theme was made for the mobile Linux environments. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
+This Gnome (gtk-3.0) and KDE (colour/plasma/desktop/decoration) theme was made for the mobile Linux environments. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
 
 The KDE theme requires Kvantum to be installed.
 
