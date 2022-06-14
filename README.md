@@ -67,14 +67,16 @@ UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 
 
 ## KDE Screenshots
-![Main dashboard](/screenshots/overview-clean.png)
+![widgets](/screenshots/sample-widgets.png)
 
-![Main dashboard](/screenshots/overview2.png)
+![dolphin](/screenshots/dolphin.png)
 
-![gnome files](/screenshots/files.png)
+![gwenview](/screenshots/gwenview.png)
 
-![foliate (ebook reader)](/screenshots/foliate.png)
+![kate (clean)](/screenshots/kate-clean.png)
 
-![quick menu](/screenshots/quickmenu.png)
-  
-  
+![kate](/screenshots/kate.png)
+
+![konsole](/screenshots/konsole.png)
+ 
+![menu](/screenshots/menu.png)
