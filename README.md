@@ -1,10 +1,22 @@
 # Amoled theme for mobile devices
 
-This Gnome (gtk-3.0) and KDE (colour/plasma/desktop/decoration) theme was made for the mobile Linux environments. Buttons, switches, bars, borders, text... have been altered to allow for easier manipulation and viewing on small screens and touch devices.
+This KDE (colour/plasma/desktop/decoration) theme was made for the wayland KDE display manager.
 
-The KDE theme requires Kvantum to be installed.
+Features:
+- Enlarged buttons, switches, bars, borders, text... for easier touch access
+- Thicker scroll bars and sliders
+- Pure black background for low battery consumption on amoled devices
+- A gnome 3.0 theme for those who want to run gnome within KDE (not being updated due to libadwaita breaking things)
+- Border size (except plasma borders) can be easily be adjusted from no borders to any thickness
+- Dual colour, high-contrast appearance for easy viewing in day/night
 
-This theme has only been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the Phosh and KDE mobile OS window manager. It has also be tested on Manjaro x86-64 KDE, and Gnome.
+This theme has been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the Phosh and KDE Manjaro images. It has also be tested on Manjaro x86-64 KDE.
+
+
+## Requirements:
+
+Packages required:
+kvantum
 
 
 ## Installation
@@ -12,10 +24,39 @@ This theme has only been tested on the Raspberry Pi 4b architecture using the 7"
 ```
 git clone https://github.com/bathtime/amoled.git
 cp -rv amoled/.* ~
-cd ~/.icons && ls cyan.tar.xz | xargs -n 1 tar -xvf
+cd ~/local/share/icons && ls cyan.tar.xz | xargs -n 1 tar -xvf
 ```
 
-Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome, and that this installation will overwrite your previus gtk.ss config file.
+Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome and that this installation will overwrite your previus gtk.ss config file.
+
+
+## KDE Screenshots
+ 
+widgets:
+![widgets](/screenshots/sample-widgets.png)
+
+dolphin:
+![dolphin](/screenshots/dolphin.png)
+
+gwenview:
+![gwenview](/screenshots/gwenview.png)
+
+kate (clean):
+![kate (clean)](/screenshots/kate-clean.png)
+
+kate:
+![kate](/screenshots/kate.png)
+
+konsole:
+![konsole](/screenshots/konsole.png)
+ 
+menu:
+![menu](/screenshots/menu.png)
+
+
+
+
+
 
 ## Gnome Screenshots
 (KDE will be displayed in its own section below this one)
@@ -55,7 +96,7 @@ Larabie font came from: https://www.1001freefonts.com/larabie-font.font
 UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 
 
-## Bugs:
+## GTK Bugs:
 
 - GTK4 Libadwaita theme not currently working as it should (.config/gtk-4.0/gtk.css)
 - The lockscreen is not completely edited and finished. I've edited the lockscreen to make the pin entry fit as well as I can on my official Raspberry Pi touchscreen. You will be able to enter your pin, but you'll need to press the keyboard button and then <ENTER> to submit the password, as the submit button won't fit on the screen in landscape mode.
@@ -64,27 +105,3 @@ UbuntuTouch Tron icon themes: https://www.gnome-look.org/p/1463203/
 - Highlighted buttons will sometimes not unhighlight. I'm not sure if this is due to my gtk.css configuration, gnome's gtk, wayland, or phosh.
 - Firefox can incorperate the colours of the theme but will not allow for certain dark shades. A black background will result in a dark greyish colour instead. There is a way to fix this, I believe, but it involves some sort of trick using transparency and solild colours to fool firefox or just simply using a colour light enough for firefox to accept.
 - This theme was created mainly using a touch device. It should work with a keyboard, but some items may not draw a dotted outline when using the <TAB> button to focus. I'm fixing this, but it's taking time.
-
-
-## KDE Screenshots
- 
-widgets:
-![widgets](/screenshots/sample-widgets.png)
-
-dolphin:
-![dolphin](/screenshots/dolphin.png)
-
-gwenview:
-![gwenview](/screenshots/gwenview.png)
-
-kate (clean):
-![kate (clean)](/screenshots/kate-clean.png)
-
-kate:
-![kate](/screenshots/kate.png)
-
-konsole:
-![konsole](/screenshots/konsole.png)
- 
-menu:
-![menu](/screenshots/menu.png)
