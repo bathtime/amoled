@@ -41,17 +41,14 @@ dolphin:
 gwenview:
 ![gwenview](/screenshots/gwenview.png)
 
-kate (clean):
-![kate (clean)](/screenshots/kate-clean.png)
-
 kate:
 ![kate](/screenshots/kate.png)
 
 konsole:
 ![konsole](/screenshots/konsole.png)
  
-menu:
-![menu](/screenshots/menu.png)
+launcher:
+![menu](/screenshots/launcher.png)
 
 
 
