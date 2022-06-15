@@ -33,7 +33,7 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 ## KDE Screenshots
  
 widgets:
-![widgets](/screenshots/sample-widgets.png)
+![widgets](/screenshots/widgets.png)
 
 dolphin:
 ![dolphin](/screenshots/dolphin.png)
