@@ -3,89 +3,109 @@ author=bedtime
 comment=amoled theme - free to share, edit, and redistribute without credit
 x11drag=menubar_and_primary_toolbar
 alt_mnemonic=false
-left_tabs=true
-attach_active_tab=true
-mirror_doc_tabs=false
-group_toolbar_buttons=true
-toolbar_item_spacing=20
-toolbar_interior_spacing=12
+
+
+
 composite=true
 menu_shadow_depth=0
 tooltip_shadow_depth=0
-splitter_width=24
-scroll_width=28
-scroll_arrows=false
-scroll_min_extent=60
-scrollbar_in_view=false
-slider_width=140
-slider_handle_width=40
-slider_handle_length=32
-spread_progressbar=true
-tickless_slider_handle_size=40
-center_toolbar_handle=true
-check_size=24
-textless_progressbar=false
-progressbar_thickness=15
-menubar_mouse_tracking=true
-toolbutton_style=1
-translucent_windows=false
-blurring=false
-popup_blurring=false
-vertical_spin_indicators=false
-spin_button_width=32
-fill_rubberband=true
-merge_menubar_with_toolbar=false
-small_icon_size=22
-large_icon_size=32
-button_icon_size=22
-toolbar_icon_size=48
-combo_as_lineedit=true
-animate_states=true
-button_contents_shift=true
-combo_menu=true
-hide_combo_checkboxes=true
-combo_focus_rect=false
-focusFrame=false
-groupbox_top_label=false
-inline_spin_indicators=true
-joined_inactive_tabs=false
-layout_spacing=8
-layout_margin=8
-transient_scrollbar=false
-transient_groove=false
-submenu_overlap=0
-tooltip_delay=-1
-tree_branch_line=false
-no_window_pattern=false
-reduce_window_opacity=0
-reduce_menu_opacity=0
-respect_DE=false
-scrollable_menu=true
-submenu_delay=250
-square_combo_button=true
-inline_spin_separator=false
-embedded_tabs=false
-no_active_tab_separator=false
-active_tab_overlap=true
-no_inactive_tab_expansion=true
-tab_button_extra_margin=0
-bold_active_tab=true
-spread_menuitems=false
-menu_separator_height=50
-button_contents_shift=true
-click_behavior=2
-contrast=1.00
-dialog_button_layout=0
-drag_from_buttons=false
+translucent_windows=true
+blurring=true
+popup_blurring=true
 intensity=1.00
 menu_blur_radius=0
 no_inactiveness=true
 saturation=1.00
 shadowless_popup=false
 tooltip_blur_radius=0
-min_height: 40
-min_width: 40
-#opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
+reduce_window_opacity=0
+reduce_menu_opacity=0
+contrast=1.00
+
+splitter_width=24
+
+scroll_arrows=false
+scroll_min_extent=60
+scrollbar_in_view=true
+slider_width=140
+transient_scrollbar=false
+transient_groove=true
+
+spread_progressbar=true
+center_toolbar_handle=true
+textless_progressbar=false
+spread_header=false
+
+vertical_spin_indicators=true
+spin_button_width=12
+fill_rubberband=true
+
+small_icon_size=22
+large_icon_size=32
+button_icon_size=22
+toolbar_icon_size=32
+
+combo_as_lineedit=true
+animate_states=true
+button_contents_shift=true
+
+
+
+hide_combo_checkboxes=true
+combo_focus_rect=false
+groupbox_top_label=false
+inline_spin_indicators=true
+layout_spacing=0
+layout_margin=0
+
+group_toolbar_buttons=true
+toolbar_item_spacing=0
+toolbar_interior_spacing=8
+toolbutton_style=1
+merge_menubar_with_toolbar=true
+
+submenu_overlap=0
+tooltip_delay=-1
+tree_branch_line=false
+no_window_pattern=true
+spread_menuitems=true
+menu_separator_height=0
+combo_menu=true
+menubar_mouse_tracking=true
+
+respect_DE=false
+scrollable_menu=true
+submenu_delay=250
+square_combo_button=true
+inline_spin_separator=true
+
+embedded_tabs=false
+no_active_tab_separator=true
+active_tab_overlap=false
+no_inactive_tab_expansion=true
+tab_button_extra_margin=0
+bold_active_tab=true
+mirror_doc_tabs=false
+left_tabs=true
+attach_active_tab=false
+joined_inactive_tabs=false
+
+button_contents_shift=false
+click_behavior=2
+dialog_button_layout=0
+drag_from_buttons=false
+
+
+min_height=44
+min_width=44
+check_size=44
+slider_handle_width=44
+slider_handle_length=44
+scroll_width=44
+progressbar_thickness=44
+tickless_slider_handle_size=44
+
+
 
 [GeneralColors]
 window.color=#000000
@@ -111,6 +131,7 @@ link.color=#00ff00
 link.visited.color=#00ff00
 progress.indicator.text.color=#00ffff
 tooltip.text.color=#00ffff
+
 remove_extra_frames=false
 
 [Hacks]
@@ -130,7 +151,7 @@ normal_default_pushbutton=true
 single_top_toolbar=false
 tint_on_mouseover=0
 transparent_pcmanfm_view=false
-no_selection_tint=true
+no_selection_tint=false
 transparent_arrow_button=false
 style_vertical_toolbars=true
 blur_only_active_window=false
@@ -149,25 +170,10 @@ frame.right=5
 
 [LittleFrame]
 frame=true
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-#frame.expanded.top=5
-#frame.expanded.bottom=5
-#frame.expanded.left=5
-#frame.expanded.right=5
-#interior.x.patternsize=10
-#interior.y.patternsize=10
-#text.shadow=true
-#text.shadow.xshift=1
-#text.shadow.yshift=1
-#text.shadow.color=#00ffff
-#text.inactive.shadow.color=#ff00ff
-#text.shadow.alpha=255
-#text.shadow.depth=16
-
-
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [MediumFrame]
 frame=true
@@ -183,151 +189,182 @@ frame.bottom=5
 frame.left=5
 frame.right=5
 
+[HugeFrame]
+frame=true
+frame.top=10
+frame.bottom=10
+frame.left=10
+frame.right=10
 
-[PanelButtonCommand]
-inherits=LittleFrame
-frame.element=button
-interior=true
+[SuperHugeFrame]
+frame=true
+frame.top=15
+frame.bottom=15
+frame.left=15
+frame.right=15
+
+
+[DefaultSetup]
+
+
+# Below will change the width
+inherits=HugeFrame
+
 interior.element=button
-indicator.size=16
-text.normal.color=#00ffff
-text.focus.color=#00ffff
-text.press.color=#00ffff
-text.toggle.color=#00ffff
-text.iconspacing=8
-#indicator.element=arrow
-#text.margin.top=8
-#text.margin.bottom=8
-#text.margin.left=8
-#text.margin.right=8
+frame.element=button
+interior.x.patternsize=0
+interior.y.patternsize=0
+
+indicator.element=arrow
+indicator.size=12
+
 #min_width=+0.5font
 #min_height=+0.5font
-#frame.expansion=0
-min_height=40
-min_width=40
-frame.expansion=0
-frame.patternsize=0
+
+min_height=44
+min_width=44
+
 text.margin=true
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=10
-text.margin.right=10
+text.margin.left=4
+text.margin.right=4
+text.iconspacing=8
+
+#text.shadow=true
+#text.shadow.xshift=1
+#text.shadow.yshift=1
+#text.shadow.color=#00ffff
+#text.inactive.shadow.color=#ff00ff
+#text.shadow.alpha=255
+#text.shadow.depth=16
+
+frame.patternsize=0
+frame.expanded.top=0
+frame.expanded.bottom=0
+frame.expanded.left=0
+frame.expanded.right=0
+frame.expansion=0
+
+
+[PanelButtonCommand]
+inherits=DefaultSetup
+indicator.size=12
 
 
 [PanelButtonTool]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 text.bold=false
 indicator.element=arrow
-#indicator.size=0
+indicator.size=12
 
 [ToolbarButton]
-inherits=PanelButtonCommand
-frame.element=tbutton
-interior.element=tbutton
-indicator.element=tarrow
+inherits=DefaultSetup
+#frame.element=tbutton
+#interior.element=tbutton
+#indicator.element=tarrow
 
 [Dock]
-inherits=PanelButtonCommand
-interior.element=dock
-frame.element=dock
+inherits=DefaultSetup
+#interior.element=dock
+#frame.element=dock
 
 [DockTitle]
-inherits=PanelButtonCommand
-frame=false
-interior=false
+inherits=DefaultSetup
+#frame=false
+#interior=false
 
 [IndicatorSpinBox]
-inherits=PanelButtonCommand
-interior=true
+inherits=DefaultSetup
+#interior=true
 indicator.element=spin
-indicator.size=8
+indicator.size=28
 #text.margin.top=2
 #text.margin.bottom=2
 #text.margin.left=2
 #text.margin.right=2
 
 [RadioButton]
-inherits=PanelButtonCommand
-frame=false
+inherits=DefaultSetup
+#frame=false
 interior.element=radio
-#min_width=+0.3font
-#min_height=+0.3font
 
 [CheckBox]
-inherits=PanelButtonCommand
-frame=false
+inherits=DefaultSetup
+#frame=false
 interior.element=checkbox
 
 [Focus]
-inherits=PanelButtonCommand
+#inherits=DefaultSetup
 #frame.element=focus
-#frame.patternsize=20
-frame.element=none
+#frame.patternsize=10
+#interior.element=focus
+interior=false
 frame=false
 
+
+
 [GenericFrame]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 interior=false
-frame.element=common
-interior.element=common
-#min_width=+0.5font
-#min_height=+0.5font
-min_height=40
-min_width=40
+#frame.element=common
+#frame.element=slider
+#interior.element=common
+frame.patternsize=0
 frame=false
 
 [LineEdit]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #inherits=GenericFrame
-frame.element=lineedit
-interior.element=lineedit
+#frame.element=lineedit
+#interior.element=lineedit
 #interior=true
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=2
+text.margin.left=0
 text.margin.right=0
 text.margin=true
 
 [ToolbarLineEdit]
-inherits=PanelButtonCommand
-frame.element=lineedit
-interior.element=lineedit
+inherits=DefaultSetup
+#frame.element=lineedit
+#interior.element=lineedit
 #interior=true
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=2
+text.margin.left=0
 text.margin.right=0
 text.margin=true
 
 [DropDownButton]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 indicator.element=arrow-down
 
 [IndicatorArrow]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 indicator.element=arrow
 indicator.size=32
 
 
 
 [ToolboxTab]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 
 [Tab]
-inherits=PanelButtonCommand
-interior.element=tab
-frame.element=tab
+inherits=DefaultSetup
+#interior.element=tab
+#frame.element=tab
 indicator.element=tab
 
 [TabFrame]
-inherits=PanelButtonCommand
-frame.element=tabframe
-interior.element=tabframe
-frame=false
+inherits=DefaultSetup
+#frame.element=tabframe
+#interior.element=tabframe
+#frame=false
 indicator.size=32
 
 [TabBarFrame]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #inherits=GenericFrame
 frame=false
 #frame.element=tabBarFrame
@@ -335,92 +372,105 @@ interior=false
 
 
 [TreeExpander]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 indicator.size=32
 indicator.element=tree
 
 
 [HeaderSection]
-inherits=PanelButtonCommand
-interior.element=header
-frame.element=header
+inherits=DefaultSetup
+#interior.element=header
+#frame.element=header
 
 [SizeGrip]
-inherits=PanelButtonCommand
+#inherits=DefaultSetup
 indicator.element=resize-grip
-interior=false
+frame.element=resize-grip
+#interior=false
+indicator.element=resize-grip
+min_height=44
+min_width=44
+indicator.size=44
 
 [Toolbar]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 indicator.element=toolbar
 indicator.size=12
 frame=false
 interior=false
 
 [Slider]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #inherits=GenericFrame
 #frame.element=slider
 #interior.element=slider
 #interior.element=scrollbarslider
-interior=false
+#interior=false
 
 [SliderCursor]
-inherits=PanelButtonCommand
-interior.element=slidercursor
+inherits=DefaultSetup
+#interior.element=slidercursor
 #frame=true
+#frame.element=slidercursor
+#interior.element=button
+
 
 [Progressbar]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=progress
 #interior.element=progress
-interior.element=none
+#interior.element=none
 
 [ProgressbarContents]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=progress-pattern
 #interior.element=progress-pattern
 
 
 [ItemView]
-inherits=PanelButtonCommand
-frame.element=itemview
-interior.element=itemview
+inherits=DefaultSetup
+#frame.element=itemview
+#interior.element=itemview
 
 [Splitter]
-#inherits=PanelButtonCommand
+#inherits=DefaultSetup
 indicator.size=124
 #frame=false
 
 [Scrollbar]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 indicator.element=arrow
 indicator.size=32
 
 [ScrollbarSlider]
-inherits=PanelButtonCommand
-interior.element=scrollbarslider
+inherits=DefaultSetup
+#interior.element=scrollbarslider
 #interior=true
 #indicator.element=none
 #indicator.element=grip
 indicator.size=0
-frame.expansion=0
 
 [ScrollbarGroove]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
+#interior.element=scrollbar
+#frame.element=scrollbar
+#frame.element=common
+#interior.element=common
 interior=false
+frame=false
+
 
 [ScrollbarTransientSlider]
-inherits=PanelButtonCommand
-interior.element=scrollbarslider
-indicator.size=0
-frame.expansion=0
+inherits=DefaultSetup
+#interior.element=scrollbarslider
+#indicator.size=0
+
 
 [MenuBar]
-#inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=menubar
 #interior.element=menubar
-#frame=none
+#frame=false
 #interior=false
 
 
@@ -428,54 +478,61 @@ frame.expansion=0
 
 
 [MenuBarItem]
-inherits=PanelButtonCommand
-#interior=true
+inherits=DefaultSetup
 #interior.element=menubaritem
 #frame.element=menubaritem
 
+
 [MenuItem]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=menuitem
 #interior.element=menuitem
-#indicator.element=menuitem
+
+# Affects arrows in menus
+indicator.element=menuitem
+indicator.size=24
 
 
 
 [TitleBar]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 frame=false
 #interior.element=titlebar
-#indicator.size=16
-#indicator.element=mdi
-text.bold=true
+indicator.size=16
+indicator.element=mdi
+
 
 [ComboBox]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=combo
-interior.element=combo
-interior=true
+#interior.element=combo
+#interior=false
 
 
 [ToolbarComboBox]
-frame.element=combo
+inherits=DefaultSetup
+#interior.element=combo
+#frame.element=combo
 indicator.element=flat-arrow-down
-min_height=40
-min_width=40
+
 
 [Menu]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame.element=menu
 #interior.element=menu
 
 [GroupBox]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #inherits=GenericFrame
-frame=false
-interior=false
+#frame=false
+#interior=false
+#interior.element=groupbox
+#frame.element=groupbox
 
 
 [ToolTip]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
+
 #inherits=GenericFrame
 #interior=true
 #frame=true
@@ -484,24 +541,28 @@ inherits=PanelButtonCommand
 
 
 [StatusBar]
-#inherits=GenericFrame
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 #frame=false
 #interior=false
 
 
 [Window]
-#inherits=PanelButtonCommand
+inherits=DefaultSetup
 #interior=true
 #interior.element=window
+#frame.element=window
+#interior=false
 
 
 [WindowTranslucent]
-inherits=PanelButtonCommand
-
-
-[DialogTranslucent]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
 
 [DialogTranslucent]
-inherits=PanelButtonCommand
+inherits=DefaultSetup
+
+[DialogTranslucent]
+inherits=DefaultSetup
+
+[Dialog]
+inherits=DefaultSetup
+
