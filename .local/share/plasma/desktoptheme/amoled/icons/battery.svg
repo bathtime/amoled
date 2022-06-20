@@ -6,7 +6,7 @@
    height="22"
    id="svg7229"
    sodipodi:version="0.32"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    version="1.0"
    sodipodi:docname="battery.svg"
    inkscape:output_extension="org.inkscape.output.svgz.inkscape"
@@ -39,16 +39,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0925926"
-     inkscape:cx="34.322034"
-     inkscape:cy="27.457627"
+     inkscape:cx="-8.2372881"
+     inkscape:cy="35.694915"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1318"
-     inkscape:window-height="738"
+     inkscape:window-width="1314"
+     inkscape:window-height="730"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      gridtolerance="10000"
      inkscape:window-maximized="1"
@@ -56,7 +56,8 @@
      inkscape:showpageshadow="false"
      borderlayer="true"
      inkscape:object-nodes="true"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7234">
     <rdf:RDF>
