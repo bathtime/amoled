@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="shade.svg"
+   sodipodi:docname="menu.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="11.076637"
-     inkscape:cx="14.219117"
-     inkscape:cy="17.017801"
+     inkscape:cx="18.101162"
+     inkscape:cy="26.226372"
      inkscape:window-width="1314"
      inkscape:window-height="744"
      inkscape:window-x="0"
@@ -70,7 +70,7 @@
          width="5.999999"
          height="0.49999899"
          x="3.0000005"
-         y="-5.0999994"
+         y="-9.1999998"
          transform="scale(1,-1)" />
       <rect
          style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -78,22 +78,22 @@
          width="5.999999"
          height="0.49999899"
          x="3.0000005"
-         y="3.000001" />
+         y="2.9000006" />
       <rect
          style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect55-3-5-3-5"
-         width="0.49999899"
-         height="2.099999"
-         x="-3.4500003"
-         y="3.0000007"
+         width="5.999999"
+         height="0.49999899"
+         x="-8.9499998"
+         y="6.7000003"
          transform="scale(-1,1)" />
       <rect
          style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect55-3-5-3-5-6"
-         width="0.49999899"
-         height="2.099999"
-         x="8.500001"
-         y="3.0000005" />
+         width="5.999999"
+         height="0.49999899"
+         x="3.0000005"
+         y="4.8000007" />
       <rect
          style="fill:#00ffff;fill-opacity:1;stroke:#00ffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect55-3-6"
