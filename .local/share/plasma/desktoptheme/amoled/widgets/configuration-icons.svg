@@ -7,7 +7,7 @@
    viewBox="0 0 32.808331 13.758333"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="configuration-icons.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -40,16 +40,16 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="5.619045"
-     inkscape:cx="60.241554"
-     inkscape:cy="25.983063"
+     inkscape:cx="87.20343"
+     inkscape:cy="32.478829"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:showpageshadow="false"
      borderlayer="true"
-     inkscape:window-width="1320"
-     inkscape:window-height="738"
+     inkscape:window-width="1316"
+     inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -62,7 +62,8 @@
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -448,7 +449,7 @@
            class="ColorScheme-Text"
            style="fill:currentColor;fill-opacity:1;fill-rule:nonzero">
           <polygon
-             style="opacity:1;fill:currentColor;fill-opacity:1"
+             style="opacity:1;fill:#00ffff;fill-opacity:1"
              class="ColorScheme-Text"
              points="4,9 5,9 5,5 9,5 9,4 5,4 5,0 4,0 4,4 0,4 0,5 4,5 "
              id="Shape" />
@@ -467,7 +468,7 @@
          y="258.89993" />
       <polygon
          transform="matrix(0.31749998,0,0,0.31749998,22.648334,257.36378)"
-         style="opacity:1;fill:currentColor;fill-opacity:1"
+         style="opacity:1;fill:#00ffff;fill-opacity:1"
          class="ColorScheme-Text"
          id="Shape-7"
          points="17,11 7,11 7,12 17,12 " />
@@ -544,7 +545,7 @@
            class="ColorScheme-Text"
            style="fill:currentColor;fill-opacity:1;fill-rule:nonzero">
           <path
-             style="opacity:1;fill:currentColor;fill-opacity:1"
+             style="opacity:1;fill:#00ffff;fill-opacity:1"
              class="ColorScheme-Text"
              id="Path-3-3"
              d="M 4.9821431,7.9952269 12.08988,0.17920711 c 0.185786,-0.20429934 0.502013,-0.21930748 0.706312,-0.0335216 0.204299,0.18578587 0.219308,0.50201241 0.03352,0.70631176 L 5.386902,9.0364816 C 5.2016327,9.2402129 4.8865065,9.2557901 4.6820479,9.0713235 L 1.1507663,5.8853311 C 0.94573779,5.7003503 0.9294859,5.3841852 1.1144667,5.1791567 1.2994475,4.9741282 1.6156126,4.9578763 1.8206412,5.1428571 Z"
