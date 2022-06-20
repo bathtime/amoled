@@ -14,7 +14,7 @@ blurring=true
 popup_blurring=true
 intensity=1.00
 menu_blur_radius=0
-no_inactiveness=true
+no_inactiveness=false
 saturation=1.00
 shadowless_popup=false
 tooltip_blur_radius=0
@@ -43,7 +43,7 @@ fill_rubberband=true
 small_icon_size=22
 large_icon_size=32
 button_icon_size=22
-toolbar_icon_size=32
+toolbar_icon_size=24
 
 combo_as_lineedit=true
 animate_states=true
@@ -125,7 +125,6 @@ shadow.color=#00ffff
 window.text.color=#00ffff
 button.text.color=#00ffff
 disabled.text.color=#003333
-tooltip.text.color=#00ffff
 highlight.text.color=#00ffff
 link.color=#00ff00
 link.visited.color=#00ff00
@@ -145,7 +144,7 @@ kcapacitybar_as_progressbar=false
 force_size_grip=false
 iconless_pushbutton=false
 iconless_menu=false
-disabled_icon_opacity=20
+disabled_icon_opacity=0
 lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=false
@@ -191,10 +190,10 @@ frame.right=5
 
 [HugeFrame]
 frame=true
-frame.top=10
-frame.bottom=10
-frame.left=10
-frame.right=10
+frame.top=11
+frame.bottom=11
+frame.left=11
+frame.right=11
 
 [SuperHugeFrame]
 frame=true
@@ -254,7 +253,6 @@ indicator.size=12
 
 [PanelButtonTool]
 inherits=DefaultSetup
-text.bold=false
 indicator.element=arrow
 indicator.size=12
 
@@ -352,16 +350,16 @@ inherits=DefaultSetup
 
 [Tab]
 inherits=DefaultSetup
-#interior.element=tab
-#frame.element=tab
+interior.element=tab
+frame.element=tab
 indicator.element=tab
+indicator.size=24
 
 [TabFrame]
 inherits=DefaultSetup
 #frame.element=tabframe
 #interior.element=tabframe
 #frame=false
-indicator.size=32
 
 [TabBarFrame]
 inherits=DefaultSetup
@@ -429,8 +427,11 @@ inherits=DefaultSetup
 
 [ItemView]
 inherits=DefaultSetup
-#frame.element=itemview
-#interior.element=itemview
+frame.element=itemview
+interior.element=itemview
+indicator.element=itemview
+
+
 
 [Splitter]
 #inherits=DefaultSetup
@@ -490,7 +491,6 @@ inherits=DefaultSetup
 
 # Affects arrows in menus
 indicator.element=menuitem
-indicator.size=24
 
 
 
