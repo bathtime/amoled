@@ -34,7 +34,6 @@ transient_groove=true
 spread_progressbar=true
 center_toolbar_handle=true
 textless_progressbar=false
-spread_header=false
 
 vertical_spin_indicators=true
 spin_button_width=12
@@ -53,6 +52,7 @@ button_contents_shift=true
 
 hide_combo_checkboxes=true
 combo_focus_rect=false
+focusFrame=true
 groupbox_top_label=false
 inline_spin_indicators=true
 layout_spacing=0
@@ -131,8 +131,7 @@ link.color=#00ff00
 link.visited.color=#00ff00
 progress.indicator.text.color=#00ffff
 tooltip.text.color=#00ffff
-
-remove_extra_frames=false
+remove_extra_frames=true
 
 [Hacks]
 transparent_ktitle_label=false
@@ -142,16 +141,16 @@ blur_translucent=false
 transparent_menutitle=false
 respect_darkness=true
 kcapacitybar_as_progressbar=false
-force_size_grip=false
+force_size_grip=true
 iconless_pushbutton=false
 iconless_menu=false
-disabled_icon_opacity=20
+disabled_icon_opacity=0
 lxqtmainmenu_iconsize=22
 normal_default_pushbutton=true
 single_top_toolbar=false
 tint_on_mouseover=0
 transparent_pcmanfm_view=false
-no_selection_tint=true
+no_selection_tint=false
 transparent_arrow_button=false
 style_vertical_toolbars=true
 blur_only_active_window=false
@@ -204,8 +203,7 @@ frame.left=15
 frame.right=15
 
 
-[DefaultSetup]
-
+[PanelButtonCommand]
 
 # Below will change the width
 inherits=HugeFrame
@@ -215,8 +213,17 @@ frame.element=button
 interior.x.patternsize=0
 interior.y.patternsize=0
 
+# Affects arrows in menus
 indicator.element=arrow
 indicator.size=12
+
+#text.normal.color=#00ffff
+#text.focus.color=#00ffff
+#text.press.color=#00ffff
+#text.toggle.color=#00ffff
+
+
+
 
 #min_width=+0.5font
 #min_height=+0.5font
@@ -247,35 +254,30 @@ frame.expanded.right=0
 frame.expansion=0
 
 
-[PanelButtonCommand]
-inherits=DefaultSetup
-indicator.size=12
-
-
 [PanelButtonTool]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 text.bold=false
 indicator.element=arrow
 indicator.size=12
 
 [ToolbarButton]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=tbutton
 #interior.element=tbutton
 #indicator.element=tarrow
 
 [Dock]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=dock
 #frame.element=dock
 
 [DockTitle]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame=false
 #interior=false
 
 [IndicatorSpinBox]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior=true
 indicator.element=spin
 indicator.size=28
@@ -285,27 +287,24 @@ indicator.size=28
 #text.margin.right=2
 
 [RadioButton]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame=false
 interior.element=radio
 
 [CheckBox]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame=false
 interior.element=checkbox
 
 [Focus]
-#inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=focus
-#frame.patternsize=10
-#interior.element=focus
-interior=false
-frame=false
-
-
+#frame.patternsize=20
+#frame.element=none
+#frame=false
 
 [GenericFrame]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 interior=false
 #frame.element=common
 #frame.element=slider
@@ -314,7 +313,7 @@ frame.patternsize=0
 frame=false
 
 [LineEdit]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #inherits=GenericFrame
 #frame.element=lineedit
 #interior.element=lineedit
@@ -326,7 +325,7 @@ text.margin.right=0
 text.margin=true
 
 [ToolbarLineEdit]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=lineedit
 #interior.element=lineedit
 #interior=true
@@ -337,34 +336,34 @@ text.margin.right=0
 text.margin=true
 
 [DropDownButton]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.element=arrow-down
 
 [IndicatorArrow]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.element=arrow
 indicator.size=32
 
 
 
 [ToolboxTab]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
 [Tab]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=tab
 #frame.element=tab
 indicator.element=tab
 
 [TabFrame]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=tabframe
 #interior.element=tabframe
 #frame=false
 indicator.size=32
 
 [TabBarFrame]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #inherits=GenericFrame
 frame=false
 #frame.element=tabBarFrame
@@ -372,35 +371,30 @@ interior=false
 
 
 [TreeExpander]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.size=32
 indicator.element=tree
 
 
 [HeaderSection]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=header
 #frame.element=header
 
 [SizeGrip]
-#inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.element=resize-grip
-frame.element=resize-grip
-#interior=false
-indicator.element=resize-grip
-min_height=44
-min_width=44
-indicator.size=44
+interior=false
 
 [Toolbar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.element=toolbar
 indicator.size=12
 frame=false
 interior=false
 
 [Slider]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #inherits=GenericFrame
 #frame.element=slider
 #interior.element=slider
@@ -408,7 +402,7 @@ inherits=DefaultSetup
 #interior=false
 
 [SliderCursor]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=slidercursor
 #frame=true
 #frame.element=slidercursor
@@ -416,34 +410,34 @@ inherits=DefaultSetup
 
 
 [Progressbar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=progress
 #interior.element=progress
 #interior.element=none
 
 [ProgressbarContents]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=progress-pattern
 #interior.element=progress-pattern
 
 
 [ItemView]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=itemview
 #interior.element=itemview
 
 [Splitter]
-#inherits=DefaultSetup
+#inherits=PanelButtonCommand
 indicator.size=124
 #frame=false
 
 [Scrollbar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 indicator.element=arrow
 indicator.size=32
 
 [ScrollbarSlider]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=scrollbarslider
 #interior=true
 #indicator.element=none
@@ -451,7 +445,7 @@ inherits=DefaultSetup
 indicator.size=0
 
 [ScrollbarGroove]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=scrollbar
 #frame.element=scrollbar
 #frame.element=common
@@ -461,13 +455,13 @@ frame=false
 
 
 [ScrollbarTransientSlider]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=scrollbarslider
 #indicator.size=0
 
 
 [MenuBar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=menubar
 #interior.element=menubar
 #frame=false
@@ -478,13 +472,13 @@ inherits=DefaultSetup
 
 
 [MenuBarItem]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=menubaritem
 #frame.element=menubaritem
 
 
 [MenuItem]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=menuitem
 #interior.element=menuitem
 
@@ -495,7 +489,7 @@ indicator.size=24
 
 
 [TitleBar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 frame=false
 #interior.element=titlebar
 indicator.size=16
@@ -503,26 +497,26 @@ indicator.element=mdi
 
 
 [ComboBox]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=combo
 #interior.element=combo
 #interior=false
 
 
 [ToolbarComboBox]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior.element=combo
 #frame.element=combo
 indicator.element=flat-arrow-down
 
 
 [Menu]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame.element=menu
 #interior.element=menu
 
 [GroupBox]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #inherits=GenericFrame
 #frame=false
 #interior=false
@@ -531,7 +525,7 @@ inherits=DefaultSetup
 
 
 [ToolTip]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
 #inherits=GenericFrame
 #interior=true
@@ -541,13 +535,13 @@ inherits=DefaultSetup
 
 
 [StatusBar]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #frame=false
 #interior=false
 
 
 [Window]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 #interior=true
 #interior.element=window
 #frame.element=window
@@ -555,14 +549,14 @@ inherits=DefaultSetup
 
 
 [WindowTranslucent]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
 [DialogTranslucent]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
 [DialogTranslucent]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
 [Dialog]
-inherits=DefaultSetup
+inherits=PanelButtonCommand
 
