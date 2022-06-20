@@ -9,7 +9,7 @@ X-KDE-PluginInfo-Depends=plasmashell
 X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-EnabledByDefault=true
 X-KDE-PluginInfo-License=GPL 3+
-X-KDE-PluginInfo-Name=amoled
+X-KDE-PluginInfo-Name=amoled-1
 X-KDE-PluginInfo-Version=1.0
 X-KDE-PluginInfo-Website=https://www.opencode.net/phosh/amoled-mobile
 X-Plasma-API=5.0
@@ -19,3 +19,6 @@ contrast=0.2
 enabled=false
 intensity=2.0
 saturation=1.7
+
+[AdaptiveTransparency]
+enabled=false
