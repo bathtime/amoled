@@ -84,7 +84,7 @@ no_active_tab_separator=true
 active_tab_overlap=false
 no_inactive_tab_expansion=true
 tab_button_extra_margin=0
-bold_active_tab=true
+bold_active_tab=false
 mirror_doc_tabs=false
 left_tabs=true
 attach_active_tab=false
@@ -96,12 +96,12 @@ dialog_button_layout=0
 drag_from_buttons=false
 
 
-min_height=32
-min_width=32
-check_size=12
-slider_handle_width=12
-slider_handle_length=12
-scroll_width=12
+min_height=1
+min_width=1
+check_size=16
+slider_handle_width=24
+slider_handle_length=24
+scroll_width=24
 progressbar_thickness=12
 tickless_slider_handle_size=12
 
@@ -131,7 +131,7 @@ link.visited.color=#00ff00
 progress.indicator.text.color=#00ffff
 tooltip.text.color=#00ffff
 
-remove_extra_frames=false
+remove_extra_frames=true
 
 [Hacks]
 transparent_ktitle_label=false
@@ -162,17 +162,55 @@ text.boldness=3
 
 [NoFrame]
 frame=false
-frame.top=5
-frame.bottom=5
-frame.left=5
-frame.right=5
+frame.top=0
+frame.bottom=0
+frame.left=0
+frame.right=0
 
-[LittleFrame]
+[frame2]
+frame=true
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+
+
+[frame3]
+frame=true
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
+
+
+[frame4]
 frame=true
 frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
+
+
+[frame6]
+frame=true
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+
+[frame8]
+frame=true
+frame.top=8
+frame.bottom=8
+frame.left=8
+frame.right=8
+
+[frame10]
+frame=true
+frame.top=10
+frame.bottom=10
+frame.left=10
+frame.right=10
 
 [MediumFrame]
 frame=true
@@ -207,7 +245,7 @@ frame.right=15
 
 
 # Below will change the width
-inherits=LittleFrame
+inherits=frame8
 
 interior.element=button
 frame.element=button
@@ -219,8 +257,8 @@ indicator.size=6
 
 #min_width=+0.5font
 #min_height=+0.5font
-min_width=32
-min_height=32
+min_width=12
+min_height=12
 
 text.margin=true
 text.margin.top=0
@@ -282,14 +320,16 @@ indicator.size=6
 #text.margin.right=2
 
 [RadioButton]
-inherits=DefaultSetup
-#frame=false
+#inherits=DefaultSetup
+frame=false
 interior.element=radio
 
+
 [CheckBox]
-inherits=DefaultSetup
-#frame=false
+#inherits=DefaultSetup
+frame=false
 interior.element=checkbox
+#interior=false
 
 [Focus]
 #inherits=DefaultSetup
@@ -309,8 +349,8 @@ interior=false
 #interior.element=common
 frame.patternsize=0
 frame=false
-min_width=32
-min_height=32
+min_width=12
+min_height=12
 
 [LineEdit]
 inherits=DefaultSetup
@@ -347,7 +387,8 @@ indicator.element=arrow-down
 inherits=DefaultSetup
 indicator.element=arrow
 indicator.size=12
-
+frame=false
+interior=false
 
 
 [ToolboxTab]
@@ -358,13 +399,16 @@ inherits=DefaultSetup
 interior.element=tab
 frame.element=tab
 indicator.element=tab
-indicator.size=24
+indicator.size=18
+#interior=false
+#frame=false
 
 [TabFrame]
 inherits=DefaultSetup
 #frame.element=tabframe
 #interior.element=tabframe
 #frame=false
+#interior=false
 
 [TabBarFrame]
 inherits=DefaultSetup
@@ -387,13 +431,15 @@ inherits=DefaultSetup
 
 [SizeGrip]
 #inherits=DefaultSetup
-indicator.element=resize-grip
-frame.element=resize-grip
+#indicator.element=resize-grip
+#frame.element=resize-grip
 #interior=false
-indicator.element=resize-grip
+#indicator.element=resize-grip
 #min_height=44
 #min_width=44
-indicator.size=44
+#indicator.size=12
+frame=false
+interior=false
 
 [Toolbar]
 inherits=DefaultSetup
@@ -476,8 +522,8 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #frame.element=menubar
 #interior.element=menubar
-#frame=false
-#interior=false
+frame=false
+interior=false
 
 
 
@@ -502,8 +548,9 @@ indicator.element=menuitem
 [TitleBar]
 inherits=DefaultSetup
 frame=false
-#interior.element=titlebar
-indicator.size=16
+interior=false
+interior.element=titlebar
+indicator.size=12
 indicator.element=mdi
 
 
@@ -512,7 +559,7 @@ inherits=DefaultSetup
 #frame.element=combo
 #interior.element=combo
 #interior=false
-
+#frame=false
 
 [ToolbarComboBox]
 inherits=DefaultSetup
@@ -555,12 +602,14 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #interior=true
 #interior.element=window
-#frame.element=window
-#interior=false
+frame.element=window
+interior=false
 
 
 [WindowTranslucent]
 inherits=DefaultSetup
+frame=false
+interior=false
 
 [DialogTranslucent]
 inherits=DefaultSetup
@@ -570,4 +619,5 @@ inherits=DefaultSetup
 
 [Dialog]
 inherits=DefaultSetup
+
 
