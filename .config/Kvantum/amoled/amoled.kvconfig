@@ -40,10 +40,10 @@ vertical_spin_indicators=true
 spin_button_width=12
 fill_rubberband=true
 
-small_icon_size=22
-large_icon_size=32
-button_icon_size=22
-toolbar_icon_size=24
+small_icon_size=12
+large_icon_size=12
+button_icon_size=12
+toolbar_icon_size=12
 
 combo_as_lineedit=true
 animate_states=true
@@ -96,14 +96,14 @@ dialog_button_layout=0
 drag_from_buttons=false
 
 
-min_height=44
-min_width=44
-check_size=44
-slider_handle_width=44
-slider_handle_length=44
-scroll_width=44
-progressbar_thickness=44
-tickless_slider_handle_size=44
+min_height=32
+min_width=32
+check_size=12
+slider_handle_width=12
+slider_handle_length=12
+scroll_width=12
+progressbar_thickness=12
+tickless_slider_handle_size=12
 
 
 
@@ -145,7 +145,7 @@ force_size_grip=false
 iconless_pushbutton=false
 iconless_menu=false
 disabled_icon_opacity=0
-lxqtmainmenu_iconsize=22
+lxqtmainmenu_iconsize=12
 normal_default_pushbutton=true
 single_top_toolbar=false
 tint_on_mouseover=0
@@ -207,7 +207,7 @@ frame.right=15
 
 
 # Below will change the width
-inherits=HugeFrame
+inherits=LittleFrame
 
 interior.element=button
 frame.element=button
@@ -215,20 +215,19 @@ interior.x.patternsize=0
 interior.y.patternsize=0
 
 indicator.element=arrow
-indicator.size=12
+indicator.size=6
 
 #min_width=+0.5font
 #min_height=+0.5font
-
-min_height=44
-min_width=44
+min_width=32
+min_height=32
 
 text.margin=true
 text.margin.top=0
 text.margin.bottom=0
 text.margin.left=4
 text.margin.right=4
-text.iconspacing=8
+text.iconspacing=0
 
 #text.shadow=true
 #text.shadow.xshift=1
@@ -248,13 +247,13 @@ frame.expansion=0
 
 [PanelButtonCommand]
 inherits=DefaultSetup
-indicator.size=12
+indicator.size=6
 
 
 [PanelButtonTool]
 inherits=DefaultSetup
 indicator.element=arrow
-indicator.size=12
+indicator.size=6
 
 [ToolbarButton]
 inherits=DefaultSetup
@@ -276,7 +275,7 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #interior=true
 indicator.element=spin
-indicator.size=28
+indicator.size=6
 #text.margin.top=2
 #text.margin.bottom=2
 #text.margin.left=2
@@ -310,6 +309,8 @@ interior=false
 #interior.element=common
 frame.patternsize=0
 frame=false
+min_width=32
+min_height=32
 
 [LineEdit]
 inherits=DefaultSetup
@@ -322,6 +323,8 @@ text.margin.bottom=0
 text.margin.left=0
 text.margin.right=0
 text.margin=true
+#frame=false
+#interior=false
 
 [ToolbarLineEdit]
 inherits=DefaultSetup
@@ -333,6 +336,8 @@ text.margin.bottom=0
 text.margin.left=0
 text.margin.right=0
 text.margin=true
+frame=false
+interior=false
 
 [DropDownButton]
 inherits=DefaultSetup
@@ -341,7 +346,7 @@ indicator.element=arrow-down
 [IndicatorArrow]
 inherits=DefaultSetup
 indicator.element=arrow
-indicator.size=32
+indicator.size=12
 
 
 
@@ -386,14 +391,14 @@ indicator.element=resize-grip
 frame.element=resize-grip
 #interior=false
 indicator.element=resize-grip
-min_height=44
-min_width=44
+#min_height=44
+#min_width=44
 indicator.size=44
 
 [Toolbar]
 inherits=DefaultSetup
 indicator.element=toolbar
-indicator.size=12
+indicator.size=6
 frame=false
 interior=false
 
