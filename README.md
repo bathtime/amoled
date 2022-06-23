@@ -21,7 +21,7 @@ kvantum
 
 ## Installation
 
-Regular:
+### Regular:
 
 ```
 git clone https://github.com/bathtime/amoled.git
@@ -29,13 +29,13 @@ cp -rv amoled/.* ~
 cd ~/local/share/icons && ls *.tar.xz | xargs -n 1 tar -xvf
 ```
 
-Complete with file configs:
+### Complete with file configs:
 
-This is a personal backup and will overwrite several program prefs! I use it only because it's convenient for me.
+This is a personal backup and will overwrite several program preferences! Please view the file contents before considering.
 
 ```
 git clone https://github.com/bathtime/amoled.git
-cd ~ && tar -xvzf amoled.tar.gz
+cd ~; tar -xvzf amoled.tar.gz -C ~
 ```
 
 
