@@ -21,11 +21,23 @@ kvantum
 
 ## Installation
 
+Regular:
+
 ```
 git clone https://github.com/bathtime/amoled.git
 cp -rv amoled/.* ~
 cd ~/local/share/icons && ls *.tar.xz | xargs -n 1 tar -xvf
 ```
+
+Complete with file configs:
+
+This is a personal backup and will overwrite several program prefs! I use it only because it's convenient for me.
+
+```
+git clone https://github.com/bathtime/amoled.git
+cd ~ && tar -xvzf amoled.tar.gz
+```
+
 
 Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome and that this installation will overwrite your previus gtk.ss config file.
 
