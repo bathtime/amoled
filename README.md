@@ -34,8 +34,8 @@ cd ~/local/share/icons && ls *.tar.xz | xargs -n 1 tar -xvf
 This is a personal backup and will overwrite several program preferences! Please view the file contents before considering.
 
 ```
-git clone https://github.com/bathtime/amoled.git
-cd amoled; tar -xvzf amoled.tar.gz -C ~
+wget https://github.com/bathtime/amoled/blob/main/amoled.tar.gz
+tar -xvzf amoled.tar.gz -C ~
 ```
 
 
