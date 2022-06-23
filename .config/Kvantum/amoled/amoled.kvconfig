@@ -11,10 +11,10 @@ menu_shadow_depth=0
 tooltip_shadow_depth=0
 translucent_windows=true
 blurring=true
-popup_blurring=true
+popup_blurring=false
 intensity=1.00
 menu_blur_radius=0
-no_inactiveness=false
+no_inactiveness=true
 saturation=1.00
 shadowless_popup=false
 tooltip_blur_radius=0
@@ -47,7 +47,7 @@ toolbar_icon_size=12
 
 combo_as_lineedit=true
 animate_states=true
-button_contents_shift=true
+button_contents_shift=false
 
 
 
@@ -60,7 +60,7 @@ layout_margin=0
 
 group_toolbar_buttons=true
 toolbar_item_spacing=0
-toolbar_interior_spacing=8
+toolbar_interior_spacing=4
 toolbutton_style=1
 merge_menubar_with_toolbar=true
 
@@ -96,8 +96,8 @@ dialog_button_layout=0
 drag_from_buttons=false
 
 
-min_height=1
-min_width=1
+min_height=22
+min_width=22
 check_size=16
 slider_handle_width=24
 slider_handle_length=24
@@ -253,19 +253,21 @@ interior.x.patternsize=0
 interior.y.patternsize=0
 
 indicator.element=arrow
-indicator.size=6
+
+# Affects sub-menu arrow size in menus
+indicator.size=12
 
 #min_width=+0.5font
 #min_height=+0.5font
-min_width=12
-min_height=12
+min_width=22
+min_height=22
 
 text.margin=true
 text.margin.top=0
 text.margin.bottom=0
 text.margin.left=4
 text.margin.right=4
-text.iconspacing=0
+text.iconspacing=8
 
 #text.shadow=true
 #text.shadow.xshift=1
@@ -285,13 +287,17 @@ frame.expansion=0
 
 [PanelButtonCommand]
 inherits=DefaultSetup
+
+# Default option triangle in bottom right corner of button
 indicator.size=6
 
 
 [PanelButtonTool]
 inherits=DefaultSetup
 indicator.element=arrow
-indicator.size=6
+
+# Size of drop down option arrow
+indicator.size=12
 
 [ToolbarButton]
 inherits=DefaultSetup
@@ -313,7 +319,7 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #interior=true
 indicator.element=spin
-indicator.size=6
+indicator.size=12
 #text.margin.top=2
 #text.margin.bottom=2
 #text.margin.left=2
@@ -349,8 +355,8 @@ interior=false
 #interior.element=common
 frame.patternsize=0
 frame=false
-min_width=12
-min_height=12
+min_width=22
+min_height=22
 
 [LineEdit]
 inherits=DefaultSetup
@@ -399,7 +405,7 @@ inherits=DefaultSetup
 interior.element=tab
 frame.element=tab
 indicator.element=tab
-indicator.size=18
+indicator.size=12
 #interior=false
 #frame=false
 
@@ -444,7 +450,7 @@ interior=false
 [Toolbar]
 inherits=DefaultSetup
 indicator.element=toolbar
-indicator.size=6
+indicator.size=12
 frame=false
 interior=false
 
@@ -550,7 +556,7 @@ inherits=DefaultSetup
 frame=false
 interior=false
 interior.element=titlebar
-indicator.size=12
+indicator.size=32
 indicator.element=mdi
 
 
@@ -602,8 +608,8 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #interior=true
 #interior.element=window
-frame.element=window
-interior=false
+#frame.element=window
+#interior=false
 
 
 [WindowTranslucent]
