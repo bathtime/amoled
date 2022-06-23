@@ -35,7 +35,7 @@ This is a personal backup and will overwrite several program preferences! Please
 
 ```
 git clone https://github.com/bathtime/amoled.git
-cd ~; tar -xvzf amoled.tar.gz -C ~
+cd amoled; tar -xvzf amoled.tar.gz -C ~
 ```
 
 
