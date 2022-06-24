@@ -44,8 +44,8 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 
 ## KDE Screenshots
  
-widgets:
-![desktop](/screenshots/desktop.png)
+desktop & widgets:
+![desktop](/screenshots/desktop-2.png)
 
 dolphin:
 ![dolphin](/screenshots/dolphin.png)
