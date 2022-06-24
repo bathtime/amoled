@@ -45,13 +45,10 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 ## KDE Screenshots
  
 widgets:
-![widgets](/screenshots/widgets.png)
+![desktop](/screenshots/desktop.png)
 
 dolphin:
 ![dolphin](/screenshots/dolphin.png)
-
-gwenview:
-![gwenview](/screenshots/gwenview.png)
 
 kate:
 ![kate](/screenshots/kate.png)
@@ -60,7 +57,7 @@ konsole:
 ![konsole](/screenshots/konsole.png)
  
 launcher:
-![menu](/screenshots/launcher.png)
+![menu](/screenshots/menu.png)
 
 
 
