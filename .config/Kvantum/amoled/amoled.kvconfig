@@ -405,7 +405,9 @@ inherits=DefaultSetup
 interior.element=tab
 frame.element=tab
 indicator.element=tab
-indicator.size=12
+min_width=38
+min_height=38
+indicator.size=28
 #interior=false
 #frame=false
 
@@ -417,7 +419,7 @@ inherits=DefaultSetup
 #interior=false
 
 [TabBarFrame]
-inherits=DefaultSetup
+#inherits=DefaultSetup
 #inherits=GenericFrame
 frame=false
 #frame.element=tabBarFrame
