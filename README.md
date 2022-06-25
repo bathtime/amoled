@@ -29,16 +29,6 @@ cp -rv amoled/.* ~
 cd ~/local/share/icons && ls *.tar.xz | xargs -n 1 tar -xvf
 ```
 
-### Complete with file configs:
-
-This is a personal backup and will overwrite several program preferences! Please view the file contents before considering.
-
-```
-git clone https://github.com/bathtime/amoled.git
-cd amoled; tar -xvzf amoled.tar.gz -C ~
-```
-
-
 Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome and that this installation will overwrite your previus gtk.ss config file.
 
 
