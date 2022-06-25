@@ -16,6 +16,7 @@ This theme has been tested on the Raspberry Pi 4b architecture using the 7" offi
 ## Requirements:
 
 Packages required:
+
 kvantum
 
 ## Installation
