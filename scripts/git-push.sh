@@ -12,6 +12,7 @@ cat /home/user/git-token
 
 git push origin
 
+# || (git pull -v && git push origin)
 
 
 
