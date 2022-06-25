@@ -5,6 +5,7 @@ This KDE (colour/plasma/desktop/decoration) theme was made for the wayland KDE d
 Features:
 - Enlarged buttons, switches, bars, borders, text... for easier touch access
 - Thicker scroll bars and sliders
+- Panel widget (active window control) provides close and maximize/restore buttons (must be manually added to panel)
 - Pure black background for low battery consumption on amoled devices
 - A gnome 3.0 theme for those who want to run gnome within KDE (not being updated due to libadwaita breaking things)
 - Border size (except plasma borders) can be easily be adjusted from no borders to any thickness
@@ -34,7 +35,7 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 clean desktop:
 ![desktop](/screenshots/desktop-clean.png)
 
-dirty desktop:
+dirty desktop (note the close and maximize/restore buttons in the upper right corner):
 ![desktop](/screenshots/desktop-dirty.png)
 
 dolphin:
