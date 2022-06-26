@@ -32,9 +32,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:cy="789.17067"
-     inkscape:cx="-10.024974"
-     inkscape:zoom="12.668362"
+     inkscape:cy="792.83022"
+     inkscape:cx="78.80306"
+     inkscape:zoom="4.4795215"
      showgrid="false"
      id="namedview1030"
      inkscape:window-height="768"
@@ -7182,11 +7182,11 @@
   </g>
   <path
      style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
-     d="m -73.362652,760.32417 v 32 h 31.999997 v -32 z"
+     d="m 19.057935,756.30586 v 32 h 31.999997 v -32 z"
      id="tab-toggled" />
   <g
      id="tab-toggled-top"
-     transform="translate(-34.362657,723.32416)">
+     transform="translate(58.05793,719.30585)">
     <g
        id="g21916-1"
        transform="translate(-46.000001,-3.0252824)">
@@ -7218,7 +7218,7 @@
   </g>
   <g
      id="tab-toggled-topright"
-     transform="translate(-34.302864,723.23476)">
+     transform="translate(58.117723,719.21645)">
     <g
        id="button-normal-topright-8"
        inkscape:label="button-normal-topright"
@@ -7256,7 +7256,7 @@
   </g>
   <g
      id="tab-toggled-left"
-     transform="translate(-34.362648,723.3169)">
+     transform="translate(58.057939,719.29859)">
     <g
        id="button-normal-left-9"
        inkscape:label="button-normal-left"
@@ -7287,7 +7287,7 @@
   </g>
   <g
      id="tab-toggled-right"
-     transform="translate(-34.302959,723.34949)">
+     transform="translate(58.117628,719.33118)">
     <g
        id="button-normal-right-7"
        inkscape:label="button-normal-right"
@@ -7317,7 +7317,7 @@
   </g>
   <g
      id="tab-toggled-bottomright"
-     transform="translate(-33.130241,709.86347)">
+     transform="translate(59.290346,705.84516)">
     <g
        id="button-normal-bottomright-2"
        inkscape:label="button-normal-bottomright"
@@ -7356,7 +7356,7 @@
   </g>
   <g
      id="tab-toggled-bottom"
-     transform="translate(-34.362654,720.84967)">
+     transform="translate(58.057933,716.83136)">
     <g
        id="button-normal-bottom-1"
        inkscape:label="button-normal-bottom"
@@ -7386,7 +7386,7 @@
   </g>
   <g
      id="tab-toggled-bottomleft"
-     transform="translate(-31.829506,720.3317)">
+     transform="translate(60.591081,716.31339)">
     <g
        id="button-normal-bottomleft-0"
        inkscape:label="button-normal-bottomleft"
@@ -7425,7 +7425,7 @@
   </g>
   <g
      id="tab-toggled-topleft"
-     transform="rotate(-90,321.43601,431.88806)">
+     transform="rotate(-90,365.63715,383.66861)">
     <g
        id="button-normal-topright-8-1"
        inkscape:label="button-normal-topright"
@@ -7462,12 +7462,12 @@
     </g>
   </g>
   <path
-     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998;opacity:0.01"
-     d="m -24.004393,760.32415 v 32 H 7.9956036 v -32 z"
+     style="color:#000000;opacity:0.01;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
+     d="m 82.000002,756.30586 v 32 H 114 v -32 z"
      id="tab-focused" />
   <g
      id="tab-focused-top"
-     transform="translate(14.995602,723.32414)"
+     transform="translate(121,719.30585)"
      style="opacity:0.01">
     <g
        id="g21916-1-3"
@@ -7500,7 +7500,7 @@
   </g>
   <g
      id="tab-focused-topright"
-     transform="translate(15.055395,723.23474)"
+     transform="translate(121.05979,719.21645)"
      style="opacity:0.01">
     <g
        id="button-normal-topright-8-4"
@@ -7539,7 +7539,7 @@
   </g>
   <g
      id="tab-focused-left"
-     transform="translate(15.015722,723.31688)"
+     transform="translate(121.02012,719.29859)"
      style="opacity:0.01">
     <g
        id="button-normal-left-9-9"
@@ -7571,7 +7571,7 @@
   </g>
   <g
      id="tab-focused-right"
-     transform="translate(15.0553,723.34947)"
+     transform="translate(121.05969,719.33118)"
      style="opacity:0.01">
     <g
        id="button-normal-right-7-0"
@@ -7602,7 +7602,7 @@
   </g>
   <g
      id="tab-focused-bottomright"
-     transform="translate(16.228018,709.86345)">
+     transform="translate(122.23241,705.84516)">
     <g
        id="button-normal-bottomright-2-5"
        inkscape:label="button-normal-bottomright"
@@ -7634,7 +7634,7 @@
   </g>
   <g
      id="tab-focused-bottom"
-     transform="translate(14.995605,720.84965)">
+     transform="translate(121,716.83136)">
     <g
        id="button-normal-bottom-1-8"
        inkscape:label="button-normal-bottom"
@@ -7664,7 +7664,7 @@
   </g>
   <g
      id="tab-focused-bottomleft"
-     transform="translate(17.552588,720.34438)">
+     transform="translate(123.55698,716.32609)">
     <g
        id="button-normal-bottomleft-0-3"
        inkscape:label="button-normal-bottomleft"
@@ -7696,7 +7696,7 @@
   </g>
   <g
      id="tab-focused-topleft"
-     transform="rotate(-90,346.11513,407.20893)"
+     transform="rotate(-90,397.10818,352.19759)"
      style="opacity:0.01">
     <g
        id="button-normal-topright-8-1-7"
