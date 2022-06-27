@@ -22,7 +22,7 @@ reduce_window_opacity=0
 reduce_menu_opacity=0
 contrast=1.00
 
-splitter_width=24
+splitter_width=18
 
 scroll_arrows=false
 scroll_min_extent=60
@@ -31,7 +31,8 @@ slider_width=140
 transient_scrollbar=false
 transient_groove=true
 
-spread_progressbar=true
+spread_progressbar=false
+
 center_toolbar_handle=true
 textless_progressbar=false
 spread_header=false
@@ -60,7 +61,7 @@ layout_margin=0
 
 group_toolbar_buttons=true
 toolbar_item_spacing=0
-toolbar_interior_spacing=4
+toolbar_interior_spacing=12
 toolbutton_style=1
 merge_menubar_with_toolbar=true
 
@@ -96,14 +97,14 @@ dialog_button_layout=0
 drag_from_buttons=false
 
 
-min_height=22
-min_width=22
-check_size=16
+min_height=0
+min_width=0
+check_size=22
 slider_handle_width=24
 slider_handle_length=24
 scroll_width=24
-progressbar_thickness=12
-tickless_slider_handle_size=12
+progressbar_thickness=24
+tickless_slider_handle_size=24
 
 
 
@@ -174,7 +175,6 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 
-
 [frame3]
 frame=true
 frame.top=3
@@ -182,14 +182,12 @@ frame.bottom=3
 frame.left=3
 frame.right=3
 
-
 [frame4]
 frame=true
 frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
-
 
 [frame6]
 frame=true
@@ -212,37 +210,29 @@ frame.bottom=10
 frame.left=10
 frame.right=10
 
-[MediumFrame]
-frame=true
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
-
-[BigFrame]
-frame=true
-frame.top=5
-frame.bottom=5
-frame.left=5
-frame.right=5
-
-[HugeFrame]
-frame=true
-frame.top=11
-frame.bottom=11
-frame.left=11
-frame.right=11
-
-[SuperHugeFrame]
+[frame15]
 frame=true
 frame.top=15
 frame.bottom=15
 frame.left=15
 frame.right=15
 
+[frame20]
+frame=true
+frame.top=20
+frame.bottom=20
+frame.left=20
+frame.right=20
+
+[frame30]
+frame=true
+frame.top=30
+frame.bottom=30
+frame.left=30
+frame.right=30
+
 
 [DefaultSetup]
-
 
 # Below will change the width
 inherits=frame8
@@ -251,8 +241,6 @@ interior.element=button
 frame.element=button
 interior.x.patternsize=0
 interior.y.patternsize=0
-
-indicator.element=arrow
 
 # Affects sub-menu arrow size in menus
 indicator.size=12
@@ -278,10 +266,10 @@ text.iconspacing=8
 #text.shadow.depth=16
 
 frame.patternsize=0
-frame.expanded.top=0
-frame.expanded.bottom=0
-frame.expanded.left=0
-frame.expanded.right=0
+#frame.expanded.top=0
+#frame.expanded.bottom=0
+#frame.expanded.left=0
+#frame.expanded.right=0
 frame.expansion=0
 
 
@@ -290,6 +278,9 @@ inherits=DefaultSetup
 
 # Default option triangle in bottom right corner of button
 indicator.size=6
+frame.element=button
+interior.element=button
+frame.expansion=0
 
 
 [PanelButtonTool]
@@ -298,12 +289,19 @@ indicator.element=arrow
 
 # Size of drop down option arrow
 indicator.size=12
+frame.element=button
+interior.element=button
+frame.expansion=0
+
 
 [ToolbarButton]
 inherits=DefaultSetup
 #frame.element=tbutton
 #interior.element=tbutton
 #indicator.element=tarrow
+frame.element=button
+interior.element=button
+indicator.element=arrow
 
 [Dock]
 inherits=DefaultSetup
@@ -349,48 +347,42 @@ frame=false
 
 [GenericFrame]
 inherits=DefaultSetup
-interior=false
 #frame.element=common
 #frame.element=slider
 #interior.element=common
-frame.patternsize=0
+#frame.patternsize=0
 frame=false
-min_width=22
-min_height=22
+interior=false
+#min_width=22
+#min_height=22
+#frame.element=progress
+#interior.element=progress
+
+
 
 [LineEdit]
 inherits=DefaultSetup
-#inherits=GenericFrame
-#frame.element=lineedit
-#interior.element=lineedit
-#interior=true
-text.margin.top=0
-text.margin.bottom=0
-text.margin.left=0
-text.margin.right=0
-text.margin=true
-#frame=false
-#interior=false
+indicator.element=combo-indicator
+frame.expansion=16
+frame.element=lineedit
+interior.element=lineedit
+
 
 [ToolbarLineEdit]
 inherits=DefaultSetup
-#frame.element=lineedit
-#interior.element=lineedit
-#interior=true
-text.margin.top=0
-text.margin.bottom=0
-text.margin.left=0
-text.margin.right=0
-text.margin=true
-frame=false
-interior=false
+indicator.element=combo-indicator
+frame.expansion=16
+frame.element=lineedit
+interior.element=lineedit
+
+
 
 [DropDownButton]
-inherits=DefaultSetup
+#inherits=DefaultSetup
 indicator.element=arrow-down
 
 [IndicatorArrow]
-inherits=DefaultSetup
+#inherits=DefaultSetup
 indicator.element=arrow
 indicator.size=12
 frame=false
@@ -410,6 +402,7 @@ min_height=44
 indicator.size=28
 #interior=false
 #frame=false
+
 
 [TabFrame]
 inherits=DefaultSetup
@@ -436,18 +429,20 @@ indicator.element=tree
 inherits=DefaultSetup
 #interior.element=header
 #frame.element=header
+frame.element=button
+interior.element=button
 
 [SizeGrip]
 #inherits=DefaultSetup
 #indicator.element=resize-grip
 #frame.element=resize-grip
 #interior=false
-#indicator.element=resize-grip
+indicator.element=size-grip
 #min_height=44
 #min_width=44
-#indicator.size=12
-frame=false
-interior=false
+indicator.size=12
+#frame=false
+#interior=false
 
 [Toolbar]
 inherits=DefaultSetup
@@ -459,29 +454,31 @@ interior=false
 [Slider]
 inherits=DefaultSetup
 #inherits=GenericFrame
-#frame.element=slider
-#interior.element=slider
+frame.element=slider
+interior.element=slider
 #interior.element=scrollbarslider
 #interior=false
 
 [SliderCursor]
 inherits=DefaultSetup
 #interior.element=slidercursor
-#frame=true
 #frame.element=slidercursor
-#interior.element=button
+interior.element=itemview
+frame.element=itemview
+
 
 
 [Progressbar]
 inherits=DefaultSetup
-#frame.element=progress
-#interior.element=progress
+frame.element=progress
+interior.element=progress
 #interior.element=none
 
 [ProgressbarContents]
 inherits=DefaultSetup
-#frame.element=progress-pattern
-#interior.element=progress-pattern
+frame.element=progress-pattern
+interior.element=progress-pattern
+
 
 
 [ItemView]
@@ -489,7 +486,6 @@ inherits=DefaultSetup
 frame.element=itemview
 interior.element=itemview
 indicator.element=itemview
-
 
 
 [Splitter]
@@ -504,11 +500,12 @@ indicator.size=32
 
 [ScrollbarSlider]
 inherits=DefaultSetup
-#interior.element=scrollbarslider
 #interior=true
 #indicator.element=none
 #indicator.element=grip
 indicator.size=0
+
+
 
 [ScrollbarGroove]
 inherits=DefaultSetup
@@ -568,13 +565,27 @@ inherits=DefaultSetup
 #interior.element=combo
 #interior=false
 #frame=false
+indicator.element=combo-indicator
+#frame.element=lineedit
+#interior.element=lineedit
+frame.expansion=0
+indicator.size=12
+
+frame.element=button
+interior.element=button
 
 [ToolbarComboBox]
 inherits=DefaultSetup
 #interior.element=combo
 #frame.element=combo
 indicator.element=flat-arrow-down
+#indicator.element=combo-indicator
+frame.element=lineedit
+interior.element=lineedit
+frame.expansion=0
 
+#frame.element=button
+#interior.element=button
 
 [Menu]
 inherits=DefaultSetup
