@@ -99,7 +99,7 @@ drag_from_buttons=false
 
 min_height=22
 min_width=22
-check_size=22
+check_size=12
 slider_handle_width=64
 slider_handle_length=64
 slider_width=40
@@ -249,8 +249,8 @@ indicator.size=12
 
 #min_width=+0.5font
 #min_height=+0.5font
-min_width=48
-min_height=48
+min_width=32
+min_height=32
 
 text.margin=true
 text.margin.top=0
@@ -284,8 +284,8 @@ inherits=frame
 #frame.patternsize=0
 frame=false
 interior=false
-min_width=48
-min_height=48
+min_width=32
+min_height=32
 
 [PanelButtonCommand]
 inherits=DefaultSetup
@@ -419,7 +419,7 @@ inherits=DefaultSetup
 interior.element=tab
 frame.element=tab
 indicator.element=tab
-indicator.size=24
+indicator.size=20
 #interior=false
 #frame=false
 
