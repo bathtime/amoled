@@ -47,7 +47,7 @@ dolphin:
 konqueror:
 ![konqueror](/screenshots/konqueror.png)
 
-keyboard (TODO):
+keyboard - maliit (TODO):
 ![keyboard](/screenshots/keyboard.png)
 
 
