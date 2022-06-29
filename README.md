@@ -31,28 +31,21 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 
 
 ## KDE Screenshots
- 
-clean desktop:
-![desktop](/screenshots/desktop-clean.png)
 
-dirty desktop (note the close and maximize/restore buttons in the upper right corner):
-![desktop](/screenshots/desktop-dirty.png)
+launcher:
+![launcher](/screenshots/launcher.png)
 
-dolphin:
-![dolphin](/screenshots/dolphin.png)
+ konsole:
+![konsole](/screenshots/konsole.png)
 
 kate:
 ![kate](/screenshots/kate.png)
 
-konsole:
-![konsole](/screenshots/konsole.png)
+dolphin:
+![dolphin](/screenshots/dolphin.png)
  
-launcher:
-![menu](/screenshots/menu.png)
-
-
-
-
+konqueror:
+![menu](/screenshots/konqueror.png)
 
 
 ## Gnome Screenshots
