@@ -45,7 +45,10 @@ dolphin:
 ![dolphin](/screenshots/dolphin.png)
  
 konqueror:
-![menu](/screenshots/konqueror.png)
+![konqueror](/screenshots/konqueror.png)
+
+keyboard (TODO):
+![keyboard](/screenshots/keyboard.png)
 
 
 ## Gnome Screenshots
