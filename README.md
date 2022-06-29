@@ -50,6 +50,8 @@ konqueror:
 
 ## Gnome Screenshots
 
+** No longer maintained due to the uncertainty of libadwaita **
+
 These shots have been taken from Manjaro's ARM Phosh image for Raspberry Pi:
 
 ![Main dashboard](/screenshots/overview-clean.png)
