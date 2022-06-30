@@ -29,18 +29,23 @@ Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until
 ## KDE Screenshots
  
 plasma launcher:
+
 ![launcher](/screenshots/launcher.png)
 
 dolphin:
+
 ![dolphin](/screenshots/dolphin.png)
 
 kate:
+
 ![kate](/screenshots/kate.png)
 
 konsole:
+
 ![konsole](/screenshots/konsole.png)
  
 konqueror:
+
 ![konqueror](/screenshots/konqueror.png)
 
 
