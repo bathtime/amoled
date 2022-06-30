@@ -54,7 +54,7 @@ DecorationHover=0,121,121
 ForegroundActive=0,121,121
 ForegroundInactive=0,121,121
 ForegroundLink=29,153,243
-ForegroundNegative=255,0,0
+ForegroundNegative=0,85,85
 ForegroundNeutral=0,121,121
 ForegroundNormal=0,255,255
 ForegroundPositive=0,121,121
@@ -133,7 +133,7 @@ ForegroundVisited=0,164,164
 [General]
 ColorScheme=amoled
 Name=amoled
-shadeSortColumn=true
+shadeSortColumn=false
 
 [KDE]
 contrast=10
