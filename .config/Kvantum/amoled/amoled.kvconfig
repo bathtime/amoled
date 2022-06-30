@@ -35,7 +35,7 @@ spread_progressbar=true
 
 center_toolbar_handle=true
 textless_progressbar=false
-spread_header=true
+spread_header=false
 
 vertical_spin_indicators=false
 spin_button_width=12
@@ -61,7 +61,7 @@ layout_margin=0
 
 group_toolbar_buttons=true
 toolbar_item_spacing=0
-toolbar_interior_spacing=8
+toolbar_interior_spacing=0
 toolbar_separator_thickness=18
 
 # Sets the toolbutton style when it is not set by the app. 0: follow, 1: icon only, 2: text only, 3: text beside icon, and 4: text under icon.
@@ -140,7 +140,7 @@ link.visited.color=#00ff00
 progress.indicator.text.color=#00ffff
 tooltip.text.color=#00ffff
 
-remove_extra_frames=true
+remove_extra_frames=false
 
 [Hacks]
 transparent_ktitle_label=false
@@ -282,16 +282,16 @@ frame.patternsize=0
 
 [GenericFrame]
 inherits=DefaultSetup
-inherits=frame
+#inherits=frame
 
 #frame.element=common
 #frame.element=slider
 #interior.element=common
 #frame.patternsize=0
 #frame=false
-interior=false
-min_width=48
-min_height=48
+#interior=false
+frame.element=inv
+interior.element=inv
 
 [PanelButtonCommand]
 inherits=DefaultSetup
@@ -325,11 +325,15 @@ inherits=DefaultSetup
 
 #interior.element=dock
 #frame.element=dock
+frame.element=inv
+interior.element=inv
 
 [DockTitle]
 inherits=DefaultSetup
 #frame=false
 #interior=false
+frame.element=inv
+interior.element=inv
 
 [IndicatorSpinBox]
 inherits=DefaultSetup
@@ -418,35 +422,27 @@ interior=false
 
 [ToolboxTab]
 inherits=DefaultSetup
-
+frame.element=inv
+interior.element=inv
 
 
 [Tab]
 inherits=DefaultSetup
+indicator.element=tab
+indicator.size=24
 interior.element=tab
 frame.element=tab
-indicator.element=tab
-indicator.size=20
-#interior=false
-#frame=false
-
-
 
 [TabFrame]
 inherits=DefaultSetup
-#frame.element=tabframe
-#interior.element=tabframe
-frame=false
-interior=false
+frame.element=inv
+interior.element=inv
 
 [TabBarFrame]
 inherits=DefaultSetup
-#inherits=GenericFrame
-#frame.element=tabBarFrame
-#interior.element=tabBarFrame
+frame.element=inv
+interior.element=inv
 
-frame=false
-interior=false
 
 [TreeExpander]
 inherits=DefaultSetup
@@ -458,6 +454,7 @@ indicator.element=tree
 inherits=DefaultSetup
 #interior.element=header
 #frame.element=header
+#frame=false
 
 [SizeGrip]
 inherits=DefaultSetup
@@ -471,8 +468,13 @@ indicator.element=toolbar
 indicator.size=12
 #frame.element=progress
 #interior.element=progress
-interior=false
-frame=false
+#interior=false
+#frame=false
+
+frame.element=inv
+interior.element=inv
+#interior=false
+
 
 [Slider]
 inherits=DefaultSetup
@@ -550,9 +552,12 @@ inherits=DefaultSetup
 #interior.element=menubar
 frame=false
 interior=false
+frame.element=inv
+interior.element=inv
 
-
-
+#frame.element=progress
+#interior.element=progress
+interior=false
 
 
 [MenuBarItem]
@@ -574,12 +579,17 @@ indicator.size=12
 
 [TitleBar]
 inherits=DefaultSetup
-frame.element=progress
-interior=false
-interior.element=titlebar
+#frame.element=progress
+#interior=false
+#interior.element=titlebar
 indicator.size=32
 indicator.element=mdi
 
+#frame.element=progress
+#interior.element=progress
+#interior=false
+frame.element=inv
+interior.element=inv
 
 [ComboBox]
 inherits=DefaultSetup
@@ -587,8 +597,8 @@ inherits=DefaultSetup
 indicator.element=combo-indicator
 frame.expansion=0
 indicator.size=12
-
-
+#frame.element=inv
+#interior.element=inv
 
 
 [ToolbarComboBox]
@@ -600,13 +610,16 @@ indicator.element=flat-arrow-down
 #frame.element=lineedit
 #interior.element=lineedit
 frame.expansion=0
-
+#frame.element=inv
+#interior.element=inv
 
 
 [Menu]
 inherits=DefaultSetup
 #frame.element=menu
 #interior.element=menu
+#frame.element=inv
+#interior.element=inv
 
 [GroupBox]
 inherits=DefaultSetup
@@ -615,7 +628,8 @@ inherits=DefaultSetup
 #interior=false
 #interior.element=groupbox
 #frame.element=groupbox
-
+frame.element=inv
+interior.element=inv
 
 
 [ToolTip]
@@ -632,7 +646,9 @@ inherits=DefaultSetup
 inherits=DefaultSetup
 #frame=false
 #interior=false
-frame.element=progress
+#frame.element=progress
+frame.element=inv
+interior.element=inv
 
 [Window]
 inherits=DefaultSetup
@@ -640,19 +656,29 @@ inherits=DefaultSetup
 #interior.element=window
 #frame.element=window
 #interior=false
+frame.element=inv
+interior.element=inv
 
 [WindowTranslucent]
 inherits=DefaultSetup
-frame=false
-interior=false
+#frame=false
+#interior=false
+frame.element=inv
+interior.element=inv
 
 [DialogTranslucent]
 inherits=DefaultSetup
+frame.element=inv
+interior.element=inv
 
 [DialogTranslucent]
 inherits=DefaultSetup
+frame.element=inv
+interior.element=inv
 
 [Dialog]
 inherits=DefaultSetup
+frame.element=inv
+interior.element=inv
 
 
