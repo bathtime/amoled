@@ -1,11 +1,11 @@
 [ColorEffects:Disabled]
-Color=255,0,0
-ColorAmount=0.625
-ColorEffect=2
+Color=0,48,57
+ColorAmount=-1
+ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=0
-IntensityAmount=1
-IntensityEffect=0
+IntensityAmount=0.8
+IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
@@ -133,7 +133,7 @@ ForegroundVisited=0,164,164
 [General]
 ColorScheme=amoled
 Name=amoled
-shadeSortColumn=false
+shadeSortColumn=true
 
 [KDE]
 contrast=10
