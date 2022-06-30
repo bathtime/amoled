@@ -2,7 +2,7 @@
 
 path="/home/user/amoled-project"
 
-rm -rf $path/*
+#rm -rf $path/*
 
 
 
@@ -18,6 +18,7 @@ files=(scripts .local/share/plasma/desktoptheme/amoled .local/share/aurorae/them
 
 
 for file in "${files[@]}" ; do
+    rm -rf "$path/$file/*"
     mkdir -p "$path/$file"
 
     cp -R "$file" "$path/$(dirname $file)"
