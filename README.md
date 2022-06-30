@@ -3,11 +3,8 @@
 This KDE (colour/plasma/desktop/decoration) theme was made for the wayland KDE display manager.
 
 Features:
-- Enlarged buttons, switches, bars, borders, text... for easier touch access
-- Thicker scroll bars and sliders
+- Enlarged buttons, switches, bars, borders, text... for easier touch manipulation
 - Pure black background for low battery consumption on amoled devices
-
-This theme has been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the Phosh and KDE Manjaro images. It has also be tested on Manjaro x86-64 KDE. It has not been tested on the X window manager!
 
 
 ## Requirements:
@@ -18,14 +15,12 @@ kvantum
 
 ## Installation
 
-This below script will overwrite your previous settings!!!
+*This below script will overwrite your previous settings!!! Please look at the files within this project before running.*
 
 ```
 git clone https://github.com/bathtime/amoled.git
 cp -rv amoled/.* ~
 ```
-
-Please note that any changes to ~/.config/gtk-3.0/gtk.css will not be seen until the user logs out and back into gnome and that this installation will overwrite your previus gtk.ss config file.
 
 
 ## KDE Screenshots
