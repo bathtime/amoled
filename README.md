@@ -18,6 +18,8 @@ kvantum
 
 ## Installation
 
+This below script will overwrite your previous settings!!!
+
 ```
 git clone https://github.com/bathtime/amoled.git
 cp -rv amoled/.* ~
@@ -48,4 +50,6 @@ konqueror:
 
 ![konqueror](/screenshots/konqueror.png)
 
+keyboard (still working on making the keyboard integrate with the theme):
 
+![keyboard](/screenshots/keyboard.png)
