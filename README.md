@@ -5,6 +5,7 @@ This KDE (colour/plasma/desktop/decoration) theme was made for the wayland KDE d
 Features:
 - Enlarged buttons, switches, bars, borders, text... for easier touch manipulation
 - Pure black background for low battery consumption on amoled devices
+- Designed for use with no titlebar; close and maximize/restore buttons are integrated into the panel (add 'Active Window Control' widget to use)
 
 
 ## Requirements:
