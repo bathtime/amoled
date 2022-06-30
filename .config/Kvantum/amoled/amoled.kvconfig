@@ -31,7 +31,7 @@ slider_width=140
 transient_scrollbar=false
 transient_groove=true
 
-spread_progressbar=false
+spread_progressbar=true
 
 center_toolbar_handle=true
 textless_progressbar=false
@@ -42,9 +42,9 @@ spin_button_width=12
 fill_rubberband=true
 
 small_icon_size=12
-large_icon_size=24
-button_icon_size=24
-toolbar_icon_size=24
+large_icon_size=12
+button_icon_size=12
+toolbar_icon_size=12
 
 combo_as_lineedit=false
 animate_states=true
@@ -103,9 +103,9 @@ dialog_button_layout=1
 drag_from_buttons=false
 
 
-min_height=22
-min_width=22
-check_size=24
+min_height=20
+min_width=20
+check_size=22
 slider_handle_width=64
 slider_handle_length=64
 slider_width=40
@@ -345,14 +345,14 @@ indicator.size=12
 [RadioButton]
 #inherits=DefaultSetup
 #frame.element=inv
-frame=false
+#frame=false
 interior.element=radio
 
 
 [CheckBox]
 #inherits=DefaultSetup
 #frame.element=checkbox
-frame=false
+#frame=false
 interior.element=checkbox
 
 
@@ -490,13 +490,14 @@ frame.element=b
 
 [Progressbar]
 inherits=DefaultSetup
-frame.element=c
-interior.element=c
+frame.element=b
+interior.element=b
 
 [ProgressbarContents]
 inherits=DefaultSetup
 frame.element=progress-pattern
 interior.element=progress-pattern
+
 
 
 
@@ -558,7 +559,7 @@ interior=false
 inherits=DefaultSetup
 #interior.element=menubaritem
 #frame.element=menubaritem
-
+indicator.size=96
 
 [MenuItem]
 inherits=DefaultSetup
@@ -567,6 +568,7 @@ inherits=DefaultSetup
 
 # Affects arrows in menus
 indicator.element=menuitem
+indicator.size=12
 
 
 
