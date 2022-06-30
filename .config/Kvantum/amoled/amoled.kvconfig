@@ -35,9 +35,9 @@ spread_progressbar=false
 
 center_toolbar_handle=true
 textless_progressbar=false
-spread_header=false
+spread_header=true
 
-vertical_spin_indicators=true
+vertical_spin_indicators=false
 spin_button_width=12
 fill_rubberband=true
 
@@ -46,7 +46,7 @@ large_icon_size=24
 button_icon_size=24
 toolbar_icon_size=24
 
-combo_as_lineedit=true
+combo_as_lineedit=false
 animate_states=true
 button_contents_shift=false
 
@@ -62,6 +62,9 @@ layout_margin=0
 group_toolbar_buttons=true
 toolbar_item_spacing=0
 toolbar_interior_spacing=8
+toolbar_separator_thickness=18
+
+# Sets the toolbutton style when it is not set by the app. 0: follow, 1: icon only, 2: text only, 3: text beside icon, and 4: text under icon.
 toolbutton_style=1
 merge_menubar_with_toolbar=true
 
@@ -79,6 +82,7 @@ scrollable_menu=true
 submenu_delay=250
 square_combo_button=true
 inline_spin_separator=true
+slim_toolbars=false
 
 embedded_tabs=false
 no_active_tab_separator=false
@@ -93,13 +97,15 @@ joined_inactive_tabs=false
 
 button_contents_shift=false
 click_behavior=2
-dialog_button_layout=0
+
+# The layout of dialog buttons. 0: follow, 1: KDE layout, 2: Gnome layout, 3: Mac layout, 4: Windows layout, and 5: Android layout. The default is 0.
+dialog_button_layout=1
 drag_from_buttons=false
 
 
 min_height=22
 min_width=22
-check_size=12
+check_size=24
 slider_handle_width=64
 slider_handle_length=64
 slider_width=40
@@ -241,16 +247,16 @@ inherits=frame8
 
 interior.element=b
 frame.element=b
-interior.x.patternsize=0
-interior.y.patternsize=0
+#interior.x.patternsize=0
+#interior.y.patternsize=0
 
 # Affects sub-menu arrow size in menus
 indicator.size=12
 
 #min_width=+0.5font
 #min_height=+0.5font
-min_width=32
-min_height=32
+min_width=48
+min_height=48
 
 text.margin=true
 text.margin.top=0
@@ -272,7 +278,7 @@ frame.patternsize=0
 #frame.expanded.bottom=0
 #frame.expanded.left=0
 #frame.expanded.right=0
-frame.expansion=0
+#frame.expansion=0
 
 [GenericFrame]
 inherits=DefaultSetup
@@ -282,10 +288,10 @@ inherits=frame
 #frame.element=slider
 #interior.element=common
 #frame.patternsize=0
-frame=false
+#frame=false
 interior=false
-min_width=32
-min_height=32
+min_width=48
+min_height=48
 
 [PanelButtonCommand]
 inherits=DefaultSetup
@@ -400,6 +406,7 @@ indicator.size=24
 [DropDownButton]
 #inherits=DefaultSetup
 indicator.element=arrow-down
+indicator.size=24
 
 [IndicatorArrow]
 #inherits=DefaultSetup
@@ -469,7 +476,6 @@ frame=false
 
 [Slider]
 inherits=DefaultSetup
-#inherits=GenericFrame
 frame.element=c
 interior.element=c
 
@@ -575,13 +581,8 @@ indicator.element=mdi
 
 [ComboBox]
 inherits=DefaultSetup
-#frame.element=combo
-#interior.element=combo
-#interior=false
 #frame=false
 indicator.element=combo-indicator
-#frame.element=lineedit
-#interior.element=lineedit
 frame.expansion=0
 indicator.size=12
 
