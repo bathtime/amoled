@@ -2,6 +2,9 @@
 
 path="/home/user/amoled-project"
 
+rm -rf $path/*
+
+
 
 cd ~
 
