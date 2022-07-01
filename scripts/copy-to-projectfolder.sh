@@ -1,21 +1,55 @@
 #!/bin/bash
 
+
 path="/home/user/amoled-project"
 
 cd ~
 cp -r scripts.bak/* scripts/
-rm -rf $path/README.md $path/.local $path/.config $path/scripts $path/screenshots
 
-cp README.md $path
+# Erase all but files/directories except .git
+
+cd $path
+ls -A | grep -xv ".git" | xargs rm -rf
 
 
-files=(scripts screenshots .local/share/plasma/desktoptheme/amoled .local/share/aurorae/themes/amoled .config/Kvantum/amoled .local/share/plasma/plasmoids .local/share/color-schemes .local/share/fonts .config/gtk-3.0 .config/gtk-4.0)
-
+files=(
+README.md
+.config/dolphinrc
+.config/gtkrc
+.config/gwenviewrc
+.config/katerc
+.config/kateschemarc
+.config/konsolerc
+.config/konquerorrc
+.config/kwinrc
+.config/okularpartrc
+.config/plasmarc
+.config/plasmashellrc
+.config/spectaclerc
+.config/Trolltech.conf
+.config/gtk-3.0/
+.config/gtk-4.0/
+.config/inkscape/
+.config/kdedefaults/
+.config/Kvantum/amoled/
+.config/vlc/
+.local/share/aurorae/themes/amoled/
+.local/share/color-schemes/
+.local/share/fonts/
+.local/share/konsole/
+.local/share/plasma/desktoptheme/amoled/
+.local/share/plasma/plasmoids/
+screenshots/
+scripts/
+)
 
 
 for file in "${files[@]}" ; do
-    mkdir -p "$path/$file"
-    cp -R "$file" "$path/$(dirname $file)"
+
+    echo "Processing $file..."
+    mkdir -p "$path/$(dirname $file)"
+    cp -R "/home/user/$file" "$path/$file"
+
 done
 
 

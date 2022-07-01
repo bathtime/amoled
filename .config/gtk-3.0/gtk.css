@@ -983,5 +983,4 @@ sq_button.small {
     background: alpha(@fg, 0.6);
     border-color: @borders;
 }
-
-
+@import 'colors.css';

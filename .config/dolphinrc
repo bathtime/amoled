@@ -1,0 +1,37 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+PreviewSize=96
+
+[General]
+ShowStatusBar=false
+Version=201
+ViewPropsTimestamp=2022,7,1,10,26,16.339
+
+[IconsMode]
+FontWeight=50
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+LVDS-1 Window-Maximized 1366x768=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,webarchivethumbnail
+
+[Search]
+Location=Everywhere

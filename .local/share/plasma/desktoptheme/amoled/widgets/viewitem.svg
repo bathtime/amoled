@@ -51,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2697133"
-     inkscape:cx="57.877912"
-     inkscape:cy="86.911749"
+     inkscape:zoom="12.107281"
+     inkscape:cx="52.77816"
+     inkscape:cy="65.869457"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -66,8 +66,8 @@
      fit-margin-bottom="10"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
-     inkscape:window-width="1314"
-     inkscape:window-height="730"
+     inkscape:window-width="1318"
+     inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -93,15 +93,15 @@
      id="layer1"
      transform="translate(-273.07142,-431.01965)">
     <rect
-       y="545.01965"
-       x="303.07141"
+       y="536.01965"
+       x="297.07141"
        height="32"
        width="32"
        id="hover-center"
        style="opacity:1;fill:#004b4b;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="hover-bottom"
-       transform="matrix(1,0,0,2.9999911,4.0000089,-1112.0343)">
+       transform="matrix(1,0,0,2.9999911,-0.99999113,-1121.0343)">
       <rect
          y="563.01965"
          x="298.07141"
@@ -136,7 +136,7 @@
          style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       transform="matrix(0,1,2.9999911,0,-1334.9825,231.94824)"
+       transform="matrix(0,1,2.9999911,0,-1359.9825,237.94824)"
        id="hover-right">
       <rect
          y="563.01965"
@@ -154,7 +154,7 @@
          y="566.01965" />
     </g>
     <g
-       transform="matrix(0,-1,-2.9999911,0,1972.6253,871.09106)"
+       transform="matrix(0,-1,-2.9999911,0,1986.1254,866.09106)"
        id="hover-left">
       <rect
          y="563.01965"
@@ -173,7 +173,7 @@
     </g>
     <g
        id="hover-bottomleft"
-       transform="matrix(2.9999933,0,0,2.9999875,-606.14088,-1113.5323)"
+       transform="matrix(2.9999933,0,0,2.9999875,-591.14084,-1127.0322)"
        style="fill:#00ffff">
       <rect
          y="565.01965"
@@ -189,7 +189,7 @@
          style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       transform="matrix(2.9999933,0,0,-2.9999875,-600.64087,2210.0716)"
+       transform="matrix(2.9999933,0,0,-2.9999875,-591.14088,2231.0716)"
        id="hover-topleft">
       <rect
          style="opacity:1;fill:#004b4b;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -205,7 +205,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(-2.9999933,0,0,2.9999875,1241.2837,-1119.0322)"
+       transform="matrix(-2.9999933,0,0,2.9999875,1217.2837,-1127.0322)"
        id="hover-bottomright">
       <rect
          style="opacity:1;fill:#004b4b;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -221,7 +221,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(-2.9999933,0,0,-2.9999875,1227.2837,2230.5716)"
+       transform="matrix(-2.9999933,0,0,-2.9999875,1217.2837,2231.0715)"
        id="hover-topright">
       <rect
          style="opacity:1;fill:#004b4b;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -263,7 +263,7 @@
     </g>
     <g
        id="selected-top"
-       transform="matrix(1,0,0,-2.9999725,3.0000189,2132.063)">
+       transform="matrix(1,0,0,-2.9999725,3.0000089,2124.063)">
       <rect
          style="opacity:1;fill:#001919;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1514"
@@ -298,7 +298,7 @@
          y="566.01965" />
     </g>
     <g
-       transform="matrix(0,-1,-2.9999811,0,1984.1197,764.59115)"
+       transform="matrix(0,-1,-2.9999811,0,1990.1197,765.09106)"
        id="selected-left">
       <rect
          y="563.01965"
@@ -317,7 +317,7 @@
     </g>
     <g
        id="selected-bottomleft"
-       transform="matrix(2.9999811,0,0,2.9999747,-593.13726,-1228.5249)">
+       transform="matrix(2.9999811,0,0,2.9999747,-587.63727,-1228.025)">
       <rect
          y="565.01965"
          x="292.07141"
@@ -332,7 +332,7 @@
          style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       transform="matrix(2.9999811,0,0,-2.9999725,-593.13729,2137.5631)"
+       transform="matrix(2.9999811,0,0,-2.9999725,-587.13726,2130.063)"
        id="selected-topleft">
       <rect
          style="opacity:1;fill:#001919;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -364,7 +364,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(-2.9999811,0,0,-2.9999725,1221.2801,2138.063)"
+       transform="matrix(-2.9999811,0,0,-2.9999725,1221.7801,2130.063)"
        id="selected-topright">
       <rect
          style="opacity:1;fill:#001919;fill-opacity:1;stroke:none;stroke-width:0.7;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
