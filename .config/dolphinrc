@@ -3,11 +3,10 @@ FontWeight=50
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=96
+PreviewSize=64
 
 [General]
 ShowStatusBar=false
-ShowToolTips=true
 SortingChoice=CaseInsensitiveSorting
 Version=201
 ViewPropsTimestamp=2022,7,1,10,26,16.339
@@ -35,6 +34,3 @@ History=
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,webarchivethumbnail
-
-[Search]
-Location=Everywhere

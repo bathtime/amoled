@@ -381,8 +381,8 @@ frame-element=lineedit
 #interior.element=lineedit
 interior.element=lineedit
 
-text.margin.top=13
-text.margin.bottom=13
+text.margin.top=8
+text.margin.bottom=8
 text.margin.left=8
 text.margin.right=8
 text.iconspacing=8
@@ -397,8 +397,8 @@ frame.element=lineedit
 #interior.element=lineedit
 interior.element=lineedit
 
-text.margin.top=13
-text.margin.bottom=13
+text.margin.top=8
+text.margin.bottom=8
 text.margin.left=8
 text.margin.right=8
 text.iconspacing=8

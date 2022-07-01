@@ -532,7 +532,8 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -932,7 +933,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000">
+     style="fill:#00ffff;stroke:#00ffff">
     <group
        width="640"
        height="480"
@@ -1057,7 +1058,7 @@
   <group
      id="theme"
      defaultPreferDarkTheme="1"
-     defaultIconTheme="Simply-Cyan-Circles copy"
+     defaultIconTheme="Clarity"
      defaultGtkTheme="Breeze"
      narrowSpinButton="1"
      preferDarkTheme="1"
@@ -1065,4 +1066,7 @@
      symbolicIcons="1"
      symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="0" />
+  <group
+     id="gradient-edit"
+     stoplist="1" />
 </inkscape>
