@@ -32,8 +32,8 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:cy="420.64334"
-     inkscape:cx="-231.72656"
+     inkscape:cy="747.36076"
+     inkscape:cx="167.61839"
      inkscape:zoom="2.3475945"
      showgrid="false"
      id="namedview1030"
@@ -7996,13 +7996,6 @@
      height="34.782326"
      x="153.37785"
      y="684.6087" />
-  <rect
-     style="fill:#00ff00;fill-rule:evenodd;stroke-width:1.6;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:1.6, 76.8;paint-order:markers fill stroke"
-     id="sizegrip-normal"
-     width="28.231852"
-     height="34.850197"
-     x="197.09067"
-     y="684.57477" />
   <path
      style="color:#000000;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.999998"
      d="m -52.941793,624.34177 v 32 h 32 v -32 z"
@@ -14516,5 +14509,21 @@
          d="m -38.999795,37 h 31.9998 v -7.000001 h -32 z"
          id="path5125-6-09-0-0-0" />
     </g>
+  </g>
+  <g
+     style="fill:#00ffff;stroke:none"
+     id="sizegrip-normal"
+     transform="translate(-158.55446,604.39115)">
+    <rect
+       width="25"
+       x="375"
+       y="87.5"
+       height="25"
+       style="opacity:0;fill:#00ffff"
+       id="rect5042" />
+    <path
+       style="fill:#00ffff"
+       id="path5044"
+       d="m 400,92.5 -20,20 h 20 z" />
   </g>
 </svg>
