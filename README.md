@@ -6,10 +6,6 @@ Features:
 - Thicker scroll bars and sliders
 - Panel widget (active window control) provides close and maximize/restore buttons (must be manually added to panel)
 - Pure black background for low battery consumption on amoled devices
-- A gnome 3.0 theme for those who want to run gnome within KDE (not being updated due to libadwaita breaking things)
-- Border size (except plasma borders) can be easily be adjusted from no borders to any thickness
-- Dual colour, high-contrast appearance for easy viewing in day/night
-This theme has been tested on the Raspberry Pi 4b architecture using the 7" official Raspberry Pi touchscreen on the Phosh and KDE Manjaro images. It has also be tested on Manjaro x86-64 KDE. It has not been tested on the X window manager!
 
 ## Requirements:
 
