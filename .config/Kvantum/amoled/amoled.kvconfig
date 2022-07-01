@@ -103,8 +103,8 @@ dialog_button_layout=1
 drag_from_buttons=false
 
 
-min_height=20
-min_width=20
+min_height=32
+min_width=32
 check_size=22
 slider_handle_width=64
 slider_handle_length=64
@@ -247,16 +247,14 @@ inherits=frame8
 
 interior.element=b
 frame.element=b
-#interior.x.patternsize=0
-#interior.y.patternsize=0
 
 # Affects sub-menu arrow size in menus
 indicator.size=12
 
 #min_width=+0.5font
 #min_height=+0.5font
-min_width=48
-min_height=48
+min_width=32
+min_height=32
 
 text.margin=true
 text.margin.top=0

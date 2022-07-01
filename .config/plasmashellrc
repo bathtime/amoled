@@ -3,9 +3,6 @@ Recent Files[$e]=ksh93-3.svg,file:$HOME/Pictures/ksh93-3.svg
 Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=16
 
-[PlasmaTransientsConfig]
-PreloadWeight=34
-
 [PlasmaViews][Panel 2][Defaults]
 thickness=48
 
