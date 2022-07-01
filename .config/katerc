@@ -10,7 +10,7 @@ Recent File List Entry Count=10
 Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=true
-Show Menu Bar=true
+Show Menu Bar=false
 Show Status Bar=false
 Show Tab Bar=false
 Show Tabs Close Button=true
@@ -136,6 +136,12 @@ SetEditor=false
 
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABSYAAAK+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
 
 [Notification Messages]
 HideMenuBarWarning=false

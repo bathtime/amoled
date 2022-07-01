@@ -1,10 +1,41 @@
 [$Version]
 update_info=webenginepart.upd:MoveNonPasswordStorableSites
 
+[FMSettings]
+AlwaysTabbedMode=false
+KonquerorTabforExternalURL=false
+MMBOpensTab=true
+MouseMiddleClickClosesTab=false
+NewTabsInFront=false
+OpenAfterCurrentPage=false
+PermanentCloseButton=true
+PopupsWithinTabs=false
+TabCloseActivatePrevious=false
+
+[HTML Settings]
+AutoLoadImages=true
+DefaultEncoding=
+Fonts=Conthrax,Solid Mono,Conthrax,Conthrax,Z003,Conthrax,
+HoverLinks=true
+MediumFontSize=12
+MinimumFontSize=7
+ShowAnimations=LoopOnce
+SmoothScrolling=WhenEfficient
+UnderlineLinks=false
+UnfinishedImageFrame=true
+UserStyleSheetEnabled=false
+
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
-State=AAAA/wAAAAD9AAAAAAAABSYAAAJEAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAHg/////wAAAAAAAAAAAAAAAgAAAAMAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAGgBzAHAAZQBlAGMAaABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAAAABSYAAAKGAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAHg/////wAAAAAAAAAAAAAAAgAAAAIAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
 ToolBarsMovable=Disabled
+
+[Notification Messages]
+MultipleTabConfirm=true
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,webarchivethumbnail
 
 [SearchBar]
 CompletionMode=5
@@ -13,4 +44,9 @@ History list=\\0
 Mode=1
 
 [Undo]
-Number of Closed Windows=2
+Number of Closed Windows=10
+
+[UserSettings]
+AlwaysDuplicatePageWhenSplittingView=true
+HomeURL=https://duckduckgo.com
+StartURL=https://duckduckgo.com

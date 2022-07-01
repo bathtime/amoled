@@ -7,6 +7,8 @@ PreviewSize=96
 
 [General]
 ShowStatusBar=false
+ShowToolTips=true
+SortingChoice=CaseInsensitiveSorting
 Version=201
 ViewPropsTimestamp=2022,7,1,10,26,16.339
 
