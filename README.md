@@ -40,3 +40,33 @@ konqueror:
 keyboard (TODO):
 ![keyboard](/screenshots/keyboard.png)
 
+
+## Credits
+
+Generally, only the colours of the icons have been changed to match the theme.
+
+Clarity icon set:
+Copyright (c) 2010-2017 Jakub Jankiewicz <http://jcubic.pl/me>
+https://www.pling.com/p/1012535
+https://github.com/jcubic/Clarity
+
+
+Darcwaita-Plus icon set:
+Charles Bowman
+https://gitlab.gnome.org/cbowman57/darcwaita/tree/master/Darcwaita
+https://store.kde.org/p/1272855/
+
+
+Simply-Circles icon set:
+https://github.com/ju1464/Simply_Circles_Icons
+https://store.kde.org/p/1277095/
+
+
+## Copying
+
+You may use, edit, and redistribute any of these files (with exception to the icon sets above), and I don't want credit. I only ask that you try to link me to any improvements you make, so I can impliment them. Thank you.
+
+
+## Bugs
+
+There are more bugs in this theme than in a Detroit apartment building. Nonetheless, if you find them, squish them or tell me about them. I may or may not be interested in fixing them, as this is just a personal project, so don't be offended if I'm not up for it.
