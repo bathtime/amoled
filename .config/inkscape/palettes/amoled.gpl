@@ -10,6 +10,7 @@ Columns: 4
 0   125 125  toggled
 0   150 150  bright
 0   175 175  very-bright
+0   255 255  full
 255   0   0  red
 0   255   0  green
 0     0 255  blue

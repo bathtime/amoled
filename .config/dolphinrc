@@ -3,6 +3,7 @@ FontWeight=50
 
 [DetailsMode]
 FontWeight=50
+LeadingPadding=0
 PreviewSize=64
 
 [General]
