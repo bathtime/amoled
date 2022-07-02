@@ -933,7 +933,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#00ffff;stroke:#00ffff;stroke-width:0.937">
+     style="fill:#006464">
     <group
        width="640"
        height="480"
@@ -1058,7 +1058,7 @@
   <group
      id="theme"
      defaultPreferDarkTheme="1"
-     defaultIconTheme="Clarity"
+     defaultIconTheme="Darcwaita-Plus"
      defaultGtkTheme="Breeze"
      narrowSpinButton="1"
      preferDarkTheme="1"

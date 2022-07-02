@@ -503,8 +503,8 @@ interior.element=progress-pattern
 
 [ItemView]
 inherits=DefaultSetup
-frame.element=itemview
-interior.element=itemview
+frame.element=b
+interior.element=b
 indicator.element=itemview
 
 

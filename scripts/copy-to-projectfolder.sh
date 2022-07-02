@@ -14,6 +14,9 @@ ls -A | grep -xv ".git" | xargs rm -rf
 
 files=(
 README.md
+Clarity.tar.gz
+Darcwaita-Plus.tar.gz
+Simply-Cyan-Circles.tar.gz
 .config/dolphinrc
 .config/gtkrc
 .config/gwenviewrc
