@@ -13,7 +13,7 @@ Recent File List Entry Count=10
 Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=true
-Show Menu Bar=true
+Show Menu Bar=false
 Show Status Bar=false
 Show Tab Bar=true
 Show Tabs Close Button=true
@@ -27,8 +27,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/chat.org.svg,file:$HOME/.local/share/icons/Clarity/scalable/apps/chat.org.svg
-Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.config/inkscape/palettes/amoled.gpl
+Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/
 detailViewIconSize=16
 
 [KTextEditor Document]

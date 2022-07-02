@@ -515,7 +515,7 @@
   </group>
   <group
      id="colorselector"
-     page="0"
+     page="2"
      switcher="1" />
   <group
      id="embedded">
@@ -525,7 +525,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_wrap="0"
-       palette="Inkscape default" />
+       palette="amoled" />
   </group>
   <group
      id="dialogs">
@@ -933,7 +933,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#00ffff;stroke:#00ffff">
+     style="fill:#00ffff;stroke:#00ffff;stroke-width:0.937">
     <group
        width="640"
        height="480"

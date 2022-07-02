@@ -2,7 +2,7 @@
 Count=1
 
 [Window0Column0]
-Notebook0Dialogs=FillStroke;Objects;ObjectProperties;
+Notebook0Dialogs=Objects;ObjectProperties;FillStroke;
 NotebookCount=1
 BeforeCanvas=false
 

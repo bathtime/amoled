@@ -10,7 +10,7 @@ Rows=2
 BorderlessMaximizedWindows=true
 
 [org.kde.kdecoration2]
-BorderSize=Huge
+BorderSize=VeryHuge
 BorderSizeAuto=false
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__amoled
