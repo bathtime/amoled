@@ -16,7 +16,7 @@ Save Meta Infos=true
 Show Full Path in Title=true
 Show Menu Bar=false
 Show Status Bar=true
-Show Tab Bar=true
+Show Tab Bar=false
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
@@ -89,8 +89,8 @@ Word Wrap Marker=false
 Allow Mark Menu=true
 Auto Brackets=true
 Auto Center Lines=0
-Auto Completion=true
-Auto Completion Preselect First Entry=true
+Auto Completion=false
+Auto Completion Preselect First Entry=false
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=1
 Bracket Match Preview=false
@@ -106,7 +106,7 @@ Folding Bar=false
 Folding Preview=false
 Icon Bar=false
 Input Mode=0
-Keyword Completion=true
+Keyword Completion=false
 Line Modification=false
 Line Numbers=false
 Maximum Search History Size=100
@@ -120,7 +120,7 @@ Scroll Bar MiniMap=false
 Scroll Bar Preview=false
 Scroll Past End=false
 Search/Replace Flags=1036
-Show Documentation With Completion=true
+Show Documentation With Completion=false
 Show Focus Frame Around Editor=true
 Show Folding Icons On Hover Only=true
 Show Line Count=false
@@ -131,13 +131,13 @@ Text Drag And Drop=true
 User Sets Of Chars To Enclose Selection=
 Vi Input Mode Steal Keys=false
 Vi Relative Line Numbers=false
-Word Completion=true
+Word Completion=false
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=class="ColorScheme-Highlight"\\\\nstyle="fill:currentColor,style="fill:currentColor,<path\\\\nclass="ColorScheme-Highlight"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor",,<path\n     class="ColorScheme-Highlight"\n
-Search History=path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
+Search History=group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
 
 [Konsole]
 AutoSyncronize=true
@@ -166,7 +166,7 @@ editShade=0,105,105
 listMode=false
 shadingEnabled=true
 showCloseButton=false
-showFullPathOnRoots=false
+showFullPathOnRoots=true
 showToolbar=true
 sortRole=0
 viewShade=0,73,73

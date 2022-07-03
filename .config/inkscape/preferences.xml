@@ -117,7 +117,9 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1" />
+         usecurrent="1"
+         width="6.88511753082275"
+         height="2.49169325828552" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -559,7 +561,8 @@
        state="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="2" />
     <group
        id="gradienteditor" />
     <group
@@ -579,7 +582,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/plasma/desktoptheme/amoled/widgets"
+       path="/home/user/.local/share/plasma/desktoptheme/amoled/icons"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -935,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#ffff00;stroke-width:0.00000083;fill-rule:evenodd;stroke:#00ffff;opacity:0">
+     style="fill:#00afaf;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
     <group
        width="1308"
        height="768"
@@ -1067,7 +1070,11 @@
      darkTheme="1"
      symbolicIcons="1"
      symbolicDefaultBaseColors="1"
-     symbolicDefaultHighColors="0" />
+     symbolicDefaultHighColors="0">
+    <group
+       id="Clarity"
+       symbolicBaseColor="16777215" />
+  </group>
   <group
      id="gradient-edit"
      stoplist="1" />

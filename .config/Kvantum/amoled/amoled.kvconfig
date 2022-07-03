@@ -9,14 +9,14 @@ alt_mnemonic=false
 composite=true
 menu_shadow_depth=0
 tooltip_shadow_depth=0
-translucent_windows=true
+translucent_windows=false
 blurring=true
 popup_blurring=false
 intensity=1.00
 menu_blur_radius=0
 no_inactiveness=true
 saturation=1.00
-shadowless_popup=false
+shadowless_popup=true
 tooltip_blur_radius=0
 reduce_window_opacity=0
 reduce_menu_opacity=0
@@ -39,10 +39,10 @@ spread_header=false
 
 vertical_spin_indicators=false
 spin_button_width=12
-fill_rubberband=true
+fill_rubberband=false
 
 small_icon_size=12
-large_icon_size=12
+large_icon_size=24
 button_icon_size=12
 toolbar_icon_size=12
 
@@ -53,7 +53,7 @@ button_contents_shift=false
 
 
 hide_combo_checkboxes=true
-combo_focus_rect=false
+combo_focus_rect=true
 groupbox_top_label=false
 inline_spin_indicators=true
 layout_spacing=0
@@ -61,18 +61,18 @@ layout_margin=0
 
 group_toolbar_buttons=true
 toolbar_item_spacing=0
-toolbar_interior_spacing=0
+toolbar_interior_spacing=4
 toolbar_separator_thickness=18
 
 # Sets the toolbutton style when it is not set by the app. 0: follow, 1: icon only, 2: text only, 3: text beside icon, and 4: text under icon.
 toolbutton_style=1
-merge_menubar_with_toolbar=true
+merge_menubar_with_toolbar=false
 
 submenu_overlap=0
 tooltip_delay=-1
 tree_branch_line=false
 no_window_pattern=true
-spread_menuitems=true
+spread_menuitems=false
 menu_separator_height=0
 combo_menu=true
 menubar_mouse_tracking=true
@@ -80,9 +80,9 @@ menubar_mouse_tracking=true
 respect_DE=false
 scrollable_menu=true
 submenu_delay=250
-square_combo_button=true
+square_combo_button=false
 inline_spin_separator=true
-slim_toolbars=false
+slim_toolbars=true
 
 embedded_tabs=false
 no_active_tab_separator=false
@@ -100,11 +100,11 @@ click_behavior=2
 
 # The layout of dialog buttons. 0: follow, 1: KDE layout, 2: Gnome layout, 3: Mac layout, 4: Windows layout, and 5: Android layout. The default is 0.
 dialog_button_layout=1
-drag_from_buttons=false
+drag_from_buttons=true
 
 
-min_height=32
-min_width=32
+min_height=24
+min_width=24
 check_size=22
 slider_handle_width=64
 slider_handle_length=64
@@ -140,7 +140,7 @@ link.visited.color=#00ff00
 progress.indicator.text.color=#00ffff
 tooltip.text.color=#00ffff
 
-remove_extra_frames=false
+remove_extra_frames=true
 
 [Hacks]
 transparent_ktitle_label=false
@@ -259,19 +259,11 @@ min_height=32
 text.margin=true
 text.margin.top=0
 text.margin.bottom=0
-text.margin.left=4
-text.margin.right=4
-text.iconspacing=8
+text.margin.left=0
+text.margin.right=0
+text.iconspacing=6
 
-#text.shadow=true
-#text.shadow.xshift=1
-#text.shadow.yshift=1
-#text.shadow.color=#00ffff
-#text.inactive.shadow.color=#ff00ff
-#text.shadow.alpha=255
-#text.shadow.depth=16
-
-frame.patternsize=0
+#frame.patternsize=0
 #frame.expanded.top=0
 #frame.expanded.bottom=0
 #frame.expanded.left=0
@@ -280,14 +272,6 @@ frame.patternsize=0
 
 [GenericFrame]
 inherits=DefaultSetup
-#inherits=frame
-
-#frame.element=common
-#frame.element=slider
-#interior.element=common
-#frame.patternsize=0
-#frame=false
-#interior=false
 frame.element=inv
 interior.element=inv
 
@@ -295,7 +279,7 @@ interior.element=inv
 inherits=DefaultSetup
 
 # Default option triangle in bottom right corner of button
-indicator.size=12
+indicator.size=32
 
 frame.expansion=0
 
@@ -305,32 +289,31 @@ inherits=DefaultSetup
 indicator.element=arrow
 
 # Size of drop down option arrow
-indicator.size=16
-
-frame.expansion=0
-
+indicator.size=32
 
 [ToolbarButton]
 inherits=DefaultSetup
 #frame.element=tbutton
 #interior.element=tbutton
 #indicator.element=tarrow
+indicator.size=12
 
 indicator.element=arrow
+#frame.element=inv
 
 [Dock]
 inherits=DefaultSetup
 
 #interior.element=dock
 #frame.element=dock
-frame.element=inv
+#frame.element=inv
 interior.element=inv
 
 [DockTitle]
 inherits=DefaultSetup
 #frame=false
 #interior=false
-frame.element=inv
+#frame.element=inv
 interior.element=inv
 
 [IndicatorSpinBox]
@@ -420,7 +403,7 @@ interior=false
 
 [ToolboxTab]
 inherits=DefaultSetup
-frame.element=inv
+#frame.element=inv
 interior.element=inv
 
 
@@ -450,9 +433,7 @@ indicator.element=tree
 
 [HeaderSection]
 inherits=DefaultSetup
-#interior.element=header
-#frame.element=header
-#frame=false
+
 
 [SizeGrip]
 inherits=DefaultSetup
@@ -463,14 +444,12 @@ indicator.size=24
 [Toolbar]
 inherits=DefaultSetup
 indicator.element=toolbar
-indicator.size=12
-#frame.element=progress
-#interior.element=progress
-#interior=false
-#frame=false
+indicator.size=24
+interior=false
+frame=false
 
-frame.element=inv
-interior.element=inv
+#frame.element=inv
+#interior.element=inv
 #interior=false
 
 
@@ -515,6 +494,7 @@ indicator.size=124
 #interior.element=progress
 frame=false
 
+
 [Scrollbar]
 inherits=DefaultSetup
 indicator.element=arrow
@@ -525,8 +505,6 @@ inherits=DefaultSetup
 #frame.element=button
 indicator.element=slider
 indicator.size=0
-
-
 
 [ScrollbarGroove]
 inherits=DefaultSetup
@@ -546,52 +524,33 @@ inherits=DefaultSetup
 
 [MenuBar]
 inherits=DefaultSetup
-#frame.element=menubar
-#interior.element=menubar
 frame=false
 interior=false
-frame.element=inv
-interior.element=inv
-
-#frame.element=progress
-#interior.element=progress
-interior=false
-
+#interior.element=inv
+#frame.element=inv
 
 [MenuBarItem]
 inherits=DefaultSetup
-#interior.element=menubaritem
-#frame.element=menubaritem
-indicator.size=96
+indicator.size=12
 
 [MenuItem]
 inherits=DefaultSetup
-#frame.element=menuitem
-#interior.element=menuitem
 
 # Affects arrows in menus
 indicator.element=menuitem
 indicator.size=12
 
 
-
 [TitleBar]
 inherits=DefaultSetup
-#frame.element=progress
-#interior=false
-#interior.element=titlebar
 indicator.size=32
 indicator.element=mdi
 
-#frame.element=progress
-#interior.element=progress
-#interior=false
 frame.element=inv
 interior.element=inv
 
 [ComboBox]
 inherits=DefaultSetup
-#frame=false
 indicator.element=combo-indicator
 frame.expansion=0
 indicator.size=12
@@ -601,82 +560,39 @@ indicator.size=12
 
 [ToolbarComboBox]
 inherits=DefaultSetup
-#interior.element=combo
-#frame.element=combo
 indicator.element=flat-arrow-down
-#indicator.element=combo-indicator
-#frame.element=lineedit
-#interior.element=lineedit
 frame.expansion=0
-#frame.element=inv
-#interior.element=inv
-
 
 [Menu]
 inherits=DefaultSetup
-#frame.element=menu
-#interior.element=menu
-#frame.element=inv
-#interior.element=inv
 
 [GroupBox]
 inherits=DefaultSetup
-#inherits=GenericFrame
-#frame=false
-#interior=false
-#interior.element=groupbox
-#frame.element=groupbox
-frame.element=inv
-interior.element=inv
-
+#frame.element=inv
+#interior.element=inv
 
 [ToolTip]
 inherits=DefaultSetup
-
-#inherits=GenericFrame
-#interior=true
-#frame=true
-#interior.element=tooltip
-#frame.element=tooltip
+interior.element=a
+frame.element=a
 
 
 [StatusBar]
 inherits=DefaultSetup
-#frame=false
-#interior=false
-#frame.element=progress
-frame.element=inv
-interior.element=inv
+#frame.element=inv
+#interior.element=inv
 
 [Window]
 inherits=DefaultSetup
-#interior=true
-#interior.element=window
-#frame.element=window
-#interior=false
-frame.element=inv
-interior.element=inv
 
 [WindowTranslucent]
 inherits=DefaultSetup
-#frame=false
-#interior=false
-frame.element=inv
-interior.element=inv
 
 [DialogTranslucent]
 inherits=DefaultSetup
-frame.element=inv
-interior.element=inv
-
-[DialogTranslucent]
-inherits=DefaultSetup
-frame.element=inv
-interior.element=inv
 
 [Dialog]
 inherits=DefaultSetup
-frame.element=inv
-interior.element=inv
+
 
 
