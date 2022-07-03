@@ -3,8 +3,8 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Desktops]
 Id_1=6a49e687-062d-405a-a722-90c73212ae67
-Id_2=77c86da0-7696-402b-a102-c44e4b7cdac4
-Rows=2
+Number=1
+Rows=1
 
 [Windows]
 BorderlessMaximizedWindows=true

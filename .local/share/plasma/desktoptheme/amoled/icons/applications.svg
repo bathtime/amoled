@@ -5,7 +5,7 @@
    id="svg3613"
    version="1.1"
    sodipodi:docname="applications.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,12 +22,12 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1312"
-     inkscape:window-height="738"
+     inkscape:window-width="1308"
+     inkscape:window-height="768"
      id="namedview12"
      showgrid="true"
      inkscape:zoom="13.111112"
-     inkscape:cx="28.029659"
+     inkscape:cx="28.10593"
      inkscape:cy="16.016948"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -35,7 +35,9 @@
      inkscape:current-layer="svg3613"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata13">
     <rdf:RDF>
@@ -63,9 +65,10 @@
   </defs>
   <g
      id="applications-other"
-     inkscape:label="#g948">
+     inkscape:label="#g948"
+     style="fill:#00ffff">
     <rect
-       style="opacity:0.01000001;fill:#000000;fill-opacity:0.00392157;stroke:none"
+       style="opacity:0.01000001;fill:#00ffff;fill-opacity:0.00392157;stroke:none"
        id="rect2994"
        width="32"
        height="32"
@@ -73,57 +76,58 @@
        y="1.754521e-05" />
     <g
        transform="matrix(0.9547249,0,0,0.9547249,1.253208,1.1155892)"
-       id="g903">
+       id="g903"
+       style="fill:#00ffff">
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,3 h 5 v 5 h -5 z"
          id="path840"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 36,3 h 5 v 5 h -5 z"
          id="path840-3"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,3 h 5 v 5 h -5 z"
          id="path840-6"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,13 h 5 v 5 h -5 z"
          id="path840-7"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Highlight"
          d="m 36,13 h 5 v 5 h -5 z"
          id="path840-3-5"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,13 h 5 v 5 h -5 z"
          id="path840-6-3"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,23 h 5 v 5 h -5 z"
          id="path840-5"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 36,23 h 5 v 5 h -5 z"
          id="path840-3-6"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,23 h 5 v 5 h -5 z"
          id="path840-6-2"
@@ -132,9 +136,10 @@
   </g>
   <g
      id="22-22-applications-other"
-     inkscape:label="#g924">
+     inkscape:label="#g924"
+     style="fill:#00ffff">
     <rect
-       style="opacity:0.01000001;fill:#000000;fill-opacity:0.00392157;stroke:none"
+       style="opacity:0.01000001;fill:#00ffff;fill-opacity:0.00392157;stroke:none"
        id="rect3028"
        width="22"
        height="22"
@@ -142,57 +147,58 @@
        y="10" />
     <g
        transform="matrix(0.64670306,0,0,0.64670306,-13.882977,10.949927)"
-       id="g903-7">
+       id="g903-7"
+       style="fill:#00ffff">
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,3 h 5 v 5 h -5 z"
          id="path840-53"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 36,3 h 5 v 5 h -5 z"
          id="path840-3-56"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,3 h 5 v 5 h -5 z"
          id="path840-6-29"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,13 h 5 v 5 h -5 z"
          id="path840-7-1"
          inkscape:connector-curvature="0" />
       <path
          class="ColorScheme-Highlight"
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 36,13 h 5 v 5 h -5 z"
          id="path840-3-5-2"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,13 h 5 v 5 h -5 z"
          id="path840-6-3-7"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 26,23 h 5 v 5 h -5 z"
          id="path840-5-0"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 36,23 h 5 v 5 h -5 z"
          id="path840-3-6-9"
          inkscape:connector-curvature="0" />
       <path
-         style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          class="ColorScheme-Text"
          d="m 46,23 h 5 v 5 h -5 z"
          id="path840-6-2-3"

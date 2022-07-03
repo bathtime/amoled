@@ -9,8 +9,10 @@ Features:
 
 ## Requirements:
 
-Packages required:
-kvantum
+Packages required: kvantum
+
+https://github.com/tsujan/Kvantum
+
 
 ## Installation
 
@@ -61,10 +63,14 @@ Simply-Circles icon set:
 https://github.com/ju1464/Simply_Circles_Icons
 https://store.kde.org/p/1277095/
 
+Solid Mono font:
+Rahman Yerli
+https://www.dafont.com/solid-mono.font
+
 
 ## Copying
 
-You may use, edit, and redistribute any of these files (with exception to the icon sets above), and I don't want credit. I only ask that you try to link me to any improvements you make, so I can impliment them. Thank you.
+You may use, edit, and redistribute any of these files (with exception to the items in the credits above), and I don't want credit. I only ask that you try to link me to any improvements you make, so I can impliment them. Thank you.
 
 
 ## Bugs

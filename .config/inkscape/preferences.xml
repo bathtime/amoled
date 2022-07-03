@@ -652,7 +652,9 @@
   </group>
   <group
      id="options"
-     rotationlock="1">
+     rotationlock="1"
+     dpifixbackup="1"
+     dpiupdatemethod="0">
     <group
        id="renderingcache"
        size="512" />
@@ -933,10 +935,10 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#006464">
+     style="fill:#ffff00;stroke-width:0.00000083;fill-rule:evenodd;stroke:#00ffff;opacity:0">
     <group
-       width="640"
-       height="480"
+       width="1308"
+       height="768"
        x="0"
        y="0"
        maximized="1"
@@ -1058,7 +1060,7 @@
   <group
      id="theme"
      defaultPreferDarkTheme="1"
-     defaultIconTheme="Darcwaita-Plus"
+     defaultIconTheme="Clarity"
      defaultGtkTheme="Breeze"
      narrowSpinButton="1"
      preferDarkTheme="1"
