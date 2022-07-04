@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="225.72151184082"
-         height="158.616851806641" />
+         width="18.7349834442139"
+         height="18.123893737793" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -562,7 +562,7 @@
     <group
        id="preferences"
        state="1"
-       page="2" />
+       page="20" />
     <group
        id="gradienteditor" />
     <group
@@ -938,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#ff0000;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
+     style="fill:#000000;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
     <group
        width="1308"
        height="768"
@@ -1062,7 +1062,7 @@
      flattening="0" />
   <group
      id="theme"
-     defaultPreferDarkTheme="1"
+     defaultPreferDarkTheme="0"
      defaultIconTheme="Clarity"
      defaultGtkTheme="Default"
      narrowSpinButton="1"
@@ -1073,7 +1073,7 @@
      symbolicDefaultHighColors="0">
     <group
        id="Clarity"
-       symbolicBaseColor="16777215" />
+       symbolicBaseColor="775173887" />
   </group>
   <group
      id="gradient-edit"

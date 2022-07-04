@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=amoled
-Font=Unispace,18,-1,5,50,0,0,0,0,0
+Font=Atari ST 8x16 System Font,24,-1,5,57,0,0,0,0,0,Medium
 TabColor=0,0,0,0
 UseFontLineChararacters=true
 

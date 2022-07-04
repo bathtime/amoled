@@ -4,6 +4,7 @@ FontWeight=50
 [DetailsMode]
 FontWeight=50
 LeadingPadding=0
+PreviewSize=80
 
 [General]
 ShowStatusBar=false
@@ -34,3 +35,6 @@ History=
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,webarchivethumbnail
+
+[Search]
+Location=Everywhere
