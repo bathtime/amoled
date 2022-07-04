@@ -44,7 +44,7 @@ fill_rubberband=false
 small_icon_size=12
 large_icon_size=24
 button_icon_size=12
-toolbar_icon_size=12
+toolbar_icon_size=24
 
 combo_as_lineedit=false
 animate_states=true

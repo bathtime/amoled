@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="6.88511753082275"
-         height="2.49169325828552" />
+         width="225.72151184082"
+         height="158.616851806641" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -330,8 +330,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="14.77547285831"
+       y="1.07796942442486"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -582,7 +582,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/plasma/desktoptheme/amoled/icons"
+       path="/home/user/.local/share/icons/Clarity/scalable/categories"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -938,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#00afaf;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
+     style="fill:#ff0000;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
     <group
        width="1308"
        height="768"
@@ -1064,10 +1064,10 @@
      id="theme"
      defaultPreferDarkTheme="1"
      defaultIconTheme="Clarity"
-     defaultGtkTheme="Breeze"
+     defaultGtkTheme="Default"
      narrowSpinButton="1"
      preferDarkTheme="1"
-     darkTheme="1"
+     darkTheme="0"
      symbolicIcons="1"
      symbolicDefaultBaseColors="1"
      symbolicDefaultHighColors="0">
@@ -1078,4 +1078,7 @@
   <group
      id="gradient-edit"
      stoplist="1" />
+  <group
+     id="color_scales"
+     wheel_vis_hsluv="0" />
 </inkscape>

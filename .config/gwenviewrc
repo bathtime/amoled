@@ -11,9 +11,9 @@ Places Icons Static Size=32
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABRwAAALGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABRwAAALOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/new.svg
-Name1[$e]=new.svg
+File1[$e]=/usr/share/icons/oxygen/base/16x16/emblems/emblem-remove.png
+Name1[$e]=emblem-remove.png

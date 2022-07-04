@@ -48,13 +48,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1316"
-     inkscape:window-height="744"
+     inkscape:window-width="1308"
+     inkscape:window-height="768"
      id="namedview32"
      showgrid="true"
      inkscape:zoom="2.8055556"
-     inkscape:cx="54.534653"
-     inkscape:cy="34.039603"
+     inkscape:cx="43.485148"
+     inkscape:cy="11.584158"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -111,16 +111,17 @@
   </g>
   <g
      id="preferences-desktop-notification"
-     inkscape:label="#g874">
+     inkscape:label="#g874"
+     style="fill:#00ffff">
     <rect
        y="40"
        x="0"
        height="22"
        width="22"
        id="rect3068"
-       style="fill:#ffffff;fill-opacity:0;stroke:none" />
+       style="fill:#00ffff;fill-opacity:0;stroke:none" />
     <rect
-       style="fill:currentColor;fill-opacity:1;stroke:none"
+       style="fill:#00ffff;fill-opacity:1;stroke:none"
        class="ColorScheme-Highlight"
        id="rect4130-82-0"
        width="15.999978"
@@ -130,7 +131,7 @@
        ry="7.999989" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:currentColor;fill-opacity:1;stroke:none"
+       style="fill:#000000;fill-opacity:1;stroke:none"
        class="ColorScheme-Text"
        d="m 10.202644,46.199983 -0.0026,7.200012 h 1.599998 l 0.0026,-7.200012 z m 0.799999,7.999989 c -0.441822,0 -0.799999,0.358171 -0.799999,0.799999 0,0.441827 0.358177,0.799999 0.799999,0.799999 0.441822,0 0.799999,-0.358172 0.799999,-0.799999 0,-0.441828 -0.358177,-0.799999 -0.799999,-0.799999 z"
        id="rect4142-6"
