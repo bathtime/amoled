@@ -417,14 +417,20 @@ Item {
 
             spacing: controlButtonsSpacing
 
-            height: buttonsVerticalCenter ? parent.height : controlButtonsHeight
-            width: controlButtonsHeight + ((controlButtonsModel.count - 1) * (controlButtonsHeight + controlButtonsSpacing))
+            /* height: buttonsVerticalCenter ? parent.height : controlButtonsHeight
+             width: controlButtonsHeight + ((controlButtonsModel.count - 1) * (controlButtonsHeight + controlButtonsSpacing)) */
+
+            height: controlButtonsHeight
+            width: controlButtonsHeight
 
             anchors.top: parent.top
             anchors.left: parent.left
 
-            anchors.leftMargin: (bp === 1 || bp === 3) ? parent.width - width : 0
-            anchors.topMargin: (bp === 2 || bp === 3) ? parent.height - height : 0
+            /* anchors.leftMargin: (bp === 1 || bp === 3) ? parent.width - width : 0
+            anchors.topMargin: (bp === 2 || bp === 3) ? parent.height - height : 0 */
+
+            anchors.leftMargin: 0
+            anchors.topMargin: 0
 
             model: controlButtonsModel
 

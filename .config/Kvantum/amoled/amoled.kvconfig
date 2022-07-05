@@ -100,7 +100,9 @@ click_behavior=2
 
 # The layout of dialog buttons. 0: follow, 1: KDE layout, 2: Gnome layout, 3: Mac layout, 4: Windows layout, and 5: Android layout. The default is 0.
 dialog_button_layout=1
-drag_from_buttons=true
+
+# Setting this to 'true' can make toolbar buttons inoperable!!!
+drag_from_buttons=false
 
 
 min_height=24

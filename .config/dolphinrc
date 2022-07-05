@@ -1,10 +1,12 @@
+MenuBar=Disabled
+
 [CompactMode]
 FontWeight=50
 
 [DetailsMode]
 FontWeight=50
 LeadingPadding=0
-PreviewSize=80
+PreviewSize=64
 
 [General]
 ShowStatusBar=false
@@ -38,3 +40,6 @@ Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cur
 
 [Search]
 Location=Everywhere
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

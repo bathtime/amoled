@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="18.7349834442139"
-         height="18.123893737793" />
+         width="3.11309146881104"
+         height="3.70645427703857" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -579,7 +579,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.svgz.inkscape"
        append_extension="1"
        enable_preview="1"
        path="/home/user/.local/share/icons/Clarity/scalable/categories"
@@ -938,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000;stroke-width:0.773;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke">
+     style="fill:#00ffff;stroke-width:0.8;stroke-linejoin:round;stroke-linecap:square;paint-order:fill markers stroke;stroke:#000000">
     <group
        width="1308"
        height="768"
@@ -1062,7 +1062,7 @@
      flattening="0" />
   <group
      id="theme"
-     defaultPreferDarkTheme="0"
+     defaultPreferDarkTheme="1"
      defaultIconTheme="Clarity"
      defaultGtkTheme="Default"
      narrowSpinButton="1"

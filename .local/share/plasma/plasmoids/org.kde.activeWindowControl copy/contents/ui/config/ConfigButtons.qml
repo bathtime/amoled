@@ -261,8 +261,9 @@ Item {
             }
             Slider {
                 id: buttonSize
-                stepSize: 0.1
+                stepSize: 0.01
                 minimumValue: 0.1
+                maximumValue: 2
                 tickmarksEnabled: true
                 width: parent.width
             }
@@ -303,7 +304,7 @@ Item {
                     onActivated: {
                         cfg_customAuroraeThemeImageExtension = textAt(index)
                     }
-                    width: 80
+                    width: 180
                 }
             }
         }
