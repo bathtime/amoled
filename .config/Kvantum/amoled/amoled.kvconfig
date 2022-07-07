@@ -301,7 +301,9 @@ inherits=DefaultSetup
 indicator.size=12
 
 indicator.element=arrow
-#frame.element=inv
+frame.element=a
+interior.element=a
+
 
 [Dock]
 inherits=DefaultSetup
@@ -344,13 +346,14 @@ interior.element=checkbox
 
 
 [Focus]
-#inherits=DefaultSetup
-#frame.element=focus
-#frame.patternsize=10
+inherits=DefaultSetup
+frame.element=focus
+interior.element=focus
+frame.patternsize=20
 #interior.element=focus
-interior=false
-frame=false
-
+#interior=false
+#frame=false
+frame.expansion=5
 
 
 

@@ -7,7 +7,7 @@
    viewBox="0 0 11.641666 11.641667"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="arrows.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,14 +23,16 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="12.954545"
-     inkscape:cx="33.849123"
-     inkscape:cy="23.466667"
-     inkscape:window-width="1320"
-     inkscape:window-height="738"
+     inkscape:cx="13.122807"
+     inkscape:cy="27.326317"
+     inkscape:window-width="1308"
+     inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="left-arrow" />
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs4">
     <style
@@ -50,26 +52,9 @@
      id="layer1"
      transform="translate(-11.641649,-261.54584)">
     <g
-       id="down-arrow"
-       inkscape:label="#g856">
-      <rect
-         style="fill:none"
-         id="rect4162"
-         width="3.7041671"
-         height="3.7041669"
-         x="-273.1875"
-         y="15.610393"
-         transform="rotate(-90)" />
-      <path
-         style="fill:#00ffff"
-         class="ColorScheme-Highlight"
-         id="Shape"
-         d="m 17.462498,271.59997 -0.684156,-0.68415 h 1.368312 z m 0,0.37418 1.322916,-1.32292 h -2.645833 z"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
        id="right-arrow"
-       inkscape:label="#g884">
+       inkscape:label="#g884"
+       transform="translate(-0.25686383,-0.25685763)">
       <rect
          style="fill:none"
          id="rect4162-6"
@@ -79,45 +64,67 @@
          y="-269.21487"
          transform="scale(-1)" />
       <path
-         style="fill:#00ffff"
+         style="fill:#00ffff;stroke-width:1.39997"
          class="ColorScheme-Highlight"
          id="Shape-3"
-         d="m 21.691961,267.36277 -0.684156,0.68416 v -1.36831 z m 0.374177,0 -1.322917,-1.32291 v 2.64583 z"
+         d="m 22.102059,267.36279 -0.957793,0.95772 v -1.91543 z m 0.52383,0 -1.85204,-1.85208 v 3.70416 z"
          inkscape:connector-curvature="0" />
     </g>
     <g
        id="left-arrow"
-       inkscape:label="#g849">
+       inkscape:label="#g884"
+       transform="rotate(180,17.453611,267.23436)">
       <rect
          style="fill:none"
          id="rect4162-6-6"
          width="3.7041671"
          height="3.7041669"
-         x="11.64551"
-         y="265.51065" />
+         x="-23.279499"
+         y="-269.21487"
+         transform="scale(-1)" />
       <path
-         style="fill:#00ffff"
+         style="color:#f9f9f9;fill:#00ffff;stroke-width:1.39997"
          class="ColorScheme-Highlight"
-         id="Shape-3-1"
-         d="m 13.233037,267.36277 0.684156,-0.68416 v 1.36831 z m -0.374177,0 1.322917,1.32291 v -2.64583 z"
+         id="Shape-3-7"
+         d="m 22.102059,267.36279 -0.957793,0.95772 v -1.91543 z m 0.52383,0 -1.85204,-1.85208 v 3.70416 z"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="up-arrow"
-       inkscape:label="#g878">
+       id="down-arrow"
+       inkscape:label="#g884"
+       transform="rotate(90,17.461882,267.36339)">
       <rect
          style="fill:none"
-         id="rect4162-6-7"
+         id="rect4162-6-3"
          width="3.7041671"
          height="3.7041669"
-         x="261.54968"
-         y="-19.318468"
-         transform="rotate(90)" />
+         x="-23.279499"
+         y="-269.21487"
+         transform="scale(-1)" />
       <path
-         style="fill:#00ffff"
+         style="color:#f9f9f9;fill:#00ffff;stroke-width:1.39997"
          class="ColorScheme-Highlight"
-         id="Shape-3-6"
-         d="m 17.46637,263.13721 0.684156,0.68415 h -1.368312 z m 0,-0.37418 -1.322916,1.32292 h 2.645833 z"
+         id="Shape-3-5"
+         d="m 22.102059,267.36279 -0.957793,0.95772 v -1.91543 z m 0.52383,0 -1.85204,-1.85208 v 3.70416 z"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="right-arrow-6"
+       inkscape:label="#g884"
+       transform="rotate(-90,17.466391,267.3628)">
+      <rect
+         style="fill:none"
+         id="rect4162-6-2"
+         width="3.7041671"
+         height="3.7041669"
+         x="-23.279499"
+         y="-269.21487"
+         transform="scale(-1)" />
+      <path
+         style="color:#f9f9f9;fill:#00ffff;stroke-width:1.39997"
+         class="ColorScheme-Highlight"
+         id="Shape-3-9"
+         d="m 22.102059,267.36279 -0.957793,0.95772 v -1.91543 z m 0.52383,0 -1.85204,-1.85208 v 3.70416 z"
          inkscape:connector-curvature="0" />
     </g>
   </g>

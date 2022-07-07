@@ -371,10 +371,9 @@
     </linearGradient>
   </defs>
   <g
-     id="active-idle-2"
-     style="fill:#ffff00">
+     id="active-idle-2">
     <rect
-       style="fill:#ffff00;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#000000;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
        id="rect323-6-2-9"
        width="20"
        height="20"
@@ -382,7 +381,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.144915;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.144915;stroke-opacity:1"
        id="rect55-5-0-3"
        width="0.75"
        height="20"
@@ -390,7 +389,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.144914;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.144914;stroke-opacity:1"
        id="rect55-7-3-9-6"
        width="0.75"
        height="20"
@@ -398,7 +397,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-56-3-0"
        width="19.999996"
        height="0.7499994"
@@ -406,7 +405,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-6-9-0-61"
        width="19.999996"
        height="0.74999917"
@@ -414,7 +413,7 @@
        y="-0.83956856"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-3"
        width="9.9999981"
        height="0.74999917"
@@ -424,10 +423,9 @@
   </g>
   <g
      id="active-idle"
-     transform="translate(49.398605)"
-     style="fill:#ffff00">
+     transform="translate(49.398605)">
     <rect
-       style="fill:#ffff00;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#000000;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
        id="rect323-6-2-9-6"
        width="20"
        height="20"
@@ -435,7 +433,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.177484;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.177484;stroke-opacity:1"
        id="rect55-5-0-3-75"
        width="1.1249999"
        height="20"
@@ -443,7 +441,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.177483;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.177483;stroke-opacity:1"
        id="rect55-7-3-9-6-3"
        width="1.1249999"
        height="20"
@@ -451,7 +449,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-56-3-0-5"
        width="19.999996"
        height="1.249999"
@@ -459,7 +457,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-6-9-0-61-6"
        width="19.999996"
        height="1.124999"
@@ -467,7 +465,7 @@
        y="-1.2145685"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-3-29"
        width="9.9999981"
        height="1.1249988"
@@ -477,10 +475,9 @@
   </g>
   <g
      id="active-hover"
-     transform="translate(49.398605)"
-     style="fill:#ffff00">
+     transform="translate(49.398605)">
     <rect
-       style="fill:#ffff00;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#006464;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
        id="rect323-6-2-9-8-2"
        width="20"
        height="20"
@@ -488,7 +485,7 @@
        y="-44.424919"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.177484;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.177484;stroke-opacity:1"
        id="rect55-5-0-3-7-7"
        width="1.1249999"
        height="20"
@@ -496,7 +493,7 @@
        y="-44.424919"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.177483;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.177483;stroke-opacity:1"
        id="rect55-7-3-9-6-9-0"
        width="1.1249999"
        height="20"
@@ -504,7 +501,7 @@
        y="-44.424919"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-56-3-0-2-9"
        width="19.999996"
        height="1.249999"
@@ -512,7 +509,7 @@
        y="-44.424919"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-6-9-0-61-0-3"
        width="19.999996"
        height="1.124999"
@@ -520,7 +517,7 @@
        y="-25.549921"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-3-2-6"
        width="9.9999981"
        height="1.1249988"
@@ -530,10 +527,9 @@
   </g>
   <g
      id="active-hover-2"
-     transform="translate(24.353787)"
-     style="fill:#ffff00">
+     transform="translate(24.353787)">
     <rect
-       style="fill:#ffff00;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#006464;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
        id="rect323-6-2-9-62"
        width="20"
        height="20"
@@ -541,7 +537,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.144915;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.144915;stroke-opacity:1"
        id="rect55-5-0-3-6"
        width="0.75"
        height="20"
@@ -549,7 +545,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:0.144914;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.144914;stroke-opacity:1"
        id="rect55-7-3-9-6-1"
        width="0.75"
        height="20"
@@ -557,7 +553,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-56-3-0-8"
        width="19.999996"
        height="0.74999923"
@@ -565,7 +561,7 @@
        y="-20.089567"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-6-9-0-61-7"
        width="19.999996"
        height="0.74999923"
@@ -573,7 +569,7 @@
        y="-0.83956689"
        transform="rotate(90)" />
     <rect
-       style="fill:#ffff00;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-3-9"
        width="9.9999981"
        height="0.74999911"

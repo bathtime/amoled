@@ -1,5 +1,8 @@
 [Theme]
 name=amoled
 
+[Theme-plasmathemeexplorer]
+name=Arctica
+
 [Wallpapers]
-usersWallpapers=/home/user/Pictures/ksh93-3.svg
+usersWallpapers=/home/user/Pictures/Tux-simple-wallpaper.svgz.png,/home/user/Pictures/ksh93-3.svg

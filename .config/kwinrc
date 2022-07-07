@@ -3,8 +3,30 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Desktops]
 Id_1=6a49e687-062d-405a-a722-90c73212ae67
-Number=1
-Rows=1
+Id_2=1e2d87e1-d517-43f6-8c13-ab1e6675626b
+Id_3=625e2f2a-28dc-4631-9d5f-197bfe5db574
+Name_2=New Desktop
+Name_3=New Desktop
+Number=3
+Rows=3
+
+[Effect-Wobbly]
+Drag=90
+Stiffness=6
+WobblynessLevel=2
+
+[Effect-kwin4_effect_translucency]
+ComboboxPopups=73
+Dialogs=79
+Inactive=91
+Menus=67
+
+[Plugins]
+blurEnabled=true
+contrastEnabled=false
+kwin4_effect_frozenappEnabled=false
+slidebackEnabled=true
+wobblywindowsEnabled=true
 
 [Windows]
 BorderlessMaximizedWindows=true

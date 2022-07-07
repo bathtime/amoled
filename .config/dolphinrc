@@ -6,7 +6,7 @@ FontWeight=50
 [DetailsMode]
 FontWeight=50
 LeadingPadding=0
-PreviewSize=64
+PreviewSize=112
 
 [General]
 ShowStatusBar=false
@@ -16,6 +16,7 @@ ViewPropsTimestamp=2022,7,1,10,26,16.339
 
 [IconsMode]
 FontWeight=50
+PreviewSize=176
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
