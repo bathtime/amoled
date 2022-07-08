@@ -5,8 +5,9 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 Id_1=6a49e687-062d-405a-a722-90c73212ae67
 Id_2=1e2d87e1-d517-43f6-8c13-ab1e6675626b
 Id_3=625e2f2a-28dc-4631-9d5f-197bfe5db574
-Name_2=New Desktop
-Name_3=New Desktop
+Name_1=Page I
+Name_2=Page II
+Name_3=Page III
 Number=3
 Rows=3
 

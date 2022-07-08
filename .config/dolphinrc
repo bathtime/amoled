@@ -3,12 +3,18 @@ MenuBar=Disabled
 [CompactMode]
 FontWeight=50
 
+[ContextMenu]
+ShowCopyMoveMenu=true
+
 [DetailsMode]
 FontWeight=50
 LeadingPadding=0
 PreviewSize=112
 
 [General]
+ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=false
+ShowSelectionToggle=false
 ShowStatusBar=false
 SortingChoice=CaseInsensitiveSorting
 Version=201
@@ -16,7 +22,7 @@ ViewPropsTimestamp=2022,7,1,10,26,16.339
 
 [IconsMode]
 FontWeight=50
-PreviewSize=176
+PreviewSize=192
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -38,9 +44,6 @@ History=
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,webarchivethumbnail
-
-[Search]
-Location=Everywhere
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly

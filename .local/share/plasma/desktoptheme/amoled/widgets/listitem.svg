@@ -21,8 +21,8 @@
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
-     inkscape:window-height="730"
-     inkscape:window-width="1314"
+     inkscape:window-height="768"
+     inkscape:window-width="1308"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      guidetolerance="10.0"
@@ -32,9 +32,9 @@
      bordercolor="#ffffff"
      pagecolor="#1c1c1c"
      id="base"
-     inkscape:zoom="3.9445765"
-     inkscape:cx="57.293857"
-     inkscape:cy="69.462463"
+     inkscape:zoom="4.5391072"
+     inkscape:cx="69.176599"
+     inkscape:cy="42.299067"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="svg2"
@@ -98,7 +98,7 @@
      id="hint-tile-center"
      style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      id="pressed-hint-top-margin"
      width="2"
      height="6"
@@ -110,16 +110,16 @@
      height="6"
      width="2"
      id="pressed-hint-bottom-margin"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
      y="16"
      x="10"
      height="2"
      width="4"
      id="pressed-hint-left-margin"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <rect
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      id="pressed-hint-right-margin"
      width="4"
      height="2"
@@ -155,7 +155,7 @@
      style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <g
      id="separator"
-     style="opacity:1;fill:#ff0000"
+     style="opacity:1;fill:#00ffff"
      transform="translate(11,-4)">
     <rect
        class="ColorScheme-ViewBackground"
@@ -165,9 +165,9 @@
        height="1"
        width="40"
        id="rect4052"
-       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none" />
     <rect
-       style="opacity:0.15;fill:#ff0000;fill-opacity:1;stroke:none"
+       style="opacity:0.15;fill:#00ffff;fill-opacity:1;stroke:none"
        id="rect4054"
        width="40"
        height="1"
@@ -246,38 +246,38 @@
      inkscape:connector-curvature="0"
      id="pressed-center"
      d="m 19.9997,10.000015 0,11.000005 10.999999,0 0,-11.000005 -10.999999,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      class="ColorScheme-Highlight" />
   <path
      inkscape:connector-curvature="0"
      id="pressed-right"
      d="m 30.9997,10.000015 0,11.000005 2,0 c 6.68e-4,-0.01835 0,-0.0344 0,-0.05289 l 0,-10.89423 c 0,-0.0185 6.68e-4,-0.03453 0,-0.05288 l -2,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      class="ColorScheme-Highlight" />
   <path
      sodipodi:nodetypes="ccccsscc"
      inkscape:connector-curvature="0"
      id="pressed-top"
      d="m 19.9997,7.999968 0,2.000047 10.999999,0 0,-2.000047 c -0.0041,-6.7e-4 0.0045,0 3.01e-4,0 l -10.98844,0 c -0.004,0 -0.008,-6.7e-4 -0.0119,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:label="#path4824"
      class="ColorScheme-Highlight" />
   <path
      inkscape:connector-curvature="0"
      id="pressed-left"
      d="m 18,10.000015 c -6.7e-4,0.01835 0,0.03439 0,0.05288 l 0,10.89423 c 0,0.0185 -6.7e-4,0.03453 0,0.05288 l 2,0 L 20,10 18,10 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      class="ColorScheme-Highlight" />
   <path
      sodipodi:nodetypes="cccccc"
      inkscape:connector-curvature="0"
      id="pressed-bottom"
      d="m 20,21 0,2 11,0 0,-2 -11,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero"
      inkscape:label="#path4850"
      class="ColorScheme-Highlight" />
   <path
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      d="m 17.999667,7.999968 0,2.000047 1.999722,0 0,-2.000047 c -7.45e-4,-6.7e-4 8.18e-4,0 5.5e-5,0 l -1.997621,0 c -7.27e-4,0 -0.0015,-6.7e-4 -0.0022,0 z"
      id="pressed-topleft"
      inkscape:connector-curvature="0"
@@ -289,11 +289,11 @@
      inkscape:connector-curvature="0"
      id="pressed-topright"
      d="m 31.000044,7.999968 0,2.000047 1.999722,0 0,-2.000047 c -7.45e-4,-6.7e-4 8.18e-4,0 5.5e-5,0 l -1.997621,0 c -7.27e-4,0 -0.0015,-6.7e-4 -0.0022,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:label="#path3156"
      class="ColorScheme-Highlight" />
   <path
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      d="m 31.000044,20.999953 0,2.000047 1.999722,0 0,-2.000047 c -7.45e-4,-6.7e-4 8.18e-4,0 5.5e-5,0 l -1.997621,0 c -7.27e-4,0 -0.0015,-6.7e-4 -0.0022,0 z"
      id="pressed-bottomright"
      inkscape:connector-curvature="0"
@@ -305,7 +305,7 @@
      inkscape:connector-curvature="0"
      id="pressed-bottomleft"
      d="m 18.000044,20.999953 0,2.000047 1.999722,0 0,-2.000047 c -7.45e-4,-6.7e-4 8.18e-4,0 5.5e-5,0 l -1.997621,0 c -7.27e-4,0 -0.0015,-6.7e-4 -0.0022,0 z"
-     style="opacity:0.4;fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="opacity:0.4;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:label="#path3160"
      class="ColorScheme-Highlight" />
   <path

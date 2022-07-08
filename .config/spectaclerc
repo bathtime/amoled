@@ -1,5 +1,14 @@
 [$Version]
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
+[FileDialogSize]
+LVDS-1 Window-Maximized 1366x768=true
+
 [GuiConfig]
+captureDelay=5
 window-position=50,50
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/falkon.png,file:$HOME/Pictures/falkon.png
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=16

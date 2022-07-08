@@ -1892,7 +1892,7 @@ subsdec-encoding=UTF-8
 [extract] # Extract RGB component video filter
 
 # RGB component to extract (integer)
-#extract-component=16711680
+extract-component=16776960
 
 [sepia] # Sepia video filter
 

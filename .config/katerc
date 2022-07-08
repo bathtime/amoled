@@ -15,8 +15,8 @@ Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=true
 Show Menu Bar=false
-Show Status Bar=false
-Show Tab Bar=false
+Show Status Bar=true
+Show Tab Bar=true
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
@@ -28,8 +28,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/battery-010-charging.svg1,file:$HOME/.local/share/icons/Clarity/scalable/apps/firefox3.svg
-Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.config/stylesheet/amoled2.css,file:$HOME/.local/share/icons/Clarity/scalable/apps/firefox3.svg
+Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/
 detailViewIconSize=16
 
 [KTextEditor Document]
@@ -79,7 +79,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
 Color Theme=amoled
-Font=Solid Mono,16,-1,5,50,0,0,0,0,0
+Font=Unispace,16,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -137,7 +137,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=32,class="ColorScheme-Highlight"\\\\nstyle="fill:currentColor,style="fill:currentColor,<path\\\\nclass="ColorScheme-Highlight"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor",,<path\n     class="ColorScheme-Highlight"\n
-Search History=breeze,focus,maximi,icon,size,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
+Search History=focus,breeze,maximi,icon,size,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
 
 [Konsole]
 AutoSyncronize=true

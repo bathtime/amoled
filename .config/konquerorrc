@@ -12,6 +12,9 @@ PermanentCloseButton=true
 PopupsWithinTabs=false
 TabCloseActivatePrevious=false
 
+[FileDialogSize]
+LVDS-1 Window-Maximized 1366x768=true
+
 [HTML Settings]
 AutoLoadImages=true
 DefaultEncoding=
@@ -22,13 +25,20 @@ MinimumFontSize=7
 ShowAnimations=LoopOnce
 SmoothScrolling=WhenEfficient
 UnderlineLinks=false
-UnfinishedImageFrame=true
-UserStyleSheetEnabled=false
+UnfinishedImageFrame=false
+UserStyleSheet=file:///home/user/.config/stylesheet/amoled.css
+UserStyleSheetEnabled=true
+
+[KFileDialog Settings]
+Recent Files[$e]=amoled.css,file:$HOME/.config/stylesheet/amoled.css
+Recent URLs[$e]=file:$HOME/.config/stylesheet/
+detailViewIconSize=16
 
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
+MenuBar=Disabled
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAABRwAAAKqAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAGc/////wAAAAAAAAAAAAAAAgAAAAIAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABRwAAALQAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHgBsAG8AYwBhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAGc/////wAAAAAAAAAAAAAAAgAAAAIAAAAeAGIAbwBvAGsAbQBhAHIAawBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAWAGgAdABtAGwAVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 

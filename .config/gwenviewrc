@@ -1,19 +1,21 @@
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABRwAAALOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABRwAAAM3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
 
 [General]
 FullScreenBackground=FullScreenBackground::Image
+HistoryEnabled=false
 LastUsedVersion=210800
 SideBarPage=operations
+ThumbnailActions=ThumbnailActions::None
 
 [ImageView]
 AlphaBackgroundColor=0,0,0
 AlphaBackgroundMode=AbstractImageView::AlphaBackgroundSolid
-AnimationMethod=DocumentView::GLAnimation
+AnimationMethod=DocumentView::NoAnimation
 EnlargeSmallerImages=true
 NavigationEndNotification=NavigationEndNotification::NeverWarn
 
@@ -33,28 +35,6 @@ ToolButtonStyle=IconOnly
 [Notification Messages]
 ConfirmDelete=true
 HideMenuBarWarning=false
-
-[Recent Files]
-File1[$e]=$HOME/Documents/TB2f2rbXVXXXXawXpXXXXXXXXXX-92049959.jpg
-File10[$e]=$HOME/Documents/di-YGC22R.jpeg
-File2[$e]=$HOME/Documents/th.jpg
-File3[$e]=$HOME/Documents/1200x0.jpg
-File4[$e]=$HOME/Documents/6418b4005bb5b875e6869725e6ece8d5.jpg
-File5[$e]=$HOME/Documents/44110e5ddb5b9a045d3c928138eec60b.jpg
-File6[$e]=$HOME/Documents/13091454-1.jpg
-File7[$e]=$HOME/Documents/b89f4f_301a4637e1b948cdbfc69fa5d4501a9d.jpg
-File8[$e]=$HOME/Documents/biquini-infantil-amarelo-estampa.jpg
-File9[$e]=$HOME/Documents/d3b6b495f124b6efbb2957f794f20994.jpg
-Name1[$e]=TB2f2rbXVXXXXawXpXXXXXXXXXX-92049959.jpg
-Name10[$e]=di-YGC22R.jpeg
-Name2[$e]=th.jpg
-Name3[$e]=1200x0.jpg
-Name4[$e]=6418b4005bb5b875e6869725e6ece8d5.jpg
-Name5[$e]=44110e5ddb5b9a045d3c928138eec60b.jpg
-Name6[$e]=13091454-1.jpg
-Name7[$e]=b89f4f_301a4637e1b948cdbfc69fa5d4501a9d.jpg
-Name8[$e]=biquini-infantil-amarelo-estampa.jpg
-Name9[$e]=d3b6b495f124b6efbb2957f794f20994.jpg
 
 [SideBar]
 SideBarSplitterSizes=375,915

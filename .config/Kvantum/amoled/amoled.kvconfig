@@ -351,9 +351,9 @@ frame.element=focus
 interior.element=focus
 frame.patternsize=20
 #interior.element=focus
-#interior=false
-#frame=false
-frame.expansion=5
+interior=false
+frame=false
+#frame.expansion=5
 
 
 
