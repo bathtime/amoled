@@ -5,7 +5,7 @@ Features:
 - Enlarged buttons, switches, bars, borders, text... for easier touch access
 - Thicker scroll bars and sliders
 - Panel widget (active window control) provides close and maximize/restore buttons (must be manually added to panel)
-- Actual black background, which only alters slightly on interactive elements when hovered or pressed
+- Actual black background, which only alters slightly on interactive elements when hovered, pressed, or selected
 
 
 ## Requirements:
