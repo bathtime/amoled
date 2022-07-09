@@ -938,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#ffff00;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0">
+     style="fill:#000000;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0;opacity:0.01">
     <group
        width="1308"
        height="768"
