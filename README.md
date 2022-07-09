@@ -24,6 +24,9 @@ cp -rv amoled/.* ~
 
 ## KDE Screenshots
 
+falkon:
+![falkon](/screenshots/falkon.png)
+
 launcher:
 ![launcher](/screenshots/launcher.png)
 
