@@ -12,3 +12,7 @@ window-position=50,50
 Recent Files[$e]=file:$HOME/Pictures/falkon.png,file:$HOME/Pictures/falkon.png
 Recent URLs[$e]=file:$HOME/Pictures/
 detailViewIconSize=16
+
+[Save]
+lastSaveAsLocation=file:///home/user/Pictures/falkon.png
+lastSaveLocation=file:///home/user/Pictures/falkon.png

@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="42.094295501709"
-         height="41.5048370361328" />
+         width="21"
+         height="9" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -938,7 +938,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#00ffff;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0;opacity:0">
+     style="fill:#ffff00;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0">
     <group
        width="1308"
        height="768"
