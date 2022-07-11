@@ -3,7 +3,7 @@ LVDS-1 Window-Maximized 1366x768=true
 
 [General]
 Allow Tab Scrolling=false
-Close After Last=false
+Close After Last=true
 Config Revision=10
 Days Meta Infos=30
 Elide Tab Text=false
@@ -20,7 +20,7 @@ Show Tab Bar=true
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
-Startup Session=manual
+Startup Session=new
 Stash new unsaved files=true
 Stash unsaved file changes=false
 Tab Double Click New Document=true
@@ -34,7 +34,7 @@ detailViewIconSize=16
 
 [KTextEditor Document]
 Allow End of Line Detection=true
-Auto Detect Indent=true
+Auto Detect Indent=false
 Auto Save=false
 Auto Save Interval=0
 Auto Save On Focus Out=false
@@ -137,7 +137,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=32,class="ColorScheme-Highlight"\\\\nstyle="fill:currentColor,style="fill:currentColor,<path\\\\nclass="ColorScheme-Highlight"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor",,<path\n     class="ColorScheme-Highlight"\n
-Search History=focus,breeze,maximi,icon,size,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
+Search History=mpv,focus,breeze,maximi,icon,size,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
 
 [Konsole]
 AutoSyncronize=true
@@ -161,11 +161,14 @@ HideMenuBarWarning=false
 kate_close_modonhd_2=false
 kate_close_modonhd_3=false
 
+[filebrowser]
+toolbar actions=sync_dir,up,short view,detailed view,show hidden
+
 [filetree]
 editShade=0,105,105
-listMode=false
+listMode=true
 shadingEnabled=true
-showCloseButton=false
+showCloseButton=true
 showFullPathOnRoots=true
 showToolbar=true
 sortRole=0

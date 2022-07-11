@@ -11,6 +11,10 @@ FontWeight=50
 LeadingPadding=0
 PreviewSize=112
 
+[ExtractDialog]
+DirHistory[$e]=$HOME/.local/share/icons/
+LVDS-1 Window-Maximized 1366x768=true
+
 [General]
 ConfirmClosingMultipleTabs=false
 ConfirmClosingTerminalRunningProgram=false
@@ -27,6 +31,9 @@ PreviewSize=192
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
+Recent Files[$e]=file:$HOME/.local/share/icons,file:$HOME/.local/share/icons
+Recent URLs[$e]=file:$HOME/.local/share/icons/
+detailViewIconSize=16
 
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true

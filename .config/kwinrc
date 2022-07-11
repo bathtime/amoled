@@ -11,6 +11,9 @@ Name_3=Page III
 Number=3
 Rows=3
 
+[Effect-PresentWindows]
+BorderActivateAll=9
+
 [Effect-Wobbly]
 Drag=90
 Stiffness=6
@@ -23,11 +26,26 @@ Inactive=91
 Menus=67
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
+desktopgridEnabled=false
+kwin4_effect_dialogparentEnabled=false
+kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_frozenappEnabled=false
-slidebackEnabled=true
-wobblywindowsEnabled=true
+kwin4_effect_fullscreenEnabled=false
+kwin4_effect_loginEnabled=false
+kwin4_effect_logoutEnabled=false
+kwin4_effect_maximizeEnabled=false
+kwin4_effect_morphingpopupsEnabled=false
+kwin4_effect_morphingpopups_xfadefixEnabled=false
+kwin4_effect_scaleEnabled=false
+kwin4_effect_squash2Enabled=false
+kwin4_effect_windowapertureEnabled=false
+presentwindowsEnabled=false
+screenedgeEnabled=false
+slideEnabled=false
+slidingpopupsEnabled=false
+zoomEnabled=false
 
 [Windows]
 BorderlessMaximizedWindows=true

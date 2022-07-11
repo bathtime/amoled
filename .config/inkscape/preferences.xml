@@ -12,7 +12,7 @@
        state="1" />
     <group
        id="snaptoolbox"
-       state="1" />
+       state="0" />
     <group
        id="toppanel"
        state="1" />
@@ -27,7 +27,7 @@
        state="1" />
     <group
        id="rulers"
-       state="1" />
+       state="0" />
     <group
        id="scrollbars"
        state="1" />
@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="21"
-         height="9" />
+         width="0.500002920627594"
+         height="2.23184084892273" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -330,8 +330,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="14.77547285831"
-       y="1.07796942442486"
+       x="140.991790771484"
+       y="12.8506631851196"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -384,7 +384,8 @@
     <eventcontext
        id="select"
        selcue="1"
-       gradientdrag="0" />
+       gradientdrag="0"
+       touch_box="0" />
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
@@ -517,7 +518,7 @@
   </group>
   <group
      id="colorselector"
-     page="2"
+     page="0"
      switcher="1" />
   <group
      id="embedded">
@@ -562,7 +563,7 @@
     <group
        id="preferences"
        state="1"
-       page="20" />
+       page="1" />
     <group
        id="gradienteditor" />
     <group
@@ -582,7 +583,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/icons/Clarity/scalable/categories"
+       path="/home/user/.local/share/plasma/desktoptheme/amoled/widgets"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -938,7 +939,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#000000;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0;opacity:0.01">
+     style="fill:#003232;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0">
     <group
        width="1308"
        height="768"
@@ -975,7 +976,14 @@
        iconsize="16"
        width="24">
       <group
-         id="buttons" />
+         id="buttons"
+         showSpray="1"
+         showLPETool="1"
+         show3DBox="0"
+         showStar="0"
+         showSpiral="0"
+         showPen="0"
+         showMesh="0" />
     </group>
     <group
        id="controlbars"
