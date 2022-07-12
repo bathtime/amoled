@@ -39,11 +39,11 @@ kate:
 dolphin:
 ![dolphin](/screenshots/dolphin.png)
 
-konqueror:
-![konqueror](/screenshots/konqueror.png)
+vlc:
+![vlc](/screenshots/vlc.png)
 
-keyboard (TODO):
-![keyboard](/screenshots/keyboard.png)
+maliit (TODO - add theme):
+![keyboard](/screenshots/maliit.png)
 
 
 ## Credits
