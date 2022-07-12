@@ -24,11 +24,16 @@ cp -rv amoled/.* ~
 
 ## KDE Screenshots
 
-falkon:
-![falkon](/screenshots/falkon.png)
+
 
 launcher:
 ![launcher](/screenshots/launcher.png)
+
+falkon:
+![falkon](/screenshots/falkon.png)
+
+angelfish:
+![angelfish](/screenshots/angelfish.png)
 
 konsole:
 ![konsole](/screenshots/konsole.png)

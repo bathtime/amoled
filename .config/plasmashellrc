@@ -1,8 +1,31 @@
+[Action_0]
+Automatic=true
+Description=Play YouTube in VLC
+Number of commands=1
+Regexp=^http.+(youtu|twitch)
+
+[Action_0/Command_0]
+Commandline[$e]=vlc %s
+Description=Play Youtube Videos on VLC
+Enabled=true
+Icon=vlc
+Output=0
+
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGMAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAABHAAAAAEAAAAAAAADRwAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+LVDS-1 Window-Maximized 1366x768=true
+
+[EditActionDialog]
+ColumnState=AAAA/wAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUAAAADAAEAAQAAAAAAAAAAAAAAAGT/////AAAAAQAAAAAAAAADAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAAELQAAAAEAAAAAAAAD6AAAAABk
+LVDS-1 Window-Maximized 1366x768=true
+
 [FileDialogSize]
 LVDS-1 Window-Maximized 1366x768=true
 
 [General]
-Number of Actions=0
+Number of Actions=1
 
 [KFileDialog Settings]
 Recent Files[$e]=ksh93-3.svg,file:$HOME/Pictures/Tux-simple-wallpaper.svgz.png,file:$HOME/Pictures/ksh93-3.svg
@@ -13,6 +36,9 @@ listViewIconSize=64
 
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true
+
+[PlasmaTransientsConfig]
+PreloadWeight=52
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=58

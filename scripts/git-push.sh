@@ -13,6 +13,6 @@ cat /home/user/git-token
 git push origin
 
 
-
+echo "View changes at: https://github.com/bathtime/amoled"
 
 

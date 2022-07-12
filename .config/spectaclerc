@@ -9,12 +9,12 @@ captureDelay=5
 window-position=50,50
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Pictures/falkon.png,file:$HOME/screenshots/konsole.png,file:$HOME/screenshots/kate.png,file:$HOME/screenshots/vlc.png,file:$HOME/screenshots/launcher.png,file:$HOME/screenshots/dolphin.png,file:$HOME/screenshots/falkon.png
+Recent Files[$e]=file:$HOME/Pictures/falkon.png,file:$HOME/screenshots/angelfish.png,file:$HOME/screenshots/konsole.png,file:$HOME/screenshots/kate.png,file:$HOME/screenshots/vlc.png,file:$HOME/screenshots/launcher.png,file:$HOME/screenshots/dolphin.png,file:$HOME/screenshots/falkon.png
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/screenshots/
 detailViewIconSize=16
 iconViewIconSize=64
 listViewIconSize=64
 
 [Save]
-lastSaveAsLocation=file:///home/user/screenshots/dolphin.png
-lastSaveLocation=file:///home/user/screenshots/dolphin.png
+lastSaveAsLocation=file:///home/user/screenshots/angelfish.png
+lastSaveLocation=file:///home/user/screenshots/angelfish.png

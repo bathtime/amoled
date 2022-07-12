@@ -34,6 +34,7 @@ CloseAllEmptyTabs=true
 CloseAllTabs=true
 
 [TabBar]
+ExpandTabWidth=true
 NewTabButton=true
 
 [ThumbnailsSettings]
