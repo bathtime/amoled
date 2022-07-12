@@ -580,7 +580,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.svgz.inkscape"
        append_extension="1"
        enable_preview="1"
        path="/home/user/.local/share/plasma/desktoptheme/amoled/widgets"
@@ -939,7 +939,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="fill:#003232;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0">
+     style="fill:#ffff00;paint-order:stroke markers fill;stroke-miterlimit:2.8;stroke-linecap:square;stroke-dasharray:0, 0;stroke-width:0">
     <group
        width="1308"
        height="768"

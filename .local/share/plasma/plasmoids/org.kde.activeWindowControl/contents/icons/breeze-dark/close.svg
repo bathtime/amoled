@@ -25,13 +25,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1318"
+     inkscape:window-width="1308"
      inkscape:window-height="768"
      id="namedview32"
      showgrid="true"
      inkscape:zoom="19.270487"
-     inkscape:cx="58.950249"
-     inkscape:cy="8.562316"
+     inkscape:cx="84.32584"
+     inkscape:cy="17.695453"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -373,7 +373,7 @@
   <g
      id="active-idle-2">
     <rect
-       style="fill:#000000;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.01"
        id="rect323-6-2-9"
        width="20"
        height="20"
@@ -425,7 +425,7 @@
      id="active-idle"
      transform="translate(49.398605)">
     <rect
-       style="fill:#000000;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#000000;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.01"
        id="rect323-6-2-9-6"
        width="20"
        height="20"
@@ -477,7 +477,7 @@
      id="active-hover"
      transform="translate(49.398605)">
     <rect
-       style="fill:#006464;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.441851;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.2"
        id="rect323-6-2-9-8-2"
        width="20"
        height="20"

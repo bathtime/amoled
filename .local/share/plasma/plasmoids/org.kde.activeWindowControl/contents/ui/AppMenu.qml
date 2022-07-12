@@ -109,7 +109,7 @@ Item {
         anchors.left: buttonGrid.left
         anchors.leftMargin: appmenuSwitchSidesWithIconAndText ? - appmenuSideMargin * 0.5 : buttonGrid.width + appmenuSideMargin * 0.5
         anchors.verticalCenter: buttonGrid.verticalCenter
-        height: 0.8 * parent.height
+        height: 1 * parent.height
         width: 1
         visible: appmenuNextToIconAndText && plasmoid.configuration.appmenuSeparatorEnabled
         color: theme.textColor

@@ -25,13 +25,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1318"
+     inkscape:window-width="1308"
      inkscape:window-height="768"
      id="namedview32"
      showgrid="true"
-     inkscape:zoom="38.519538"
-     inkscape:cx="74.014387"
-     inkscape:cy="3.4268324"
+     inkscape:zoom="35.952797"
+     inkscape:cx="9.3873086"
+     inkscape:cy="9.9296864"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -59,7 +59,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -374,7 +373,7 @@
      id="active-idle"
      transform="matrix(0,1.1338582,-1.1249999,0,21.890461,36.617611)">
     <rect
-       style="fill:#000000;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.01"
        id="rect323-6-2"
        width="17.638889"
        height="17.777779"
@@ -420,17 +419,17 @@
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-7"
-       width="7.0555639"
+       width="5.2916794"
        height="1.0998769"
-       x="19.947504"
-       y="-8.2016592"
-       transform="matrix(-0.99999873,-0.00159216,0,-1,0,0)" />
+       x="20.82947"
+       y="-8.214118"
+       transform="matrix(-0.99999775,-0.00212288,0,-1,0,0)" />
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-6"
-       width="7.0555549"
-       height="0.99999934"
-       x="19.947479"
+       width="5.2916665"
+       height="0.9999994"
+       x="20.829422"
        y="-14.165049"
        transform="scale(-1)" />
     <rect
@@ -445,7 +444,7 @@
      id="inactive-idle"
      transform="matrix(0,1.1338582,-1.1249999,0,68.536404,36.721454)">
     <rect
-       style="fill:#000000;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.01"
        id="rect323-6-2-6"
        width="17.638889"
        height="17.777779"
@@ -491,17 +490,17 @@
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-7-2"
-       width="12.347227"
+       width="10.583339"
        height="1.0998765"
-       x="17.301651"
-       y="-5.5028868"
-       transform="matrix(-0.99999959,-9.0980726e-4,0,-1,0,0)" />
+       x="18.275183"
+       y="-5.5065436"
+       transform="matrix(-0.99999944,-0.00106144,0,-1,0,0)" />
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-6-9"
-       width="12.347222"
+       width="10.583335"
        height="0.99999905"
-       x="17.301643"
+       x="18.275173"
        y="-16.831715"
        transform="scale(-1)" />
     <rect
@@ -517,7 +516,7 @@
      id="active-hover"
      transform="matrix(0,1.1338582,-1.1249999,0,44.381251,36.61761)">
     <rect
-       style="fill:#006464;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.3"
        id="rect323-6-2-67"
        width="17.638889"
        height="17.777779"
@@ -563,17 +562,17 @@
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-7-1"
-       width="7.0555639"
+       width="5.2916799"
        height="1.0998769"
-       x="19.947504"
-       y="-8.2016592"
-       transform="matrix(-0.99999873,-0.00159216,0,-1,0,0)" />
+       x="20.829468"
+       y="-8.2141171"
+       transform="matrix(-0.99999775,-0.00212288,0,-1,0,0)" />
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-6-2"
-       width="7.0555549"
-       height="0.99999934"
-       x="19.947479"
+       width="5.291666"
+       height="0.9999994"
+       x="20.829422"
        y="-14.165049"
        transform="scale(-1)" />
     <rect
@@ -588,7 +587,7 @@
      id="inactive-hover"
      transform="matrix(0,1.1338582,-1.1249999,0,92.232592,36.721453)">
     <rect
-       style="fill:#006464;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke"
+       style="fill:#00ffff;stroke-width:0.391219;stroke-miterlimit:0;paint-order:fill markers stroke;opacity:0.3"
        id="rect323-6-2-6-9"
        width="17.638889"
        height="17.777779"
@@ -634,17 +633,17 @@
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-7-2-6"
-       width="12.347227"
+       width="10.583341"
        height="1.0998765"
-       x="17.301651"
-       y="-5.5028868"
-       transform="matrix(-0.99999959,-9.0980726e-4,0,-1,0,0)" />
+       x="18.275181"
+       y="-5.5065436"
+       transform="matrix(-0.99999944,-0.00106144,0,-1,0,0)" />
     <rect
        style="fill:#00ffff;fill-opacity:1;stroke:#4c22b4;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect55-3-5-2-6-6-9-1"
-       width="12.347222"
-       height="0.99999905"
-       x="17.301643"
+       width="10.583334"
+       height="0.99999911"
+       x="18.275171"
        y="-16.831715"
        transform="scale(-1)" />
     <rect

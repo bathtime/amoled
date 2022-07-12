@@ -8,9 +8,14 @@ Number of Actions=0
 Recent Files[$e]=ksh93-3.svg,file:$HOME/Pictures/Tux-simple-wallpaper.svgz.png,file:$HOME/Pictures/ksh93-3.svg
 Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/Documents/
 detailViewIconSize=16
+iconViewIconSize=256
+listViewIconSize=64
 
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true
+
+[PlasmaTransientsConfig]
+PreloadWeight=2
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=58
