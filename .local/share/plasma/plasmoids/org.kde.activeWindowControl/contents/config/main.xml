@@ -58,14 +58,14 @@
             <default>1.0</default>
         </entry>
         <entry name="controlButtonsSpacing" type="Double">
-            <default>10</default>
+            <default>20</default>
         </entry>
 
         <entry name="autoFillWidth" type="Bool">
             <default>true</default>
         </entry>
         <entry name="horizontalScreenWidthPercent" type="Double">
-            <default>1.0</default>
+            <default>1.2</default>
         </entry>
         <entry name="widthFineTuning" type="Double">
             <default>0.0</default>
