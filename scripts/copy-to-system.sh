@@ -5,7 +5,7 @@ path="/home/user/amoled-project/"
 
 cd ~
 
-files=(Clarity.tar.gz Darcwaita-Plus.tar.gz Simply-Cyan-Circles.tar.gz scripts .local/share/plasma/desktoptheme/amoled .local/share/aurorae/themes/amoled .config/Kvantum/amoled .local/share/plasma/plasmoids .local/share/color-schemes .local/share/fonts .config/gtk-3.0 .config/gtk-4.0)
+files=(./local/share/icons/Archive.tar.gz .local/share/plasma/desktoptheme/amoled .local/share/aurorae/themes/amoled .config/Kvantum/amoled .local/share/plasma/plasmoids .local/share/color-schemes .local/share/fonts .config/gtk-3.0 .config/gtk-4.0)
 
 
 for file in "${files[@]}" ; do

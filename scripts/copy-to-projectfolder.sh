@@ -14,9 +14,6 @@ ls -A | grep -xv ".git" | xargs rm -rf
 
 files=(
 README.md
-Clarity.tar.gz
-Darcwaita-Plus.tar.gz
-Simply-Cyan-Circles.tar.gz
 .config/dolphinrc
 .config/gtkrc
 .config/gwenviewrc
@@ -39,6 +36,7 @@ Simply-Cyan-Circles.tar.gz
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
 .local/share/fonts/
+.local/share/icons/Archive.tar.gz
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/plasmoids/
