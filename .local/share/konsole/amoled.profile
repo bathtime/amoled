@@ -11,5 +11,8 @@ CursorShape=2
 Name=amoled
 Parent=FALLBACK/
 
+[Scrolling]
+HighlightScrolledLines=false
+
 [Terminal Features]
 BlinkingCursorEnabled=true
