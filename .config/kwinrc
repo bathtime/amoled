@@ -19,6 +19,11 @@ Drag=90
 Stiffness=6
 WobblynessLevel=2
 
+[Effect-kwin4_effect_scale]
+Duration=400
+InScale=9.99
+OutScale=9.99
+
 [Effect-kwin4_effect_translucency]
 ComboboxPopups=73
 Dialogs=79
@@ -30,7 +35,6 @@ blurEnabled=false
 contrastEnabled=false
 desktopgridEnabled=false
 kwin4_effect_dialogparentEnabled=false
-kwin4_effect_fadingpopupsEnabled=false
 kwin4_effect_frozenappEnabled=false
 kwin4_effect_fullscreenEnabled=false
 kwin4_effect_loginEnabled=false
@@ -38,13 +42,12 @@ kwin4_effect_logoutEnabled=false
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_morphingpopups_xfadefixEnabled=false
-kwin4_effect_scaleEnabled=false
 kwin4_effect_squash2Enabled=false
 kwin4_effect_windowapertureEnabled=false
 presentwindowsEnabled=false
 screenedgeEnabled=false
-slideEnabled=false
-slidingpopupsEnabled=false
+slidebackEnabled=true
+wobblywindowsEnabled=true
 zoomEnabled=false
 
 [Windows]

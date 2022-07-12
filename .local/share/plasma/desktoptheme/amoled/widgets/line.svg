@@ -29,7 +29,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.16331"
-     inkscape:cx="1.5915831"
+     inkscape:cx="1.1480271"
      inkscape:cy="32.82314"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -94,7 +94,7 @@
        id="vertical-line"
        inkscape:label="#g3763"
        transform="translate(-4.96875,0.40625)"
-       style="opacity:1;fill:#ff0000">
+       style="opacity:0.01;fill:#ff0000">
       <path
          style="color:#31363b;opacity:0.01;fill:#00ff00;fill-opacity:1;stroke:none;stroke-width:1"
          d="m 32.96875,13.59375 v 40 h 1 v -40 z"
@@ -121,7 +121,7 @@
        id="horizontal-line"
        inkscape:label="#g3769"
        transform="matrix(1,0,0,1.0714282,-0.95188727,-5.0086443)"
-       style="opacity:1;fill:#00ffff">
+       style="opacity:0.01;fill:#00ffff">
       <path
          class="ColorScheme-Text"
          inkscape:connector-curvature="0"

@@ -15,7 +15,7 @@ Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=true
 Show Menu Bar=false
-Show Status Bar=true
+Show Status Bar=false
 Show Tab Bar=true
 Show Tabs Close Button=true
 Show Url Nav Bar=false
@@ -28,9 +28,10 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.config/stylesheet/amoled2.css,file:$HOME/.local/share/icons/Clarity/scalable/apps/firefox3.svg
-Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.config/Kvantum/amoled/amoled.colors,file:$HOME/.config/stylesheet/amoled2.css,file:$HOME/.local/share/icons/Clarity/scalable/apps/firefox3.svg
+Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/,file:$HOME/.config/Kvantum/amoled/
 detailViewIconSize=16
+iconViewIconSize=64
 
 [KTextEditor Document]
 Allow End of Line Detection=true
