@@ -252,7 +252,6 @@ Item {
             Item {
                 width: 2
                 height: 10
-
                 Layout.columnSpan: 2
             }
 
@@ -262,16 +261,10 @@ Item {
             }
             Slider {
                 id: buttonSize
-                stepSize: 0.005
+                stepSize: 0.1
                 minimumValue: 0.1
-                maximumValue: 1.18
-
                 tickmarksEnabled: true
-                width: parent.width * 1
-                height: parent.width * 1
-
-
-
+                width: parent.width
             }
 
             Label {

@@ -29,14 +29,15 @@ Item {
     property bool vertical: (plasmoid.formFactor == PlasmaCore.Types.Vertical)
 
     property double horizontalScreenWidthPercent: plasmoid.configuration.horizontalScreenWidthPercent
-    property double buttonSize: parent.width
+    property double buttonSize: plasmoid.configuration.buttonSize * 1.2
     property bool autoFillWidth: plasmoid.configuration.autoFillWidth
-    property double widthForHorizontalPanel: parent.width
+    property double widthForHorizontalPanel: (Screen.width * horizontalScreenWidthPercent + plasmoid.configuration.widthFineTuning) - ((!controlButtonsArea.visible && buttonsStandalone && plasmoid.configuration.buttonsDynamicWidth) ? controlButtonsArea.width : 0)
+    anchors.fill: parent
     Layout.fillWidth: plasmoid.configuration.autoFillWidth
-    Layout.preferredWidth: parent.width
+    Layout.preferredWidth: autoFillWidth ? -1 : (vertical ? parent.width : (widthForHorizontalPanel > 0 ? widthForHorizontalPanel : 0.0001))
     Layout.minimumWidth: Layout.preferredWidth
     Layout.maximumWidth: Layout.preferredWidth
-    Layout.preferredHeight: parent.height
+    Layout.preferredHeight: parent === null ? 0 : vertical ? Math.min(theme.defaultFont.pointSize * 4, parent.width) : parent.height
     Layout.minimumHeight: Layout.preferredHeight
     Layout.maximumHeight: Layout.preferredHeight
 

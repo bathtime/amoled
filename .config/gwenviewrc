@@ -11,6 +11,7 @@ HistoryEnabled=false
 LastUsedVersion=210800
 SideBarPage=operations
 ThumbnailActions=ThumbnailActions::None
+UrlNavigatorIsEditable=true
 
 [ImageView]
 AlphaBackgroundColor=0,0,0
@@ -22,11 +23,15 @@ NavigationEndNotification=NavigationEndNotification::NeverWarn
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=32
+Recent Files[$e]=file:$HOME/screenshots/angelfish-720.png,file:$HOME/screenshots/vlc-720.png,file:$HOME/screenshots/maliit-720.png,file:$HOME/screenshots/launcher-720.png,file:$HOME/screenshots/konsole-720.png,file:$HOME/screenshots/kate-720.png,file:$HOME/screenshots/dolphin-720.png
+Recent URLs[$e]=file:$HOME/screenshots/
+listViewIconSize=64
 
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABRwAAALOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABRwAAALxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -37,6 +42,7 @@ ConfirmDelete=true
 HideMenuBarWarning=false
 
 [SideBar]
+IsVisible ViewMode=true
 SideBarSplitterSizes=375,915
 
 [StatusBar]

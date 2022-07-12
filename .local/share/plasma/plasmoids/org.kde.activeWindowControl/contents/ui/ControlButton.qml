@@ -45,10 +45,10 @@ MouseArea {
     PlasmaCore.SvgItem {
         id: svgItem
         width: parent.width
-        height: parent.height
+        height: width
         svg: buttonSvg
         elementId: svgElementId
-        /* anchors.verticalCenter: parent.verticalCenter */
+        anchors.verticalCenter: parent.verticalCenter
     }
 
     hoverEnabled: true
