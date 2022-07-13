@@ -36,6 +36,7 @@ iconViewIconSize=64
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=false
+Auto Reload If State Is In Version Control=true
 Auto Save=false
 Auto Save Interval=0
 Auto Save On Focus Out=false

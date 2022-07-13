@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -574,18 +574,26 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       defaultopts="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="page" />
       <group
          id="defaultxdpi" />
+      <group
+         id="batchexportarea"
+         value="layer" />
+      <group
+         id="defaultdpi"
+         value="299.780426025391" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/plasma/desktoptheme/amoled/widgets"
+       path="/home/user/Pictures"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -941,7 +949,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:#00ffff;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:1.133;stroke:#00ffff">
+     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:#004b4b;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:1.88976378;stroke:#00ffff">
     <group
        width="1308"
        height="768"
