@@ -30,7 +30,6 @@ listViewIconSize=64
 [MainWindow]
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAABRwAAALxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
