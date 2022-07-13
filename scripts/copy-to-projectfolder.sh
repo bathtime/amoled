@@ -3,14 +3,20 @@
 
 path="/home/user/amoled-project"
 
+echo "Copying backup script folder..."
 cd ~
 cp -r scripts.bak/* scripts/
 
-# Erase all but files/directories except .git
-
+echo "Erasing previous git files..."
 cd $path
+# Erase all but files/directories except .git
 ls -A | grep -xv ".git" | xargs rm -rf
 
+
+cd ~/.local/share/icons
+echo "Compressing icon directories..."
+rm -rf icons.tar.gz
+tar -czf icons.tar.gz Clarity/ Darcwaita-Plus/ Simply-Cyan-Circles/
 
 files=(
 README.md
@@ -36,7 +42,7 @@ README.md
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
 .local/share/fonts/
-.local/share/icons/Archive.tar.gz
+.local/share/icons/icons.tar.gz
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/plasmoids/
