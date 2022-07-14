@@ -5,7 +5,7 @@ path="/home/user/amoled-project/"
 
 cd ~
 
-files=(./local/share/icons/icons.tar.gz .local/share/plasma/desktoptheme/amoled .local/share/aurorae/themes/amoled .config/Kvantum/amoled .local/share/plasma/plasmoids .local/share/color-schemes .local/share/fonts .config/gtk-3.0 .config/gtk-4.0)
+files=(./local/share/icons/amoled-icons.tar.gz .local/share/plasma/desktoptheme/amoled .local/share/aurorae/themes/amoled .config/Kvantum/amoled .local/share/plasma/plasmoids .local/share/color-schemes .local/share/fonts .config/gtk-3.0 .config/gtk-4.0)
 
 
 for file in "${files[@]}" ; do
@@ -16,8 +16,8 @@ done
 cd ~/.local/share/icons
 
 echo "Erasing previous icons..."
-rm -rf Clarity Darcwaita-Plus Simply-Cyan-Circles
+rm -rf Amoled
 
 echo "Extracting new icons..."
-tar -xzf icons.tar.gz
+tar -xzf amoled-icons.tar.gz
 

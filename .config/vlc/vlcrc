@@ -1892,7 +1892,7 @@ subsdec-encoding=UTF-8
 [extract] # Extract RGB component video filter
 
 # RGB component to extract (integer)
-extract-component=16776960
+extract-component=65535
 
 [sepia] # Sepia video filter
 
@@ -2484,7 +2484,7 @@ qt-privacy-ask=0
 #equalizer-preset=flat
 
 # Bands gain (string)
-#equalizer-bands=
+equalizer-bands=15.4 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 14.7
 
 # Two pass (boolean)
 #equalizer-2pass=0
@@ -2493,7 +2493,7 @@ qt-privacy-ask=0
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-#equalizer-preamp=12.000000
+equalizer-preamp=0.100000
 
 [scaletempo_pitch] # Pitch Shifter
 
@@ -3849,7 +3849,7 @@ freetype-color=65535
 #role=video
 
 # Audio filters (string)
-#audio-filter=
+audio-filter=equalizer
 
 # Audio visualizations (string)
 #audio-visual=none
@@ -3984,7 +3984,7 @@ freetype-color=65535
 #vout=
 
 # Video filter module (string)
-#video-filter=
+video-filter=extract
 
 # Video splitter module (string)
 #video-splitter=

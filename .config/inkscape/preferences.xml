@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -593,7 +593,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/Pictures"
+       path="/home/user/.local/share/icons/Amoled/scalable/actions"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -949,7 +949,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:#00ffff;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:1.88976378">
+     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:none;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:1.88976378">
     <group
        width="1308"
        height="768"

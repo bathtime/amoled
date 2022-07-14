@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="22"
    height="22"
    id="svg3869"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
    sodipodi:docname="distribute.svg"
-   viewBox="0 0 22 22">
+   viewBox="0 0 22 22"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3871">
     <style
@@ -37,8 +37,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="22.954545"
-     inkscape:cx="11"
-     inkscape:cy="11.000017"
+     inkscape:cx="9.8455447"
+     inkscape:cy="11.021782"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -46,12 +46,14 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="701"
+     inkscape:window-width="1308"
+     inkscape:window-height="768"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata3874">
     <rdf:RDF>
@@ -60,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,7 +86,7 @@
          id="path828"
          d="m 332,545.3622 h 10 v 0"
          class="ColorScheme-Highlight"
-         style="fill:none;stroke:currentColor;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#00ffff;stroke:#00ffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
       <rect
          y="542.36218"
          x="343"
@@ -92,7 +94,7 @@
          width="1"
          id="rect833"
          class="ColorScheme-Text"
-         style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          y="541.36218"
          x="330"
@@ -100,7 +102,7 @@
          width="1"
          id="rect835"
          class="ColorScheme-Text"
-         style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>

@@ -2,8 +2,8 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="48"
-   height="98"
+   width="200"
+   height="408.33334"
    id="svg3642"
    sodipodi:version="0.32"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.299467"
-     inkscape:cx="-125.77789"
-     inkscape:cy="71.526704"
+     inkscape:zoom="0.88421311"
+     inkscape:cx="1.1309491"
+     inkscape:cy="135.71389"
      inkscape:current-layer="svg3642"
      showgrid="true"
      inkscape:grid-bbox="true"
@@ -55,7 +55,9 @@
        color="#0000ff"
        opacity="0.01960784"
        empcolor="#0000ff"
-       empopacity="0.03921569" />
+       empopacity="0.03921569"
+       originx="0"
+       originy="0" />
   </sodipodi:namedview>
   <defs
      id="defs3644">
@@ -148,13 +150,13 @@
      id="sunken-slider-center"
      width="2"
      height="10"
-     x="9"
-     y="77"
+     x="67.5"
+     y="-60"
      class="ColorScheme-ButtonHover"
      inkscape:label="#slider-center-6" />
   <g
      id="sunken-slider-right"
-     transform="matrix(0.75,0,0,1,5.25,70)"
+     transform="matrix(0.75,0,0,1,63.75,-67)"
      inkscape:label="#slider-right-9"
      style="fill:#00ffff">
     <path
@@ -172,7 +174,8 @@
        y="7" />
   </g>
   <g
-     id="g983">
+     id="g983"
+     transform="translate(58.5,-137)">
     <g
        id="sunken-slider-topright"
        transform="matrix(0.75,0,0,0.75,5.25,70.749999)"
@@ -195,7 +198,7 @@
   </g>
   <g
      id="sunken-slider-bottomright"
-     transform="matrix(0.75,0,0,0.75,5.25,75.25)"
+     transform="matrix(0.75,0,0,0.75,63.75,-61.75)"
      inkscape:label="#slider-bottomright-7"
      style="fill:#00ffff">
     <rect
@@ -214,7 +217,7 @@
   </g>
   <g
      id="sunken-slider-left"
-     transform="matrix(-0.75,0,0,1,14.750001,70)"
+     transform="matrix(-0.75,0,0,1,73.250001,-67)"
      inkscape:label="#slider-left-5"
      style="fill:#00ffff">
     <g
@@ -238,7 +241,7 @@
   </g>
   <g
      id="sunken-slider-topleft"
-     transform="matrix(-0.75,0,0,0.75,14.250001,70.250002)"
+     transform="matrix(-0.75,0,0,0.75,72.750001,-66.749998)"
      inkscape:label="#slider-topleft-2"
      style="fill:#00ffff">
     <g
@@ -262,7 +265,7 @@
   </g>
   <g
      id="sunken-slider-bottomleft"
-     transform="matrix(-0.75,0,0,0.75,13.75,75.25)"
+     transform="matrix(-0.75,0,0,0.75,72.25,-61.75)"
      inkscape:label="#slider-bottomleft-5"
      style="fill:#00ffff">
     <g
@@ -285,7 +288,7 @@
   </g>
   <g
      id="g978"
-     transform="translate(-10.714286,2.000001)">
+     transform="translate(47.785714,-135)">
     <g
        transform="matrix(0,-0.75,-0.02857143,0,18.485714,80.750001)"
        id="sunken-slider-top"
@@ -309,7 +312,7 @@
   </g>
   <g
      id="sunken-slider-bottom"
-     transform="matrix(0,0.75,-0.1,0,10.7,81.25)"
+     transform="matrix(0,0.75,-0.1,0,69.2,-55.75)"
      inkscape:label="#slider-bottom-0"
      style="fill:#00ffff">
     <rect
@@ -329,11 +332,11 @@
   </g>
   <path
      style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.60826"
-     d="m -161.72537,-145 v 83.47864 h 83.45074 V -145 Z"
+     d="M 56.54926,68.260674 V 151.73931 H 140 V 68.260674 Z"
      id="slider-center" />
   <g
      id="slider-topright"
-     transform="matrix(2.6078355,0,0,2.608707,-60.039115,-242.23316)">
+     transform="matrix(2.6078355,0,0,2.608707,158.23551,-28.972486)">
     <g
        id="button-normal-topright"
        inkscape:label="button-normal-topright"
@@ -372,7 +375,7 @@
   </g>
   <g
      id="slider-right"
-     transform="matrix(2.6029895,0,0,2.608707,-60.011198,-241.45606)">
+     transform="matrix(2.6029895,0,0,2.608707,158.26343,-28.195386)">
     <g
        id="button-normal-right"
        inkscape:label="button-normal-right"
@@ -401,7 +404,7 @@
     </g>
   </g>
   <path
-     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.695536;opacity:0.01"
+     style="color:#000000;opacity:0.01;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.695536"
      d="m 67.746471,14.672354 v 22.26097 h 22.25353 v -22.26097 z"
      id="background-vertical-center" />
   <g
@@ -692,7 +695,7 @@
     </g>
   </g>
   <path
-     style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.695536;opacity:0.01"
+     style="color:#000000;opacity:0.01;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.695536"
      d="m 64.979071,58.869512 v 22.26097 h 22.25353 v -22.26097 z"
      id="background-horizontal-center" />
   <g
@@ -984,7 +987,7 @@
   </g>
   <g
      id="slider-bottomright"
-     transform="matrix(0,2.6078355,-2.608707,0,18.73317,-42.764483)">
+     transform="matrix(0,2.6078355,-2.608707,0,237.0078,170.49619)">
     <g
        id="button-normal-topright-67"
        inkscape:label="button-normal-topright"
@@ -1023,7 +1026,7 @@
   </g>
   <g
      id="slider-bottomleft"
-     transform="matrix(-2.6078355,0,0,-2.608707,-180.23552,35.73317)">
+     transform="matrix(-2.6078355,0,0,-2.608707,38.03911,248.99384)">
     <g
        id="button-normal-topright-9"
        inkscape:label="button-normal-topright"
@@ -1062,7 +1065,7 @@
   </g>
   <g
      id="slider-topleft"
-     transform="matrix(0,-2.6078355,2.608707,0,-259.23317,-163.73552)">
+     transform="matrix(0,-2.6078355,2.608707,0,-40.95854,49.525154)">
     <g
        id="button-normal-topright-3"
        inkscape:label="button-normal-topright"
@@ -1101,7 +1104,7 @@
   </g>
   <g
      id="slider-left"
-     transform="matrix(-2.6029895,0,0,-2.608707,-179.9888,34.934701)">
+     transform="matrix(-2.6029895,0,0,-2.608707,38.28583,248.19538)">
     <g
        id="button-normal-right-3"
        inkscape:label="button-normal-right"
@@ -1131,7 +1134,7 @@
   </g>
   <g
      id="slider-top"
-     transform="matrix(0,-2.6029895,2.608707,0,-257.9347,-163.76343)">
+     transform="matrix(0,-2.6029895,2.608707,0,-39.66007,49.497244)">
     <g
        id="button-normal-right-2"
        inkscape:label="button-normal-right"
@@ -1161,7 +1164,7 @@
   </g>
   <g
      id="slider-bottom"
-     transform="matrix(0,2.6029895,-2.608707,0,17.934698,-43.236566)">
+     transform="matrix(0,2.6029895,-2.608707,0,236.20933,170.02411)">
     <g
        id="button-normal-right-1"
        inkscape:label="button-normal-right"
@@ -1191,11 +1194,11 @@
   </g>
   <path
      style="color:#000000;fill:#003232;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.60826"
-     d="M -161.98606,0.49999827 V 83.978638 h 83.450744 V 0.49999827 Z"
+     d="m 56.549258,248.26067 v 83.47864 H 140 v -83.47864 z"
      id="mouseover-slider-center" />
   <g
      id="mouseover-slider-topright"
-     transform="matrix(2.6078355,0,0,2.608707,-60.299803,-96.733162)">
+     transform="matrix(2.6078355,0,0,2.608707,158.23551,151.02751)">
     <g
        id="button-normal-topright-7"
        inkscape:label="button-normal-topright"
@@ -1234,7 +1237,7 @@
   </g>
   <g
      id="mouseover-slider-right"
-     transform="matrix(2.6029895,0,0,2.608707,-60.271886,-95.956062)">
+     transform="matrix(2.6029895,0,0,2.608707,158.26343,151.80461)">
     <g
        id="button-normal-right-10"
        inkscape:label="button-normal-right"
@@ -1264,7 +1267,7 @@
   </g>
   <g
      id="mouseover-slider-bottomright"
-     transform="matrix(0,2.6078355,-2.608707,0,18.472482,102.73552)">
+     transform="matrix(0,2.6078355,-2.608707,0,237.0078,350.4962)">
     <g
        id="button-normal-topright-67-1"
        inkscape:label="button-normal-topright"
@@ -1303,7 +1306,7 @@
   </g>
   <g
      id="mouseover-slider-bottomleft"
-     transform="matrix(-2.6078355,0,0,-2.608707,-180.49621,181.23317)">
+     transform="matrix(-2.6078355,0,0,-2.608707,38.039108,428.99385)">
     <g
        id="button-normal-topright-9-5"
        inkscape:label="button-normal-topright"
@@ -1342,7 +1345,7 @@
   </g>
   <g
      id="mouseover-slider-topleft"
-     transform="matrix(0,-2.6078355,2.608707,0,-259.49386,-18.235522)">
+     transform="matrix(0,-2.6078355,2.608707,0,-40.958542,229.52515)">
     <g
        id="button-normal-topright-3-5"
        inkscape:label="button-normal-topright"
@@ -1381,7 +1384,7 @@
   </g>
   <g
      id="mouseover-slider-left"
-     transform="matrix(-2.6029895,0,0,-2.608707,-180.24949,180.4347)">
+     transform="matrix(-2.6029895,0,0,-2.608707,38.285828,428.19538)">
     <g
        id="button-normal-right-3-4"
        inkscape:label="button-normal-right"
@@ -1411,7 +1414,7 @@
   </g>
   <g
      id="mouseover-slider-top"
-     transform="matrix(0,-2.6029895,2.608707,0,-258.19539,-18.263432)">
+     transform="matrix(0,-2.6029895,2.608707,0,-39.660072,229.49724)">
     <g
        id="button-normal-right-2-6"
        inkscape:label="button-normal-right"
@@ -1441,7 +1444,7 @@
   </g>
   <g
      id="mouseover-slider-bottom"
-     transform="matrix(0,2.6029895,-2.608707,0,17.67401,102.26343)">
+     transform="matrix(0,2.6029895,-2.608707,0,236.20933,350.02411)">
     <g
        id="button-normal-right-1-1"
        inkscape:label="button-normal-right"

@@ -14,9 +14,9 @@ ls -A | grep -xv ".git" | xargs rm -rf
 
 
 cd ~/.local/share/icons
-echo "Compressing icon directories..."
-rm -rf icons.tar.gz
-tar -czf icons.tar.gz Clarity/ Darcwaita-Plus/ Simply-Cyan-Circles/
+echo "Compressing icon directory..."
+rm -rf amoled-icons.tar.gz
+tar -czf amoled-icons.tar.gz Amoled/
 
 files=(
 README.md
@@ -42,7 +42,7 @@ README.md
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
 .local/share/fonts/
-.local/share/icons/icons.tar.gz
+.local/share/icons/amoled-icons.tar.gz
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/plasmoids/
