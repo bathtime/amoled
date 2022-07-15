@@ -2484,7 +2484,7 @@ qt-privacy-ask=0
 #equalizer-preset=flat
 
 # Bands gain (string)
-equalizer-bands=15.4 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 14.7
+equalizer-bands=11.9 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.2 20
 
 # Two pass (boolean)
 #equalizer-2pass=0
@@ -2493,7 +2493,7 @@ equalizer-bands=15.4 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
 #equalizer-vlcfreqs=1
 
 # Global gain (float)
-equalizer-preamp=0.100000
+equalizer-preamp=0.000000
 
 [scaletempo_pitch] # Pitch Shifter
 
