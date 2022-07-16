@@ -27,6 +27,7 @@ cd ~/.local/share/icons/; tar -xvzf icons.tar.gz
 
 
 dashboard:
+
 ![dashboard](/screenshots/dashboard.gif)
 
 launcher:
