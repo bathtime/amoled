@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="10.767370223999"
-         height="7.35445976257324" />
+         width="98.7371057572245"
+         height="119.229712756445" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -306,7 +306,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -332,8 +332,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="217.997107324219"
-       y="65.9933896030273"
+       x="119.928313540736"
+       y="179.968515134409"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -385,7 +385,7 @@
        setalpha="1" />
     <eventcontext
        id="select"
-       selcue="1"
+       selcue="0"
        gradientdrag="0"
        touch_box="0" />
     <eventcontext
@@ -538,7 +538,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -551,7 +551,8 @@
     <group
        id="xml"
        h="500"
-       w="300" />
+       w="300"
+       panedpos="313" />
     <group
        id="find" />
     <group
@@ -590,10 +591,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.svgz.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/icons/Amoled/scalable/actions"
+       path="/home/user/.local/share/plasma/desktoptheme/amoled"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -810,7 +811,7 @@
        value="0" />
     <group
        id="stickyzoom"
-       value="0" />
+       value="1" />
     <group
        id="selcue"
        value="2" />
@@ -949,7 +950,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:none;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:1.88976378">
+     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:#00ffff;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:4.3;opacity:0.01;stroke:#00ffff">
     <group
        width="1308"
        height="768"

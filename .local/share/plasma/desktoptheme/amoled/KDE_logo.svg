@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="128"
+   viewBox="0 0 33.8667 33.8667"
+   width="128"
+   version="1.1"
+   id="svg18261"
+   sodipodi:docname="KDE_logo.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18265" />
+  <sodipodi:namedview
+     id="namedview18263"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.546875"
+     inkscape:cx="62.460481"
+     inkscape:cy="64"
+     inkscape:window-width="1308"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18261" />
+  <metadata
+     id="metadata18253" />
+  <g
+     transform="translate(0 -263.13)"
+     id="g18259">
+    <path
+       d="m0 263.13h33.87v33.87h-33.87z"
+       fill="#1d99f3"
+       id="path18255" />
+    <path
+       d="m 23.1091,276.31172 5.90521,-7.59912 -4.57729,-1.05245 -5.67649,7.59883 c 4.34857,1.05274 0,0 4.34857,1.05274 z"
+       fill="#fcfcfc"
+       stroke-width="0.265"
+       id="path18257"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

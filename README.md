@@ -30,6 +30,9 @@ cd ~/.local/share/icons/; tar -xvzf icons.tar.gz
 launcher:
 ![launcher](/screenshots/launcher.png)
 
+dashboard:
+![dashboard](/screenshots/dashboard.png)
+
 falkon:
 ![falkon](/screenshots/falkon.png)
 

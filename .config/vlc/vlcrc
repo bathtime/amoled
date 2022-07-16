@@ -1730,7 +1730,7 @@ subsdec-encoding=UTF-8
 [sharpen] # Sharpen video filter
 
 # Sharpen strength (0-2) (float)
-#sharpen-sigma=0.050000
+sharpen-sigma=0.200000
 
 [alphamask] # Alpha mask video filter
 
@@ -1887,7 +1887,7 @@ subsdec-encoding=UTF-8
 [gaussianblur] # Gaussian blur video filter
 
 # Gaussian's std deviation (float)
-#gaussianblur-sigma=2.000000
+gaussianblur-sigma=0.062500
 
 [extract] # Extract RGB component video filter
 
@@ -1954,7 +1954,7 @@ extract-component=65535
 [motionblur] # Motion blur filter
 
 # Blur factor (1-127) (integer)
-#blur-factor=80
+blur-factor=21
 
 [deinterlace] # Deinterlacing video filter
 
@@ -1978,7 +1978,7 @@ extract-component=65535
 [grain] # Grain video filter
 
 # Variance (float)
-#grain-variance=2.000000
+grain-variance=10.000000
 
 # Minimal period (integer)
 #grain-period-min=1
@@ -1989,7 +1989,7 @@ extract-component=65535
 [gradfun] # Gradfun video filter
 
 # Radius (integer)
-#gradfun-radius=16
+gradfun-radius=32
 
 # Strength (float)
 #gradfun-strength=1.200000
@@ -2326,25 +2326,25 @@ qt-privacy-ask=0
 [compressor] # Dynamic range compressor
 
 # RMS/peak (float)
-#compressor-rms-peak=0.200000
+compressor-rms-peak=0.999000
 
 # Attack time (float)
-#compressor-attack=25.000000
+compressor-attack=60.799999
 
 # Release time (float)
-#compressor-release=100.000000
+compressor-release=800.000000
 
 # Threshold level (float)
-#compressor-threshold=-11.000000
+compressor-threshold=-23.840000
 
 # Ratio (float)
-#compressor-ratio=4.000000
+compressor-ratio=20.000000
 
 # Knee radius (float)
-#compressor-knee=5.000000
+compressor-knee=2.230000
 
 # Makeup gain (float)
-#compressor-makeup-gain=7.000000
+compressor-makeup-gain=12.429999
 
 [audiobargraph_a] # Audio part of the BarGraph function
 
@@ -2369,13 +2369,13 @@ qt-privacy-ask=0
 [stereo_widen] # Simple stereo widening effect
 
 # Delay time (float)
-#stereowiden-delay=20.000000
+stereowiden-delay=24.000000
 
 # Feedback gain (float)
-#stereowiden-feedback=0.300000
+stereowiden-feedback=0.800000
 
 # Crossfeed (float)
-#stereowiden-crossfeed=0.300000
+stereowiden-crossfeed=0.600000
 
 # Dry mix (float)
 #stereowiden-dry-mix=0.800000
@@ -2425,19 +2425,19 @@ qt-privacy-ask=0
 [spatializer] # Audio Spatializer
 
 # Room size (float)
-#spatializer-roomsize=0.850000
+spatializer-roomsize=1.100000
 
 # Room width (float)
 #spatializer-width=1.000000
 
 # Wet (float)
-#spatializer-wet=0.400000
+spatializer-wet=1.000000
 
 # Dry (float)
-#spatializer-dry=0.500000
+spatializer-dry=1.000000
 
 # Damp (float)
-#spatializer-damp=0.500000
+spatializer-damp=1.000000
 
 [chorus_flanger] # Sound Delay
 
@@ -2484,7 +2484,7 @@ qt-privacy-ask=0
 #equalizer-preset=flat
 
 # Bands gain (string)
-equalizer-bands=11.9 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.2 20
+equalizer-bands=11.9 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.2 11.7
 
 # Two pass (boolean)
 #equalizer-2pass=0
@@ -3984,7 +3984,7 @@ audio-filter=equalizer
 #vout=
 
 # Video filter module (string)
-video-filter=extract
+#video-filter=
 
 # Video splitter module (string)
 #video-splitter=
