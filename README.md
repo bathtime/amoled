@@ -31,7 +31,7 @@ launcher:
 ![launcher](/screenshots/launcher.png)
 
 dashboard:
-![dashboard](/screenshots/dashboard.png)
+![dashboard](/screenshots/dashboard.gif)
 
 falkon:
 ![falkon](/screenshots/falkon.png)
