@@ -26,12 +26,11 @@ cd ~/.local/share/icons/; tar -xvzf icons.tar.gz
 ## KDE Screenshots
 
 
+dashboard:
+![dashboard](/screenshots/dashboard.gif)
 
 launcher:
 ![launcher](/screenshots/launcher.png)
-
-dashboard:
-![dashboard](/screenshots/dashboard.gif)
 
 falkon:
 ![falkon](/screenshots/falkon.png)
