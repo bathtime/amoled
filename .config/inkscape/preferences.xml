@@ -118,8 +118,9 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="98.7371057572245"
-         height="119.229712756445" />
+         width="43.182300567627"
+         height="175.84342956543"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -155,8 +156,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="20"
-         ry="20" />
+         rx="11.4295272072859"
+         ry="12.2676947319526" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -306,7 +307,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -332,8 +333,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="119.928313540736"
-       y="179.968515134409"
+       x="279.317198379582"
+       y="86.445128518329"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -538,7 +539,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -950,7 +951,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;stroke-linecap:square;font-size:8px;fill:#00ffff;stroke-linejoin:bevel;paint-order:markers fill stroke;stroke-width:4.3;opacity:0.01;stroke:#00ffff">
+     style="stroke-miterlimit:2.8;font-size:8px;fill:#007d7d;stroke-width:0.836;stroke-linejoin:bevel;stroke-linecap:square;opacity:0.01">
     <group
        width="1308"
        height="768"
