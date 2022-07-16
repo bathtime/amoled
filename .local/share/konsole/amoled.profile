@@ -13,6 +13,8 @@ CursorShape=2
 Name=amoled
 Parent=FALLBACK/
 ShowTerminalSizeHint=false
+TerminalColumns=30
+TerminalRows=14
 
 [Scrolling]
 HighlightScrolledLines=false

@@ -26,9 +26,9 @@ cd ~/.local/share/icons/; tar -xvzf icons.tar.gz
 ## KDE Screenshots
 
 
-dashboard:
+dashboard (live):
 
-![dashboard](/screenshots/dashboard.gif)
+![dashboard-live](/screenshots/dashboard-live.gif)
 
 launcher:
 ![launcher](/screenshots/launcher.png)
