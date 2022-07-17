@@ -17,6 +17,14 @@ Name_3=Page III
 Number=3
 Rows=3
 
+[Effect-Glide]
+Duration=200
+InDistance=-1000
+InRotationAngle=0
+OutDistance=-1000
+OutRotationAngle=0
+OutRotationEdge=0
+
 [Effect-PresentWindows]
 BorderActivateAll=9
 
@@ -40,12 +48,12 @@ Menus=67
 blurEnabled=false
 contrastEnabled=false
 desktopgridEnabled=false
+glideEnabled=true
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_frozenappEnabled=false
 kwin4_effect_fullscreenEnabled=false
 kwin4_effect_loginEnabled=false
 kwin4_effect_logoutEnabled=false
-kwin4_effect_maximizeEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_morphingpopups_xfadefixEnabled=false
 kwin4_effect_scaleEnabled=false

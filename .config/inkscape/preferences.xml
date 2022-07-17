@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="43.182300567627"
-         height="175.84342956543"
+         width="28"
+         height="3"
          ry="0" />
       <eventcontext
          id="3dbox"
@@ -156,8 +156,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="11.4295272072859"
-         ry="12.2676947319526" />
+         rx="9.21249771118164"
+         ry="9.73395919799805" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -333,8 +333,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="-159.798573789202"
-       y="47.1612155052118"
+       x="366.066408386384"
+       y="223.881069292831"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -540,7 +540,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -593,10 +593,10 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svgz.inkscape"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/plasma/desktoptheme/amoled"
+       path="/home/user/Pictures"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -958,13 +958,13 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;font-size:8px;fill:#00ffff;stroke-width:1.978;stroke-linejoin:bevel;stroke-linecap:square;opacity:0.01">
+     style="stroke-miterlimit:2.2;font-size:8px;fill:#ffff00;stroke-width:8.002;stroke-linecap:square;opacity:0.4;fill-opacity:0.01013513;stroke:#00ffff">
     <group
-       width="1486"
+       width="1308"
        height="768"
        x="0"
        y="0"
-       maximized="0"
+       maximized="1"
        fullscreen="0"
        id="geometry" />
     <group

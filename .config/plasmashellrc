@@ -28,26 +28,29 @@ LVDS-1 Window-Maximized 1366x768=true
 Number of Actions=1
 
 [KFileDialog Settings]
-Recent Files[$e]=ksh93-3.svg,file:$HOME/Pictures/tux.png,file:$HOME/Pictures/ksh93-3.svg
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/screenshots/
+Recent Files[$e]=ksh93-3.svg,file:$HOME/screenshots/tux-ascii-2.png,file:$HOME/Pictures/tux.png,file:$HOME/Pictures/ksh93-3.svg
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/screenshots/,file:$HOME/
 detailViewIconSize=16
 iconViewIconSize=256
-listViewIconSize=64
+listViewIconSize=128
 
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 2][Defaults]
-thickness=58
+thickness=54
 
 [PlasmaViews][Panel 2][Horizontal1366]
 thickness=44
 
 [PlasmaViews][Panel 2][Vertical768]
-thickness=58
+thickness=54
+
+[PlasmaViews][Panel 406][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 406][Horizontal1366]
+thickness=40
 
 [PlasmaViews][Panel 66][Defaults]
 thickness=50
