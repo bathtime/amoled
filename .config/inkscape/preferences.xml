@@ -307,7 +307,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -534,7 +534,8 @@
        palette="amoled" />
   </group>
   <group
-     id="dialogs">
+     id="dialogs"
+     traceliveUpdate="1">
     <group
        id="toolbox" />
     <group
@@ -592,7 +593,7 @@
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svgz.inkscape"
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
        path="/home/user/.local/share/plasma/desktoptheme/amoled"
@@ -610,12 +611,13 @@
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/user/Downloads/"
        ask="1"
        ask_svg="1"
-       link="link"
+       link="embed"
        scale="auto"
-       import_mode_svg="include" />
+       import_mode_svg="include"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -670,7 +672,8 @@
      id="options"
      rotationlock="1"
      dpifixbackup="1"
-     dpiupdatemethod="0">
+     dpiupdatemethod="0"
+     onimport="0">
     <group
        id="renderingcache"
        size="512" />
@@ -937,7 +940,11 @@
        unitType="2" />
     <group
        id="boot"
-       theme="colorful" />
+       theme="colorful">
+      <group
+         id="shown"
+         ver1.2="1" />
+    </group>
     <group
        id="rendering" />
     <group
@@ -951,7 +958,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.8;font-size:8px;fill:#007d7d;stroke-width:0.836;stroke-linejoin:bevel;stroke-linecap:square;opacity:0.01">
+     style="stroke-miterlimit:2.8;font-size:8px;fill:#00ffff;stroke-width:0.836;stroke-linejoin:bevel;stroke-linecap:square;opacity:0.01">
     <group
        width="1308"
        height="768"
@@ -1086,14 +1093,22 @@
      defaultIconTheme="Clarity"
      defaultGtkTheme="Default"
      narrowSpinButton="1"
-     preferDarkTheme="1"
+     preferDarkTheme="0"
      darkTheme="0"
      symbolicIcons="1"
-     symbolicDefaultBaseColors="1"
-     symbolicDefaultHighColors="0">
+     symbolicDefaultBaseColors="0"
+     symbolicDefaultHighColors="0"
+     gtkTheme="Adwaita"
+     iconTheme="multicolor">
     <group
        id="Clarity"
        symbolicBaseColor="775173887" />
+    <group
+       id="multicolor"
+       symbolicBaseColor="255"
+       symbolicSuccessColor="10029823"
+       symbolicWarningColor="4279865599"
+       symbolicErrorColor="10086143" />
   </group>
   <group
      id="gradient-edit"
