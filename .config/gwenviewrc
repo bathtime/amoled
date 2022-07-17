@@ -43,7 +43,6 @@ ConfirmDelete=true
 HideMenuBarWarning=false
 
 [SideBar]
-IsVisible ViewMode=true
 SideBarSplitterSizes=311,979
 
 [StatusBar]
