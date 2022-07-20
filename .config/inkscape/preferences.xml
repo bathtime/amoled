@@ -540,7 +540,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="2" />
+       page="1" />
     <group
        id="filtereffects" />
     <group
@@ -568,7 +568,7 @@
     <group
        id="preferences"
        state="1"
-       page="1" />
+       page="4" />
     <group
        id="gradienteditor" />
     <group
@@ -596,7 +596,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/icons/Amoled/scalable/actions"
+       path="/home/user/.local/share/icons/Amoled/scalable/apps"
        use_current_dir="1" />
     <group
        id="save_copy"
