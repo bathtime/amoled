@@ -1,3 +1,5 @@
+MenuBar=Disabled
+
 [CompactMode]
 FontWeight=50
 
@@ -14,6 +16,7 @@ DirHistory[$e]=$HOME/.local/share/icons/
 LVDS-1 Window-Maximized 1366x768=true
 
 [General]
+CommandBarLastUsedActions=Invert Selection
 ConfirmClosingMultipleTabs=false
 ConfirmClosingTerminalRunningProgram=false
 ShowSelectionToggle=false

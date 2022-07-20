@@ -596,7 +596,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/icons/Amoled/scalable/apps"
+       path="/home/user/.local/share/icons/Amoled/scalable/actions"
        use_current_dir="1" />
     <group
        id="save_copy"
