@@ -118,8 +118,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="28"
-         height="3"
+         width="14.0465822219849"
+         height="2.50144624710083"
          ry="0" />
       <eventcontext
          id="3dbox"
@@ -333,8 +333,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="366.066408386384"
-       y="223.881069292831"
+       x="6.58797656948824"
+       y="13.6683211661412"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -540,7 +540,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -596,7 +596,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/Pictures"
+       path="/home/user/.local/share/icons/Amoled/scalable/actions"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -958,9 +958,9 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:2.2;font-size:8px;fill:#ffff00;stroke-width:8.002;stroke-linecap:square;opacity:0.4;fill-opacity:0.01013513;stroke:#00ffff">
+     style="stroke-miterlimit:2.2;font-size:8px;fill:#00ffff;stroke-linecap:square;stroke-width:2">
     <group
-       width="1308"
+       width="1312"
        height="768"
        x="0"
        y="0"

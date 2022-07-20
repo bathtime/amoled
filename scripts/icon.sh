@@ -6,7 +6,7 @@ file="$1"
 
 #dir=/home/user/.local/share/icons/Clarity/static
 #dir=/home/user/.local/share/icons/Darcwaita-Plus/s
-dir=/home/user/.local/share/icons/Simply-Cyan-Circles/symbolic
+dir=/home/user/.local/share/icons/Amoled/scalable
 
 cd $dir
 
@@ -27,13 +27,16 @@ echo "Processing $file..."
 
 # Darcwaita-Plus
 
-sed -i "s/style=\"fill:url.*\"/style=\"fill:$COLOR\"/g" "$file"
-sed -rEi "s/fill[=|:]\#[a-fA-F0-9]+/fill:$COLOR/g" "$file"
-sed -rEi "s/fill[=|:]\"\#[a-fA-F0-9]+\"?/fill=\"$COLOR\"/g" "$file"
+#sed -i "s/style=\"fill:url.*\"/style=\"fill:$COLOR\"/g" "$file"
+#sed -rEi "s/fill[=|:]\#[a-fA-F0-9]+/fill:$COLOR/g" "$file"
+#sed -rEi "s/fill[=|:]\"\#[a-fA-F0-9]+\"?/fill=\"$COLOR\"/g" "$file"
 
-sed -rEi "s/stroke[=|:]\"\#[a-fA-F0-9]+\"?/stroke=\"$COLOR\"/g" "$file"
-sed -rEi "s/color[=|:]\#[a-fA-F0-9]+/color:$COLOR/g" "$file"
-sed -rEi "s/color[=|:]\"\#[a-fA-F0-9]+\"?/color=\"$COLOR\"/g" "$file"
+#sed -rEi "s/stroke[=|:]\"\#[a-fA-F0-9]+\"?/stroke=\"$COLOR\"/g" "$file"
+#sed -rEi "s/color[=|:]\#[a-fA-F0-9]+/color:$COLOR/g" "$file"
+#sed -rEi "s/color[=|:]\"\#[a-fA-F0-9]+\"?/color=\"$COLOR\"/g" "$file"
+
+
+sed -i "s/5beedc/00ffff/g" "$file"
 
 done
 

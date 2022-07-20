@@ -31,10 +31,10 @@
             <default>true</default>
         </entry>
         <entry name="buttonsStandalone" type="Bool">
-            <default>false</default>
+            <default>true</default>
         </entry>
         <entry name="buttonsDynamicWidth" type="Bool">
-            <default>false</default>
+            <default>true</default>
         </entry>
         <entry name="slidingIconAndText" type="Bool">
             <default>false</default>
@@ -58,14 +58,14 @@
             <default>1.0</default>
         </entry>
         <entry name="controlButtonsSpacing" type="Double">
-            <default>20</default>
+            <default>10</default>
         </entry>
 
         <entry name="autoFillWidth" type="Bool">
             <default>true</default>
         </entry>
         <entry name="horizontalScreenWidthPercent" type="Double">
-            <default>1.2</default>
+            <default>0.2</default>
         </entry>
         <entry name="widthFineTuning" type="Double">
             <default>0.0</default>

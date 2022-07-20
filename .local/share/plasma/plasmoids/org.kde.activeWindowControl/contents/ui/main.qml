@@ -29,7 +29,7 @@ Item {
     property bool vertical: (plasmoid.formFactor == PlasmaCore.Types.Vertical)
 
     property double horizontalScreenWidthPercent: plasmoid.configuration.horizontalScreenWidthPercent
-    property double buttonSize: plasmoid.configuration.buttonSize * 1.2
+    property double buttonSize: plasmoid.configuration.buttonSize
     property bool autoFillWidth: plasmoid.configuration.autoFillWidth
     property double widthForHorizontalPanel: (Screen.width * horizontalScreenWidthPercent + plasmoid.configuration.widthFineTuning) - ((!controlButtonsArea.visible && buttonsStandalone && plasmoid.configuration.buttonsDynamicWidth) ? controlButtonsArea.width : 0)
     anchors.fill: parent
@@ -252,9 +252,8 @@ Item {
             PlasmaCore.IconItem {
                 id: iconItem
 
-                /* anchors.left: parent.left
+                anchors.left: parent.left
                 anchors.leftMargin: windowIconOnTheRight ? parent.width - iconItem.width : 0
-*/
 
                 width: parent.height
                 height: parent.height

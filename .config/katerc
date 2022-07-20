@@ -28,8 +28,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.config/Kvantum/amoled/amoled.colors,file:$HOME/.config/stylesheet/amoled2.css,file:$HOME/.local/share/icons/Clarity/scalable/apps/firefox3.svg
-Recent URLs[$e]=file:$HOME/.local/share/icons/Clarity/scalable/apps/,file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/,file:$HOME/.config/Kvantum/amoled/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/Documents/sayings.txt,file:$HOME/.config/Kvantum/amoled/amoled.colors,file:$HOME/.config/stylesheet/amoled2.css
+Recent URLs[$e]=file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/,file:$HOME/.config/Kvantum/amoled/,file:$HOME/Documents/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -139,7 +139,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=32,class="ColorScheme-Highlight"\\\\nstyle="fill:currentColor,style="fill:currentColor,<path\\\\nclass="ColorScheme-Highlight"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\n,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor"\\\\,<path\\\\nclass="ColorScheme-Highlight"\\\\nstyle="fill:currentColor",,<path\n     class="ColorScheme-Highlight"\n
-Search History=size,mpv,focus,breeze,maximi,icon,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
+Search History=icon,title,show,height,anchor,ancho,siz,size,mpv,focus,breeze,maximi,hide,spacing,center,16,group,shadow,path,b-normal,style,defs,itemview,style="fill:#00ffff,<path\\\\n,  <path,^path,$path,$path/n,path/n,path/r,<path\n,opacity,gradient
 
 [Konsole]
 AutoSyncronize=true

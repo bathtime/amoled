@@ -261,8 +261,9 @@ Item {
             }
             Slider {
                 id: buttonSize
-                stepSize: 0.1
+                stepSize: 0.01
                 minimumValue: 0.1
+                maximumValue: 1.5
                 tickmarksEnabled: true
                 width: parent.width
             }

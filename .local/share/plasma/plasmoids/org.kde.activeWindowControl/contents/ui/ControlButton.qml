@@ -27,7 +27,7 @@ MouseArea {
     property bool mouseInside: false
     property bool iconActive: (iconName !== 'alldesktops' && iconName !== 'maximize') || (iconName === 'alldesktops' && main.isActiveWindowPinned) || (iconName === 'maximize' && main.currentWindowMaximized)
 
-    property string themeName: 'default'
+    property string themeName: textColorLight ? 'breeze-dark' : 'default'
     property string customAuroraeThemePath: plasmoid.configuration.customAuroraeThemePath
     property bool usingAuroraeTheme: customAuroraeThemePath ? true : false
     property string customAuroraeThemeImageExtension: plasmoid.configuration.customAuroraeThemeImageExtension
