@@ -10,7 +10,7 @@ git commit -m "Updated project." && echo "Updating online git repo..." || echo "
 echo -ne "\nusername: bathtime\npassword: "
 cat /home/user/git-token
 
-exit
+
 git push origin
 
 
