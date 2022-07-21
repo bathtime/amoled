@@ -5,7 +5,7 @@
 cd /home/user/amoled-project
 git add --all
 git status
-git commit -m "Updated project." && echo "Updating online git repo..." || echo "Exiting...";
+git commit -m "Updated project." && echo "Updating online git repo..." || echo "Exiting..."; exit
 
 echo -ne "\nusername: bathtime\npassword: "
 cat /home/user/git-token
