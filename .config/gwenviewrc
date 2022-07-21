@@ -1,6 +1,5 @@
 LVDS-1 Window-Maximized 1366x768=true
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABRwAAAM3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABSAAAAKqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
@@ -12,6 +11,7 @@ LastUsedVersion=210800
 SideBarPage=operations
 ThumbnailActions=ThumbnailActions::None
 UrlNavigatorIsEditable=true
+UrlNavigatorShowFullPath=true
 
 [ImageView]
 AlphaBackgroundColor=0,0,0
@@ -31,7 +31,8 @@ listViewIconSize=64
 LVDS-1 Height 1366x768=839
 LVDS-1 Width 1366x768=937
 LVDS-1 Window-Maximized 1366x768=true
-State=AAAA/wAAAAD9AAAAAAAABSAAAAKqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABSAAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -46,13 +47,15 @@ CompletionMode=1
 History=
 
 [SideBar]
-SideBarSplitterSizes=311,979
+SideBarSplitterSizes=311,983
 
 [StatusBar]
 IsVisible ViewMode=false
 
 [ThumbnailView]
 AutoplayVideos=true
+SortDescending=true
+Sorting=Sorting::Date
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
