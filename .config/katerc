@@ -160,6 +160,7 @@ ToolButtonStyle=IconOnly
 
 [Notification Messages]
 HideMenuBarWarning=false
+kate_close_modonhd_1=false
 kate_close_modonhd_2=false
 kate_close_modonhd_3=false
 

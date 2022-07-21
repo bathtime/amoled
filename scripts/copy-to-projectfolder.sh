@@ -13,8 +13,8 @@ cd $path
 ls -A | grep -xv ".git" | xargs rm -rf
 
 
-cd ~/.local/share/icons
 echo "Compressing icon directory..."
+cd ~/.local/share/icons
 rm -rf amoled-icons.tar.gz
 tar -czf amoled-icons.tar.gz Amoled/
 
