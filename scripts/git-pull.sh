@@ -2,7 +2,8 @@
 
 cd ~/amoled-project
 
-git pull -v
+git pull -v && echo Yes || echo No
+
 
 #~/scripts.bak/./copy-to-system.sh
 
