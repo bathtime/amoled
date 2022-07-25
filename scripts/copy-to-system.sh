@@ -6,6 +6,8 @@ cd $path
 
 cp -rv .* /home/user/
 
+cp .mozilla/firefox/*.default-release/user.js /home/user/.mozilla/firefox/*.default-release/
+
 cd ~/.local/share/icons
 
 echo "Erasing previous icons..."

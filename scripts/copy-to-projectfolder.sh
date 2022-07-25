@@ -5,7 +5,8 @@ path="/home/user/amoled-project"
 
 echo "Copying backup script folder..."
 cd ~
-cp -r scripts.bak/* scripts/
+cp -r scripts.bak/* scripts/ || (echo "Creating new scripts.bak directory."; cp -r scripts scripts.bak)
+
 
 echo "Erasing previous git files..."
 cd $path
@@ -58,7 +59,6 @@ for file in "${files[@]}" ; do
     cp -R "/home/user/$file" "$path/$file"
 
 done
-
 
 
 
