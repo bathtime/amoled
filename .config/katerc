@@ -1,4 +1,5 @@
 [FileDialogSize]
+LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 LVDS-1 Window-Maximized 1366x768=true
 
 [General]
@@ -28,8 +29,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/Splash.qml,file:$HOME/.config/Kvantum/amoled/amoled.colors
-Recent URLs[$e]=file:$HOME/.config/inkscape/palettes/,file:$HOME/.config/Kvantum/amoled/,file:$HOME/Documents/,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/defaults,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/Splash.qml,file:$HOME/.config/Kvantum/amoled/amoled.colors
+Recent URLs[$e]=file:$HOME/.config/inkscape/palettes/,file:$HOME/.config/Kvantum/amoled/,file:$HOME/Documents/,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/
 detailViewIconSize=16
 iconViewIconSize=64
 

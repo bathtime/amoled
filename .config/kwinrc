@@ -52,7 +52,6 @@ glideEnabled=true
 kwin4_effect_dialogparentEnabled=false
 kwin4_effect_frozenappEnabled=false
 kwin4_effect_fullscreenEnabled=false
-kwin4_effect_loginEnabled=false
 kwin4_effect_logoutEnabled=false
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_morphingpopups_xfadefixEnabled=false
@@ -71,5 +70,3 @@ BorderlessMaximizedWindows=true
 [org.kde.kdecoration2]
 BorderSize=VeryHuge
 BorderSizeAuto=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__amoled

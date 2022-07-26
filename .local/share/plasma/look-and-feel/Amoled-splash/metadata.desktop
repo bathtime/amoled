@@ -3,7 +3,7 @@ Comment=amoled
 
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-Name=Amoled
+Name=Amoled-splash
 
 Type=Service
 
@@ -13,7 +13,7 @@ X-KDE-PluginInfo-Author=mrmaire(fork:dancp)
 X-KDE-PluginInfo-Category=
 X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=GNU GPL v3
-X-KDE-PluginInfo-Name=amoled
+X-KDE-PluginInfo-Name=Amoled-splash
 X-KDE-PluginInfo-Version=
 X-KDE-PluginInfo-Website=
 X-KDE-fallbackPackage=org.kde.breeze.desktop

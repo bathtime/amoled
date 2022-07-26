@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "adhemarks@gmail.com",
+                "Name": "Adhe"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Dependencies": [
+        ],
+        "Description": "A launcher based on the windows 10 menu",
+      
+        "EnabledByDefault": true,
+        "Icon": "start-here-kde",
+        "Id": "menuZ",
+        "License": "GPL-2.0+",
+        "Name": "Menu Z",
+      
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "3.0"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ]
+}

@@ -37,6 +37,7 @@ Recent URLs[$e]=file:$HOME/.local/share/icons/
 detailViewIconSize=16
 
 [KPropertiesDialog]
+LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 LVDS-1 Window-Maximized 1366x768=true
 
 [MainWindow]

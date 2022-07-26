@@ -25,6 +25,7 @@ README.md
 .config/gtkrc
 .config/gwenviewrc
 .config/katerc
+.config/kdedefaults
 .config/kateschemarc
 .config/konsolerc
 .config/konquerorrc
@@ -46,7 +47,7 @@ README.md
 .local/share/icons/amoled-icons.tar.gz
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
-.local/share/plasma/look-and-feel/amoled/
+.local/share/plasma/look-and-feel/
 .local/share/plasma/plasmoids/
 screenshots/
 scripts/
