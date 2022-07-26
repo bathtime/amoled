@@ -28,8 +28,8 @@ Tab Middle Click Close Document=true
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/Documents/sayings.txt,file:$HOME/.config/Kvantum/amoled/amoled.colors,file:$HOME/.config/stylesheet/amoled2.css
-Recent URLs[$e]=file:$HOME/.config/inkscape/palettes/,file:$HOME/.local/share/icons/Simply-Cyan-Circles/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/apps/,file:$HOME/.local/share/icons/Darcwaita-Plus/scalable/status/,file:$HOME/.config/stylesheet/,file:$HOME/.config/Kvantum/amoled/,file:$HOME/Documents/
+Recent Files[$e]=file:$HOME/.config/inkscape/palettes/amoled.gpl,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/Splash.qml,file:$HOME/.config/Kvantum/amoled/amoled.colors
+Recent URLs[$e]=file:$HOME/.config/inkscape/palettes/,file:$HOME/.config/Kvantum/amoled/,file:$HOME/Documents/,file:$HOME/.local/share/plasma/look-and-feel/amoled/contents/splash/
 detailViewIconSize=16
 iconViewIconSize=64
 
@@ -150,6 +150,7 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
+LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABSYAAAK+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA

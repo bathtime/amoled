@@ -46,6 +46,7 @@ README.md
 .local/share/icons/amoled-icons.tar.gz
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
+.local/share/plasma/look-and-feel/amoled/
 .local/share/plasma/plasmoids/
 screenshots/
 scripts/

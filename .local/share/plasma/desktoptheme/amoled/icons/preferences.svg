@@ -3,7 +3,7 @@
    viewBox="0 0 15.839999 15.839999"
    id="svg"
    version="1.1"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    width="100%"
    height="100%"
    sodipodi:docname="preferences.svg"
@@ -48,13 +48,13 @@
      guidetolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:window-width="1308"
+     inkscape:window-width="1312"
      inkscape:window-height="768"
      id="namedview32"
      showgrid="true"
-     inkscape:zoom="2.8055556"
-     inkscape:cx="43.485148"
-     inkscape:cy="11.584158"
+     inkscape:zoom="12.046734"
+     inkscape:cx="36.690443"
+     inkscape:cy="118.9119"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -74,7 +74,8 @@
   <g
      id="preferences-desktop-display-randr"
      inkscape:label="#g862"
-     style="fill:#00ffff">
+     style="fill:#00ffff"
+     transform="matrix(0.71621957,0,0,0.71621957,0.0118008,0)">
     <rect
        style="fill:#00ffff;fill-opacity:0;stroke:none"
        id="rect3832"
