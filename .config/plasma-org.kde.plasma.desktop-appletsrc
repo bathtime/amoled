@@ -210,6 +210,13 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][36][Applets][61]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][36][Applets][61][Configuration]
+PreloadWeight=42
+
 [Containments][36][ConfigDialog]
 DialogHeight=768
 DialogWidth=1318

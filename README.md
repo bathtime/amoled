@@ -51,9 +51,11 @@ dolphin:
 vlc:
 ![vlc](/screenshots/vlc.png)
 
+splash:
+![splash](/screenshots/splash.png)
+
 maliit (TODO - add theme):
 ![keyboard](/screenshots/maliit.png)
-
 
 ## Credits
 
