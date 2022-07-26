@@ -9,6 +9,7 @@ Config Revision=10
 Days Meta Infos=30
 Elide Tab Text=false
 Expand Tabs=true
+Last Session=amoled
 Modified Notification=false
 Quickopen List Mode=true
 Recent File List Entry Count=10
@@ -16,8 +17,8 @@ Restore Window Configuration=true
 Save Meta Infos=true
 Show Full Path in Title=true
 Show Menu Bar=false
-Show Status Bar=true
-Show Tab Bar=true
+Show Status Bar=false
+Show Tab Bar=false
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
@@ -153,8 +154,7 @@ SetEditor=false
 [MainWindow]
 LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 LVDS-1 Window-Maximized 1366x768=true
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABSYAAAK+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABSYAAAKsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -162,6 +162,7 @@ ToolButtonStyle=IconOnly
 
 [Notification Messages]
 HideMenuBarWarning=false
+Kate hide sidebars notification message=false
 kate_close_modonhd_1=false
 kate_close_modonhd_2=false
 kate_close_modonhd_3=false

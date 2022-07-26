@@ -38,6 +38,9 @@ listViewIconSize=128
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
 [PlasmaViews][Panel 2][Defaults]
 thickness=54
 
@@ -46,6 +49,20 @@ thickness=44
 
 [PlasmaViews][Panel 2][Vertical768]
 thickness=54
+
+[PlasmaViews][Panel 31][Defaults]
+maxLength=1366
+minLength=1366
+offset=0
+thickness=48
+
+[PlasmaViews][Panel 31][Horizontal1366]
+maxLength=1366
+minLength=1366
+thickness=32
+
+[PlasmaViews][Panel 31][Vertical768]
+thickness=48
 
 [PlasmaViews][Panel 406][Defaults]
 thickness=40

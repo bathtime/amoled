@@ -33,6 +33,7 @@ README.md
 .config/okularpartrc
 .config/plasmarc
 .config/plasmashellrc
+.config/plasma-org.kde.plasma.desktop-appletsrc
 .config/spectaclerc
 .config/Trolltech.conf
 .config/gtk-3.0/
