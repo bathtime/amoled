@@ -22,6 +22,12 @@ cp -rv amoled/.* ~
 cd ~/.local/share/icons/; tar -xvzf amoled-icons.tar.gz
 ```
 
+## Activation
+
+System Settings -> Appearance -> Global Theme -> Amoled
+System Settings -> Application Style -> kvantum
+Kvantum -> Change/Delete Theme -> amoled
+
 
 ## KDE Screenshots
 
