@@ -31,6 +31,7 @@ System Settings -> Application Style -> kvantum
 Kvantum -> Change/Delete Theme -> amoled
 
 
+
 ## KDE Screenshots
 
 
@@ -55,7 +56,7 @@ dolphin:
 vlc:
 ![vlc](/screenshots/vlc.png)
 
-splash:
+splash screen:
 ![splash](.local/share/plasma/look-and-feel/Amoled/contents/previews/splash.png)
 
 maliit (TODO - add theme):
