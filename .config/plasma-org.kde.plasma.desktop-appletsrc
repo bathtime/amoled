@@ -130,10 +130,6 @@ buttonSize=1.04
 DialogHeight=768
 DialogWidth=1318
 
-[Containments][31][Applets][56]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-
 [Containments][31][Applets][57]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -161,7 +157,7 @@ DialogWidth=201
 PreloadWeight=42
 
 [Containments][31][General]
-AppletOrder=54;59;53;60;57;58;56;52;35;32
+AppletOrder=54;59;53;60;57;58;52;35;32
 
 [Containments][36]
 activityId=
