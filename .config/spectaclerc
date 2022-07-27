@@ -9,12 +9,12 @@ captureDelay=7
 window-position=50,50
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/screenshots/clock.png,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/splash/previews/splash.png,file:$HOME/screenshots/dashboard.png,file:$HOME/screenshots/tux-gnu.png,file:$HOME/screenshots/gnu-ascii-2.png,file:$HOME/screenshots/tux-ascii-2.png,file:$HOME/screenshots/gnu-ascii.png,file:$HOME/screenshots/tux-ascii.png,file:$HOME/screenshots/angelfish.png,file:$HOME/screenshots/konsole.png,file:$HOME/screenshots/kate.png,file:$HOME/screenshots/vlc.png,file:$HOME/screenshots/launcher.png,file:$HOME/screenshots/dolphin.png,file:$HOME/screenshots/falkon.png
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/screenshots/,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/splash/previews/,file:$HOME/Documents/
+Recent Files[$e]=file:$HOME/screenshots/clock.png,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/previews/splash.png,file:$HOME/screenshots/splash.png,file:$HOME/screenshots/dashboard.png,file:$HOME/screenshots/tux-gnu.png,file:$HOME/screenshots/gnu-ascii-2.png,file:$HOME/screenshots/tux-ascii-2.png,file:$HOME/screenshots/gnu-ascii.png,file:$HOME/screenshots/tux-ascii.png,file:$HOME/screenshots/angelfish.png,file:$HOME/screenshots/konsole.png,file:$HOME/screenshots/kate.png,file:$HOME/screenshots/vlc.png,file:$HOME/screenshots/launcher.png,file:$HOME/screenshots/dolphin.png,file:$HOME/screenshots/falkon.png
+Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/screenshots/,file:$HOME/Documents/,file:$HOME/.local/share/plasma/look-and-feel/Amoled-theme/contents/previews/
 detailViewIconSize=16
 iconViewIconSize=64
 listViewIconSize=64
 
 [Save]
-lastSaveAsLocation=file:///home/user/.local/share/plasma/look-and-feel/Amoled-theme/contents/splash/previews/splash.png
-lastSaveLocation=file:///home/user/.local/share/plasma/look-and-feel/Amoled-theme/contents/splash/previews/splash.png
+lastSaveAsLocation=file:///home/user/.local/share/plasma/look-and-feel/Amoled-theme/contents/previews/splash.png
+lastSaveLocation=file:///home/user/.local/share/plasma/look-and-feel/Amoled-theme/contents/previews/splash.png

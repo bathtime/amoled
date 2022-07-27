@@ -52,7 +52,7 @@ vlc:
 ![vlc](/screenshots/vlc.png)
 
 splash:
-![splash](/screenshots/splash.png)
+![splash](.local/share/plasma/look-and-feel/Amoled-theme/contents/previews/splash.png)
 
 maliit (TODO - add theme):
 ![keyboard](/screenshots/maliit.png)

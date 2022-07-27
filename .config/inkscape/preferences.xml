@@ -118,9 +118,9 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="111.12654876709"
-         height="111.12654876709"
-         ry="55.5632743835449" />
+         width="280.149688720703"
+         height="272.069915771484"
+         ry="136.034957885742" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -334,8 +334,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="502.491324619438"
-       y="212.332235380562"
+       x="289.234652057698"
+       y="884.411345831481"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -597,7 +597,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/user/.local/share/plasma/desktoptheme/amoled/widgets"
+       path="/home/user/.local/share/plasma/look-and-feel/Amoled-theme/contents/splash/images"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -959,7 +959,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:3.50000005;font-size:8px;fill:#00ffff;stroke-linecap:square;paint-order:fill markers stroke;stroke:#00ffff;stroke-width:5">
+     style="stroke-miterlimit:3.50000005;font-size:8px;fill:#001919;stroke-linecap:square;paint-order:fill markers stroke;stroke:#00ffff;stroke-width:5">
     <group
        width="1318"
        height="768"

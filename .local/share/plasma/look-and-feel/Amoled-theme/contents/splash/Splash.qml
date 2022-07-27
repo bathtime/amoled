@@ -33,26 +33,26 @@ Rectangle {
         Image {
             id: logo
 
-            y: (parent.height / 10)
+            y: (parent.height / 12)
             anchors.horizontalCenter: parent.horizontalCenter
 
             source: "images/tux.svg"
-            sourceSize.height: parent.height - (parent.height / 2)
+            sourceSize.height: parent.height - (parent.height / 6)
         }
 
         Image {
             id: busyIndicator
 
             anchors.horizontalCenter: parent.horizontalCenter
-            source: "images/gear.svg"
-            sourceSize.height: parent.height / 5
-            y: parent.height - (sourceSize.height + (sourceSize.height / 2))
+            source: "images/gear-black.svg"
+            sourceSize.height: parent.height / 3.75
+            y: parent.height - (parent.height / 2.1)
 
             RotationAnimator on rotation {
                 id: rotationAnimator
                 from: 0
                 to: 360
-                duration: 2000
+                duration: 8000
                 loops: Animation.Infinite
             }
         }
@@ -64,7 +64,7 @@ Rectangle {
         target: content
         from: 0
         to: 1
-        duration: 4000
+        duration: 1000
         easing.type: Easing.InOutQuad
     }
 }
