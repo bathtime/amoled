@@ -24,8 +24,9 @@ NavigationEndNotification=NavigationEndNotification::NeverWarn
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=32
-Recent Files[$e]=file:$HOME/screenshots/angelfish-720.png,file:$HOME/screenshots/clock.png,file:$HOME/Pictures/tux-gnu.png,file:$HOME/screenshots/vlc-720.png,file:$HOME/screenshots/maliit-720.png,file:$HOME/screenshots/launcher-720.png,file:$HOME/screenshots/konsole-720.png,file:$HOME/screenshots/kate-720.png,file:$HOME/screenshots/dolphin-720.png
-Recent URLs[$e]=file:$HOME/screenshots/,file:$HOME/Pictures/
+Recent Files[$e]=file:$HOME/screenshots/angelfish-720.png,file:$HOME/screenshots/launcher.jpg,file:$HOME/screenshots/clock.png,file:$HOME/screenshots/vlc-720.png,file:$HOME/screenshots/maliit-720.png,file:$HOME/screenshots/launcher-720.png,file:$HOME/screenshots/konsole-720.png,file:$HOME/screenshots/kate-720.png,file:$HOME/screenshots/dolphin-720.png
+Recent URLs[$e]=file:$HOME/screenshots/,file:$HOME/Pictures/,file:$HOME/.local/share/plasma/look-and-feel/Amoled/contents/previews/
+detailViewIconSize=16
 listViewIconSize=64
 
 [MainWindow]
@@ -49,7 +50,8 @@ CompletionMode=1
 History=
 
 [SideBar]
-SideBarSplitterSizes=311,983
+IsVisible ViewMode=true
+SideBarSplitterSizes=311,989
 
 [StatusBar]
 IsVisible ViewMode=false
