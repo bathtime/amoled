@@ -84,7 +84,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][31][Applets][35][Configuration]
-PreloadWeight=60
+PreloadWeight=95
 SystrayContainmentId=36
 immutability=1
 
@@ -94,6 +94,9 @@ PreloadWeight=52
 [Containments][31][Applets][52]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][31][Applets][52][Configuration]
+PreloadWeight=55
 
 [Containments][31][Applets][52][Configuration][Appearance]
 dateFormat=custom
@@ -136,7 +139,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][31][Applets][57][Configuration][General]
-launchers=preferred://filemanager
+launchers=preferred://filemanager,applications:org.kde.konsole.desktop
 
 [Containments][31][Applets][58]
 immutability=1
@@ -177,6 +180,12 @@ plugin=org.kde.plasma.manage-inputmethod
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][36][Applets][38][Configuration]
+PreloadWeight=80
+
+[Containments][36][Applets][38][Configuration][General]
+raiseMaximumVolume=true
+
 [Containments][36][Applets][39]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -212,19 +221,15 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][36][Applets][61]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
-
 [Containments][36][Applets][61][Configuration]
-PreloadWeight=10
+PreloadWeight=42
 
 [Containments][36][ConfigDialog]
 DialogHeight=768
 DialogWidth=1318
 
 [Containments][36][General]
-extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.battery
 
