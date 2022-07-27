@@ -47,11 +47,12 @@ README.md
 .local/share/color-schemes/
 .local/share/fonts/
 .local/share/icons/amoled-icons.tar.gz
+.local/share/plasma/look-and-feel/Amoled
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/look-and-feel/Amoled/
 .local/share/plasma/plasmoids/
-.local/share/wallpapers/amoled/
+.local/share/plasma/wallpapers/amoled/
 screenshots/
 scripts/
 )
