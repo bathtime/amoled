@@ -38,9 +38,6 @@ listViewIconSize=128
 [KPropertiesDialog]
 LVDS-1 Window-Maximized 1366x768=true
 
-[PlasmaTransientsConfig]
-PreloadWeight=34
-
 [PlasmaViews][Panel 2][Defaults]
 thickness=54
 

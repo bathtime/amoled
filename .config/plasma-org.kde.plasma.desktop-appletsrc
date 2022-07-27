@@ -84,7 +84,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][31][Applets][35][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 SystrayContainmentId=36
 immutability=1
 
@@ -134,8 +134,14 @@ DialogWidth=1318
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][31][Applets][57][Configuration][ConfigDialog]
+DialogHeight=768
+DialogWidth=1318
+
 [Containments][31][Applets][57][Configuration][General]
+groupingStrategy=0
 launchers=preferred://filemanager,applications:org.kde.konsole.desktop
+showToolTips=false
 
 [Containments][31][Applets][58]
 immutability=1
@@ -177,14 +183,14 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][36][Applets][38][Configuration]
-PreloadWeight=80
+PreloadWeight=95
 
 [Containments][36][Applets][38][Configuration][General]
+currentTab=streams
 raiseMaximumVolume=true
 
-[Containments][36][Applets][39]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
+[Containments][36][Applets][39][Configuration]
+PreloadWeight=42
 
 [Containments][36][Applets][40][Configuration]
 PreloadWeight=42
@@ -193,13 +199,11 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
 
-[Containments][36][Applets][42]
-immutability=1
-plugin=org.kde.plasma.printmanager
+[Containments][36][Applets][42][Configuration]
+PreloadWeight=42
 
-[Containments][36][Applets][43]
-immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
+[Containments][36][Applets][43][Configuration]
+PreloadWeight=42
 
 [Containments][36][Applets][44]
 immutability=1
@@ -209,9 +213,15 @@ plugin=org.kde.plasma.notifications
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][36][Applets][45][Configuration]
+PreloadWeight=60
+
 [Containments][36][Applets][48]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][36][Applets][48][Configuration]
+PreloadWeight=70
 
 [Containments][36][Applets][49]
 immutability=1
@@ -220,14 +230,59 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][36][Applets][61][Configuration]
 PreloadWeight=42
 
+[Containments][36][Applets][62]
+immutability=1
+plugin=org.kde.kscreen
+
+[Containments][36][Applets][62][Configuration]
+PreloadWeight=70
+
+[Containments][36][Applets][63]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][36][Applets][64]
+immutability=1
+plugin=org.kde.plasma.diskquota
+
+[Containments][36][Applets][64][Configuration]
+PreloadWeight=55
+
+[Containments][36][Applets][65]
+immutability=1
+plugin=touchpad
+
+[Containments][36][Applets][66]
+immutability=1
+plugin=org.kde.plasma.weather
+
+[Containments][36][Applets][66][Configuration]
+PreloadWeight=60
+source=wettercom|weather|Hamilton, Ontario, CA|CA0ON0070;Hamilton
+updateInterval=30
+
+[Containments][36][Applets][66][Configuration][ConfigDialog]
+DialogHeight=768
+DialogWidth=1318
+
 [Containments][36][ConfigDialog]
 DialogHeight=768
 DialogWidth=1318
 
 [Containments][36][General]
-extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
+extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.plasma.weather
+hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.plasma.weather
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.battery
+
+[Containments][67]
+activityId=40730e70-b31f-4cac-a52d-aed3a201d0f0
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=

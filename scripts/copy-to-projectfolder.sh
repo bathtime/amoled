@@ -42,6 +42,7 @@ README.md
 .config/kdedefaults/
 .config/Kvantum/amoled/
 .config/vlc/
+.icons/Amoled/
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
 .local/share/fonts/

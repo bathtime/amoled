@@ -1,6 +1,7 @@
+LVDS-1 HDMI-A-1 Window-Maximized 1360x768=true
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABVAAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [$Version]
 update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBackgroundMode_Update,gwenview.upd:DeleteThumbnailSetting_Rename
@@ -24,18 +25,20 @@ NavigationEndNotification=NavigationEndNotification::NeverWarn
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=32
-Recent Files[$e]=file:$HOME/screenshots/angelfish-720.png,file:$HOME/screenshots/launcher.jpg,file:$HOME/screenshots/clock.png,file:$HOME/screenshots/vlc-720.png,file:$HOME/screenshots/maliit-720.png,file:$HOME/screenshots/launcher-720.png,file:$HOME/screenshots/konsole-720.png,file:$HOME/screenshots/kate-720.png,file:$HOME/screenshots/dolphin-720.png
-Recent URLs[$e]=file:$HOME/screenshots/,file:$HOME/Pictures/,file:$HOME/.local/share/plasma/look-and-feel/Amoled/contents/previews/
+Recent Files[$e]=file:$HOME/screenshots/angelfish-720.png,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/12533.jpg,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/125.jpg,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/1303225572_190498078_3-CURSO-DE-LINGERIE-69-9228-3822-3424-0482-JI-PARANa-RO-Outras-aulas2.jpg,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/160185-kompliekt-maika-i-trusy-dlia-dievochki-540x4802.jpg,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/Blue CM1109a2.jpg,file:$HOME/screenshots/clock.png,file:$HOME/screenshots/vlc-720.png,file:$HOME/screenshots/maliit-720.png,file:$HOME/screenshots/launcher-720.png,file:$HOME/screenshots/konsole-720.png,file:$HOME/screenshots/kate-720.png,file:$HOME/screenshots/dolphin-720.png
+Recent URLs[$e]=file:$HOME/screenshots/,file:$HOME/Pictures/,file:$HOME/.local/share/plasma/look-and-feel/Amoled/contents/previews/,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P2/,file:///run/media/user/b49126b0-0b90-4ac5-93b8-35c3ea6bb34c/home/user/P/
 detailViewIconSize=16
 listViewIconSize=64
 
 [MainWindow]
+LVDS-1 HDMI-A-1 Height 1366x768=839
+LVDS-1 HDMI-A-1 Width 1366x768=937
 LVDS-1 HDMI-A-1 Window-Maximized 1360x768=true
 LVDS-1 Height 1366x768=839
 LVDS-1 Width 1366x768=937
 LVDS-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABVAAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -50,7 +53,8 @@ CompletionMode=1
 History=
 
 [SideBar]
-SideBarSplitterSizes=311,989
+IsVisible ViewMode=true
+SideBarSplitterSizes=311,1031
 
 [StatusBar]
 IsVisible ViewMode=false
