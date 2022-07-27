@@ -26,10 +26,6 @@ cd ~/.local/share/icons/; tar -xvzf amoled-icons.tar.gz
 ## KDE Screenshots
 
 
-dashboard (live):
-
-![dashboard-live](/screenshots/dashboard-live.gif)
-
 launcher:
 ![launcher](/screenshots/launcher.png)
 
