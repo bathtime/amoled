@@ -32,7 +32,9 @@ ToolBoxButtonX=142
 Color=0,0,0
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Elarun/contents/images/2560x1600.png
+FillMode=6
+Image=/home/user/.local/share/wallpapers/Amoled/tux-ascii-2.png
+SlidePaths=/home/user/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][31]
 activityId=

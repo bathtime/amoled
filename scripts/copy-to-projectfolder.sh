@@ -50,6 +50,7 @@ README.md
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/look-and-feel/
 .local/share/plasma/plasmoids/
+.local/share/wallpapers/amoled/
 screenshots/
 scripts/
 )
