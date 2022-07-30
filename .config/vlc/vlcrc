@@ -3839,7 +3839,7 @@ subsdec-encoding=UTF-8
 #role=video
 
 # Audio filters (string)
-audio-filter=equalizer
+#audio-filter=
 
 # Audio visualizations (string)
 #audio-visual=none

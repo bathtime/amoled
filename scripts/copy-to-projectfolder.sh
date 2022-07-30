@@ -43,6 +43,7 @@ README.md
 .config/Kvantum/amoled/
 .config/vlc/
 .icons/Amoled/
+.icons/default/index.theme
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
 .local/share/fonts/
