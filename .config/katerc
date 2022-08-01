@@ -82,7 +82,7 @@ Fallback Encoding=ISO 8859-15
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
-Color Theme=Amoled
+Color Theme=Vim Dark
 Font=Unispace,16,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false

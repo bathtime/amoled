@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/user/.config/KDE/UserFeedback.conf
+URL=file:///home/user/.config/session/dolphin_dolphin_dolphin
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -84,12 +84,12 @@ Orientation=1
 Sizes=1277
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/user/.config/KDE/UserFeedback.conf
+Active View=file:///home/user/.config/session/dolphin_dolphin_dolphin
 Count=1
-Documents=file:///home/user/.config/KDE/UserFeedback.conf
-View 0=file:///home/user/.config/KDE/UserFeedback.conf
+Documents=file:///home/user/.config/session/dolphin_dolphin_dolphin
+View 0=file:///home/user/.config/session/dolphin_dolphin_dolphin
 
-[MainWindow0-ViewSpace 0 file:///home/user/.config/KDE/UserFeedback.conf]
+[MainWindow0-ViewSpace 0 file:///home/user/.config/session/dolphin_dolphin_dolphin]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=true
@@ -116,7 +116,7 @@ Sort reversed=false
 View Style=DetailTree
 auto sync folder=true
 filter history=
-location=file:///home/user/.config/KDE/
+location=file:///home/user/.config/session/
 
 [Recent Files]
 File1[$e]=$HOME/.local/share/dolphin/dolphinstaterc
@@ -126,7 +126,7 @@ File4[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
 File5[$e]=$HOME/scripts.bak/copy-to-system.sh
 File6[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.kate.conf
 File7[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.dolphin.conf
-File8[$e]=$HOME/.config/KDE/UserFeedback.conf
+File8[$e]=$HOME/.config/session/dolphin_dolphin_dolphin
 Name1[$e]=dolphinstaterc
 Name2[$e]=copy-to-projectfolder.sh
 Name3[$e]=anonymous.katesession
@@ -134,4 +134,4 @@ Name4[$e]=.directory
 Name5[$e]=copy-to-system.sh
 Name6[$e]=UserFeedback.org.kde.kate.conf
 Name7[$e]=UserFeedback.org.kde.dolphin.conf
-Name8[$e]=UserFeedback.conf
+Name8[$e]=dolphin_dolphin_dolphin

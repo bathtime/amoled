@@ -7,20 +7,68 @@
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
 
-<g fill="#707d8a" fill-opacity="1" stroke="none" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
 >
-<circle cx="9" cy="9" r="9"/>
+<rect x="12.1299" y="0" width="12" height="12"/>
 </g>
 
-<g fill="none" stroke="#eff0f1" stroke-opacity="1" stroke-width="1.01" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(2.5,0,0,2.5,2.5,2.5)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+<g fill="#003232" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="4,11 9,6 14,11 " />
+<rect x="13.1299" y="1" width="10" height="10"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="13.1299" y="1" width="0.5" height="10"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="22.6299" y="1" width="0.5" height="10"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="13.1299" y="1" width="10" height="0.5"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="15.1299" y="8.5" width="6" height="0.5"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="15.1299" y="3" width="6" height="0.5"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="15.1299" y="3" width="0.5" height="6"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="20.6299" y="3" width="0.5" height="6"/>
+</g>
+
+<g fill="#00ffff" fill-opacity="1" stroke="none" transform="matrix(4.16667,0,0,4.16667,-50.5414,0)"
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
+>
+<rect x="13.1299" y="10.5" width="10" height="0.5"/>
 </g>
 
 <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
-font-family="Noto Sans" font-size="10" font-weight="400" font-style="normal" 
+font-family="Conthrax" font-size="10" font-weight="400" font-style="normal" 
 >
 </g>
 </g>
