@@ -41,6 +41,7 @@ README.md
 .config/inkscape/
 .config/kdedefaults/
 .config/Kvantum/amoled/
+.config/Kvantum/kvantum.kvconfig
 .config/vlc/
 .icons/Amoled/
 .icons/default/index.theme

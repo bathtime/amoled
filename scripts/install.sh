@@ -14,3 +14,5 @@ cd ~/.local/share/icons/; tar -xzf amoled-icons.tar.gz
 # Needed to allow KDE cursor theme to work in GTK
 gsettings set org.gnome.desktop.interface cursor-theme Amoled
 
+lookandfeeltool -a Amoled
+
