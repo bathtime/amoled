@@ -53,7 +53,7 @@ README.md
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/look-and-feel/Amoled/
 .local/share/plasma/plasmoids/
-.local/share/plasma/wallpapers/amoled/
+.local/share/wallpapers/amoled/
 screenshots/
 scripts/
 )
