@@ -246,16 +246,23 @@ hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.p
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.battery
 
-[Containments][69]
+[Containments][70]
 ItemGeometries-1366x768=
 ItemGeometriesHorizontal=
-activityId=6481ba1f-da96-4276-b9f1-36830be17329
+activityId=c19f9c93-34d5-4ebf-aa4d-fa413e185a0a
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.color
+
+[Containments][70][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][70][Wallpaper][org.kde.color][General]
+Color=0,0,0
 
 [ScreenMapping]
 itemsOnDisabledScreens=

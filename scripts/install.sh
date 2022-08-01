@@ -16,7 +16,7 @@ gsettings set org.gnome.desktop.interface cursor-theme Amoled
 
 lookandfeeltool -a Amoled
 #plasma-apply-cursortheme Oxygen_Black
-plasma-apply-cursortheme Amoled
+#plasma-apply-cursortheme Amoled
 
 #plasma-apply-colorscheme AmoledDark
 
