@@ -26,6 +26,7 @@ README.md
 .config/gwenviewrc
 .config/katerc
 .config/kdedefaults
+.config/kdeglobals
 .config/kateschemarc
 .config/konsolerc
 .config/konquerorrc
