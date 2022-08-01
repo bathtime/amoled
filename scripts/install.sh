@@ -15,4 +15,7 @@ cd ~/.local/share/icons/; tar -xzf amoled-icons.tar.gz
 gsettings set org.gnome.desktop.interface cursor-theme Amoled
 
 lookandfeeltool -a Amoled
+#plasma-apply-cursortheme Amoled
+#plasma-apply-colorscheme AmoledDark
+
 
