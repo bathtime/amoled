@@ -18,8 +18,7 @@ https://github.com/tsujan/Kvantum
 
 ```
 git clone https://github.com/bathtime/amoled.git
-cp -rv amoled/.* ~
-cd ~/.local/share/icons/; tar -xvzf amoled-icons.tar.gz
+./amoled/scripts/install.sh
 ```
 
 ## Activation
