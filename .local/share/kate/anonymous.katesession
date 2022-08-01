@@ -1,0 +1,137 @@
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/user/.config/KDE/UserFeedback.conf
+
+[Kate Plugins]
+cmaketoolsplugin=false
+compilerexplorer=false
+cuttlefishplugin=false
+externaltoolsplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=true
+katefiletreeplugin=false
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=false
+katereplicodeplugin=false
+katesearchplugin=false
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=false
+rainbowparens=false
+tabswitcherplugin=false
+textfilterplugin=false
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=541,1277,200
+Kate-MDI-Sidebar-0-Splitter=0,0
+Kate-MDI-Sidebar-1-Splitter=0
+Kate-MDI-Sidebar-2-Splitter=0
+Kate-MDI-Sidebar-3-Splitter=0,0,0
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefileselectorplugin-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Sidebar-Position=1
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-output-Persistent=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Sidebar-Position=0
+Kate-MDI-ToolView-output-Visible=false
+Kate-MDI-V-Splitter=150,700,200
+LVDS-1 Window-Maximized 1366x768=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[MainWindow0][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow0 Settings]
+LVDS-1 Window-Maximized 1366x768=true
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+WindowState=10
+
+[MainWindow0 Settings][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=1
+Sizes=1277
+
+[MainWindow0-ViewSpace 0]
+Active View=file:///home/user/.config/KDE/UserFeedback.conf
+Count=1
+Documents=file:///home/user/.config/KDE/UserFeedback.conf
+View 0=file:///home/user/.config/KDE/UserFeedback.conf
+
+[MainWindow0-ViewSpace 0 file:///home/user/.config/KDE/UserFeedback.conf]
+CursorColumn=0
+CursorLine=0
+Dynamic Word Wrap=true
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:katefilebrowserplugin:MainWindow:0]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+View Style=DetailTree
+auto sync folder=true
+filter history=
+location=file:///home/user/.config/KDE/
+
+[Recent Files]
+File1[$e]=$HOME/.local/share/dolphin/dolphinstaterc
+File2[$e]=$HOME/scripts.bak/copy-to-projectfolder.sh
+File3[$e]=$HOME/.local/share/kate/anonymous.katesession
+File4[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
+File5[$e]=$HOME/scripts.bak/copy-to-system.sh
+File6[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.kate.conf
+File7[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.dolphin.conf
+File8[$e]=$HOME/.config/KDE/UserFeedback.conf
+Name1[$e]=dolphinstaterc
+Name2[$e]=copy-to-projectfolder.sh
+Name3[$e]=anonymous.katesession
+Name4[$e]=.directory
+Name5[$e]=copy-to-system.sh
+Name6[$e]=UserFeedback.org.kde.kate.conf
+Name7[$e]=UserFeedback.org.kde.dolphin.conf
+Name8[$e]=UserFeedback.conf

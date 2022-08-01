@@ -49,9 +49,12 @@ README.md
 .icons/default/index.theme
 .local/share/aurorae/themes/amoled/
 .local/share/color-schemes/
+.local/share/dolphin/dolphinstaterc
 .local/share/fonts/
 .local/share/icons/amoled-icons.tar.gz
+.local/share/kate/anonymous.katesession
 .local/share/konsole/
+.local/share/kxmlgui5/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/look-and-feel/Amoled/
 .local/share/plasma/plasmoids/

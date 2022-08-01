@@ -18,7 +18,7 @@ Save Meta Infos=true
 Show Full Path in Title=true
 Show Menu Bar=false
 Show Status Bar=false
-Show Tab Bar=true
+Show Tab Bar=false
 Show Tabs Close Button=true
 Show Url Nav Bar=false
 Show output view for message type=1
@@ -82,7 +82,7 @@ Fallback Encoding=ISO 8859-15
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
-Color Theme=Vim Dark
+Color Theme=Amoled
 Font=Unispace,16,-1,5,50,0,0,0,0,0
 Line Height Multiplier=1
 Show Indentation Lines=false
@@ -91,7 +91,7 @@ Word Wrap Marker=false
 
 [KTextEditor View]
 Allow Mark Menu=true
-Auto Brackets=true
+Auto Brackets=false
 Auto Center Lines=0
 Auto Completion=false
 Auto Completion Preselect First Entry=false
@@ -125,7 +125,7 @@ Scroll Bar Preview=false
 Scroll Past End=false
 Search/Replace Flags=1036
 Show Documentation With Completion=false
-Show Focus Frame Around Editor=true
+Show Focus Frame Around Editor=false
 Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
@@ -154,7 +154,8 @@ SetEditor=false
 [MainWindow]
 LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 LVDS-1 Window-Maximized 1366x768=true
-State=AAAA/wAAAAD9AAAAAAAABSYAAAKsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -166,6 +167,9 @@ Kate hide sidebars notification message=false
 kate_close_modonhd_1=false
 kate_close_modonhd_2=false
 kate_close_modonhd_3=false
+
+[UiSettings]
+ColorScheme=amoled
 
 [filebrowser]
 toolbar actions=sync_dir,up,short view,detailed view,show hidden
@@ -179,3 +183,36 @@ showFullPathOnRoots=true
 showToolbar=true
 sortRole=0
 viewShade=0,73,73
+
+[lspclient]
+AutoHover=true
+AutoImport=true
+CompletionDocumentation=true
+CompletionParens=true
+Diagnostics=true
+DiagnosticsHighlight=true
+DiagnosticsHover=true
+DiagnosticsMark=true
+DiagnosticsSize=1024
+HighlightGoto=true
+IncrementalSync=false
+Messages=true
+ReferencesDeclaration=true
+SemanticHighlighting=false
+ServerConfiguration=
+SignatureHelp=true
+SymbolDetails=false
+SymbolExpand=true
+SymbolSort=false
+SymbolTree=true
+TypeFormatting=false
+
+[project]
+autorepository=
+gitStatusDoubleClick=3
+gitStatusNumStat=false
+gitStatusSingleClick=1
+index=false
+indexDirectory=
+multiProjectCompletion=false
+multiProjectGoto=false
