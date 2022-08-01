@@ -3,7 +3,10 @@
 echo -e "Installing Amoled theme...\n"
 
 # Check if running on developer's computer. If so, no need to run cp command
-[ ! -d ~/amoled-project ] && cp -rv amoled/.*
+[ ! -d ~/amoled-project ] && cp -rv amoled/.* ~
+
+echo -e "Copying project contents to system...\n"
+cp -rv amoled/.* ~
 
 echo -e "Uncompressing icon theme...\n"
 cd ~/.local/share/icons/; tar -xzf amoled-icons.tar.gz
