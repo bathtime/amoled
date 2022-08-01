@@ -541,7 +541,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="1" />
+       page="2" />
     <group
        id="filtereffects" />
     <group
@@ -959,7 +959,7 @@
      org.inkscape.output.png.inkscape.png_antialias="2" />
   <group
      id="desktop"
-     style="stroke-miterlimit:3.50000005;font-size:8px;fill:#001919;stroke-linecap:square;paint-order:fill markers stroke;stroke:#00ffff;stroke-width:5">
+     style="stroke-miterlimit:3.50000005;font-size:8px;fill:#00ffff;stroke-linecap:square;paint-order:fill markers stroke;stroke:#000000;stroke-width:5">
     <group
        width="1318"
        height="768"

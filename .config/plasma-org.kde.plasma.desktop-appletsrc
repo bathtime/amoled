@@ -235,12 +235,8 @@ PreloadWeight=60
 [Containments][36][Applets][61][Configuration]
 PreloadWeight=42
 
-[Containments][36][Applets][62]
-immutability=1
-plugin=org.kde.kscreen
-
 [Containments][36][Applets][62][Configuration]
-PreloadWeight=75
+PreloadWeight=42
 
 [Containments][36][Applets][63]
 immutability=1
@@ -275,7 +271,7 @@ DialogHeight=768
 DialogWidth=1318
 
 [Containments][36][General]
-extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.plasma.weather
+extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.plasma.weather
 hiddenItems=org.kde.plasma.clipboard,org.kde.plasma.diskquota,touchpad,org.kde.plasma.weather
 knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 shownItems=org.kde.plasma.battery
