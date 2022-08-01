@@ -2,9 +2,12 @@
 
 echo -e "Installing Amoled theme...\n"
 
-cp -rv amoled/.* ~
+# Check if running on developer's computer. If so, no need to run cp command
+[ ! -d ~/amoled-project ] && cp -rv amoled/.*
 
-cd ~/.local/share/icons/; tar -xvzf amoled-icons.tar.gz
+echo -e "Uncompressing icon theme...\n"
+cd ~/.local/share/icons/; tar -xzf amoled-icons.tar.gz
 
+# Needed to allow KDE cursor theme to work in GTK
 gsettings set org.gnome.desktop.interface cursor-theme Amoled
 
