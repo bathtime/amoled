@@ -41,6 +41,7 @@ README.md
 .config/gtk-4.0/
 .config/inkscape/
 .config/kdedefaults/
+.config/kdeglobals
 .config/Kvantum/amoled/
 .config/Kvantum/kvantum.kvconfig
 .config/vlc/
@@ -50,7 +51,6 @@ README.md
 .local/share/color-schemes/
 .local/share/fonts/
 .local/share/icons/amoled-icons.tar.gz
-.local/share/plasma/look-and-feel/Amoled
 .local/share/konsole/
 .local/share/plasma/desktoptheme/amoled/
 .local/share/plasma/look-and-feel/Amoled/
