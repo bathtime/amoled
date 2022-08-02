@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/user/.config/Kvantum/amoled/amoled.colors
+URL=file:///home/user/amoled/.config/katerc
 
 [Kate Plugins]
 cmaketoolsplugin=false
@@ -60,7 +60,7 @@ Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Sidebar-Position=0
 Kate-MDI-ToolView-output-Visible=false
 Kate-MDI-V-Splitter=150,700,200
-LVDS-1 Window-Maximized 1366x768=true
+LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -69,7 +69,7 @@ ToolBarsMovable=Disabled
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
-LVDS-1 Window-Maximized 1366x768=true
+LVDS-1 HDMI-A-1 Window-Maximized 1366x768=true
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABSYAAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
@@ -84,14 +84,14 @@ Orientation=1
 Sizes=1277
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/user/.config/Kvantum/amoled/amoled.colors
+Active View=file:///home/user/amoled/.config/katerc
 Count=1
-Documents=file:///home/user/.config/Kvantum/amoled/amoled.colors
-View 0=file:///home/user/.config/Kvantum/amoled/amoled.colors
+Documents=file:///home/user/amoled/.config/katerc
+View 0=file:///home/user/amoled/.config/katerc
 
-[MainWindow0-ViewSpace 0 file:///home/user/.config/Kvantum/amoled/amoled.colors]
-CursorColumn=0
-CursorLine=0
+[MainWindow0-ViewSpace 0 file:///home/user/amoled/.config/katerc]
+CursorColumn=18
+CursorLine=3
 Dynamic Word Wrap=true
 JumpList=
 TextFolding=[]
@@ -116,26 +116,26 @@ Sort reversed=false
 View Style=DetailTree
 auto sync folder=true
 filter history=
-location=file:///home/user/.config/Kvantum/amoled/
+location=file:///home/user/amoled/.config/
 
 [Recent Files]
-File1[$e]=$HOME/.local/share/dolphin/dolphinstaterc
-File10[$e]=$HOME/.config/Kvantum/amoled/amoled.colors
-File2[$e]=$HOME/scripts.bak/copy-to-projectfolder.sh
-File3[$e]=$HOME/.local/share/kate/anonymous.katesession
-File4[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
-File5[$e]=$HOME/scripts.bak/copy-to-system.sh
-File6[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.kate.conf
-File7[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.dolphin.conf
-File8[$e]=$HOME/.config/session/dolphin_dolphin_dolphin
-File9[$e]=$HOME/.config/Kvantum/amoled/amoled.kvconfig
-Name1[$e]=dolphinstaterc
-Name10[$e]=amoled.colors
-Name2[$e]=copy-to-projectfolder.sh
-Name3[$e]=anonymous.katesession
-Name4[$e]=.directory
-Name5[$e]=copy-to-system.sh
-Name6[$e]=UserFeedback.org.kde.kate.conf
-Name7[$e]=UserFeedback.org.kde.dolphin.conf
-Name8[$e]=dolphin_dolphin_dolphin
-Name9[$e]=amoled.kvconfig
+File1[$e]=$HOME/.local/share/kate/anonymous.katesession
+File10[$e]=$HOME/amoled/.config/katerc
+File2[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
+File3[$e]=$HOME/scripts.bak/copy-to-system.sh
+File4[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.kate.conf
+File5[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.dolphin.conf
+File6[$e]=$HOME/.config/session/dolphin_dolphin_dolphin
+File7[$e]=$HOME/.config/Kvantum/amoled/amoled.kvconfig
+File8[$e]=$HOME/.config/Kvantum/amoled/amoled.colors
+File9[$e]=$HOME/amoled/.config/gwenviewrc
+Name1[$e]=anonymous.katesession
+Name10[$e]=katerc
+Name2[$e]=.directory
+Name3[$e]=copy-to-system.sh
+Name4[$e]=UserFeedback.org.kde.kate.conf
+Name5[$e]=UserFeedback.org.kde.dolphin.conf
+Name6[$e]=dolphin_dolphin_dolphin
+Name7[$e]=amoled.kvconfig
+Name8[$e]=amoled.colors
+Name9[$e]=gwenviewrc

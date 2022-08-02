@@ -156,6 +156,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][36][Applets][38][Configuration][General]
+currentTab=streams
 raiseMaximumVolume=true
 
 [Containments][36][Applets][39][Configuration]
@@ -186,14 +187,14 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][36][Applets][45][Configuration]
-PreloadWeight=75
+PreloadWeight=85
 
 [Containments][36][Applets][48]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][36][Applets][48][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][36][Applets][49]
 immutability=1
@@ -247,22 +248,61 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasm
 shownItems=org.kde.plasma.battery
 
 [Containments][70]
-ItemGeometries-1366x768=
-ItemGeometriesHorizontal=
+ItemGeometries-1366x768=Applet-72:960,32,352,320,0;Applet-76:66.831,670.113,176,64,0;
+ItemGeometriesHorizontal=Applet-72:960,32,352,320,0;Applet-76:66.831,670.113,176,64,0;
 activityId=c19f9c93-34d5-4ebf-aa4d-fa413e185a0a
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.color
+wallpaperplugin=org.kde.image
+
+[Containments][70][Applets][72]
+immutability=1
+plugin=org.kde.plasma.analogclock
+
+[Containments][70][Applets][72][Configuration]
+PreloadWeight=60
+
+[Containments][70][Applets][72][Configuration][ConfigDialog]
+DialogHeight=768
+DialogWidth=1318
+
+[Containments][70][Applets][72][Configuration][General]
+showSecondHand=true
+
+[Containments][70][Applets][76]
+immutability=1
+plugin=org.kde.plasma.timer
+
+[Containments][70][Applets][76][Configuration][General]
+savedAt=2022,8,2,12,49,9.786
 
 [Containments][70][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=768
+DialogWidth=1318
+
+[Containments][70][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=142
 
 [Containments][70][Wallpaper][org.kde.color][General]
 Color=0,0,0
+
+[Containments][70][Wallpaper][org.kde.image][General]
+FillMode=6
+Image=file:///home/user/.local/share/wallpapers/amoled/tux-gnu.png
+SlidePaths=/home/user/.local/share/wallpapers,/usr/share/wallpapers
+
+[Containments][71]
+activityId=c19f9c93-34d5-4ebf-aa4d-fa413e185a0a
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [ScreenMapping]
 itemsOnDisabledScreens=

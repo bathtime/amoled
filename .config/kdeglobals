@@ -145,7 +145,11 @@ menuFont=Conthrax,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Conthrax,8,-1,5,50,0,0,0,0,0
 toolBarFont=Conthrax,10,-1,5,50,0,0,0,0,0
 
+[Icons]
+Theme=Amoled
+
 [KDE]
+AnimationDurationFactor=5.65685424949238
 LookAndFeelPackage=Amoled
 widgetStyle=kvantum-dark
 
