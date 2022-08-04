@@ -70,3 +70,7 @@ BorderlessMaximizedWindows=true
 [org.kde.kdecoration2]
 BorderSize=VeryHuge
 BorderSizeAuto=false
+ButtonsOnLeft=MN
+ButtonsOnRight=H
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__amoled

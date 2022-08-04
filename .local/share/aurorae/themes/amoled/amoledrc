@@ -3,7 +3,7 @@ TitleAlignment=Center
 TitleVerticalAlignment=Center
 ActiveTextColor=0,255,255
 InactiveTextColor=0,255,255
-Animation=250
+Animation=0
 Shadow=false
 
 [Layout]
@@ -22,10 +22,11 @@ TitleEdgeLeftMaximized=0
 TitleEdgeRightMaximized=0
 TitleBorderLeft=0
 TitleBorderRight=0
-ButtonWidth=0
-ButtonHeight=0
-ButtonSpacing=0
+ButtonWidth=32
+ButtonHeight=32
+ButtonSpacing=8
 ButtonMarginTop=0
+ButtonMarginBottom=0
 ExplicitButtonSpacer=0
 PaddingBottom=0
 PaddingLeft=0

@@ -139,17 +139,17 @@ ForegroundVisited=0,164,164
 ColorSchemeHash=628362ca8d4fe75692f28006715eca2fed8f6b81
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Unispace,10,-1,5,50,0,0,0,0,0
-font=Conthrax,10,-1,5,50,0,0,0,0,0
-menuFont=Conthrax,10,-1,5,50,0,0,0,0,0
-smallestReadableFont=Conthrax,8,-1,5,50,0,0,0,0,0
-toolBarFont=Conthrax,10,-1,5,50,0,0,0,0,0
+fixed=Unispace,9,-1,5,50,0,0,0,0,0
+font=Conthrax,9,-1,5,50,0,0,0,0,0
+menuFont=Conthrax,9,-1,5,50,0,0,0,0,0
+smallestReadableFont=Conthrax,7,-1,5,50,0,0,0,0,0
+toolBarFont=Conthrax,9,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=Amoled
 
 [KDE]
-AnimationDurationFactor=5.65685424949238
+AnimationDurationFactor=2.82842712474619
 LookAndFeelPackage=Amoled
 widgetStyle=kvantum-dark
 
@@ -176,7 +176,7 @@ View Style=DetailTree
 [WM]
 activeBackground=0,0,0
 activeBlend=0,0,0
-activeFont=Conthrax,10,-1,5,50,0,0,0,0,0
+activeFont=Conthrax,14,-1,5,50,0,0,0,0,0
 activeForeground=0,255,255
 inactiveBackground=0,0,0
 inactiveBlend=0,0,0

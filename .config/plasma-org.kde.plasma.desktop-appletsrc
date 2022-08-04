@@ -38,7 +38,6 @@ systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 global=Alt+F1
 
 [Containments][31][Applets][32][Configuration][General]
-favoritesDisplay=1
 favoritesPortedToKAstats=true
 icon=start
 primaryActions=3
@@ -155,6 +154,10 @@ plugin=org.kde.plasma.volume
 [Containments][36][Applets][38][Configuration]
 PreloadWeight=100
 
+[Containments][36][Applets][38][Configuration][ConfigDialog]
+DialogHeight=768
+DialogWidth=1318
+
 [Containments][36][Applets][38][Configuration][General]
 currentTab=streams
 raiseMaximumVolume=true
@@ -187,7 +190,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][36][Applets][45][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][36][Applets][48]
 immutability=1
@@ -248,8 +251,8 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasm
 shownItems=org.kde.plasma.battery
 
 [Containments][70]
-ItemGeometries-1366x768=Applet-72:960,32,352,320,0;Applet-76:66.831,670.113,176,64,0;
-ItemGeometriesHorizontal=Applet-72:960,32,352,320,0;Applet-76:66.831,670.113,176,64,0;
+ItemGeometries-1366x768=Applet-72:1024,32,272,256,0;Applet-79:64,656,160,64,0;
+ItemGeometriesHorizontal=Applet-72:1024,32,272,256,0;Applet-79:64,656,160,64,0;
 activityId=c19f9c93-34d5-4ebf-aa4d-fa413e185a0a
 formfactor=0
 immutability=1
@@ -272,12 +275,18 @@ DialogWidth=1318
 [Containments][70][Applets][72][Configuration][General]
 showSecondHand=true
 
-[Containments][70][Applets][76]
+[Containments][70][Applets][79]
 immutability=1
 plugin=org.kde.plasma.timer
 
-[Containments][70][Applets][76][Configuration][General]
-savedAt=2022,8,2,12,49,9.786
+[Containments][70][Applets][79][Configuration][ConfigDialog]
+DialogHeight=768
+DialogWidth=1318
+
+[Containments][70][Applets][79][Configuration][General]
+command=vlc /home/user/Music/JustBegun.mp4
+runCommand=true
+savedAt=2022,8,2,20,16,58.574
 
 [Containments][70][ConfigDialog]
 DialogHeight=768
@@ -296,6 +305,8 @@ Image=file:///home/user/.local/share/wallpapers/amoled/tux-gnu.png
 SlidePaths=/home/user/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][71]
+ItemGeometries-1360x768=
+ItemGeometriesHorizontal=
 activityId=c19f9c93-34d5-4ebf-aa4d-fa413e185a0a
 formfactor=0
 immutability=1
